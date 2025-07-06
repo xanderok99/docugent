@@ -97,6 +97,13 @@
   color: #1e293b;
   align-self: flex-start;
   border-bottom-left-radius: 2px;
+  white-space: pre-wrap;
+}
+
+.typing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .inputArea {

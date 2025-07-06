@@ -68,6 +68,13 @@ async def scrape_apiconf_website(url: Optional[str] = None, **kwargs) -> Optiona
             "support_contact": settings.support_phone
         }
                 
+    except WebScrapingServiceError as e:
+        logger.error(f"Web scraping service error: {e}")
+        return {
+            "error": True,
+            "message": f"Failed to scrape website due to a service error: {e}",
+            "support_contact": settings.support_phone
+        }
     except Exception as e:
         logger.error(f"Error scraping website: {e}")
         return {
@@ -95,6 +102,13 @@ async def get_conference_info(**kwargs) -> Optional[Dict[str, Any]]:
             "support_contact": settings.support_phone
         }
                 
+    except WebScrapingServiceError as e:
+        logger.error(f"Web scraping service error: {e}")
+        return {
+            "error": True,
+            "message": f"Failed to get conference information due to a service error: {e}",
+            "support_contact": settings.support_phone
+        }
     except Exception as e:
         logger.error(f"Error getting conference info: {e}")
         return {
@@ -130,6 +144,13 @@ async def update_conference_data(**kwargs) -> Optional[Dict[str, Any]]:
             "support_contact": settings.support_phone
         }
         
+    except WebScrapingServiceError as e:
+        logger.error(f"Web scraping service error: {e}")
+        return {
+            "error": True,
+            "message": f"Failed to update conference data due to a service error: {e}",
+            "support_contact": settings.support_phone
+        }
     except Exception as e:
         logger.error(f"Error updating conference data: {e}")
         return {

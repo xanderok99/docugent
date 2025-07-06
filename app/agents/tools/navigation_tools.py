@@ -9,6 +9,7 @@ import googlemaps
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 from google.adk.tools import FunctionTool
+from googlemaps.exceptions import ApiError
 
 from app.config.settings import settings
 from app.config.logger import Logger
@@ -83,6 +84,19 @@ def get_directions_to_venue(origin: str, mode: str = "transit", **kwargs) -> Opt
             "support_contact": settings.support_phone
         }
         
+    except ApiError as e:
+        logger.error(f"Error getting directions (ApiError): {e}")
+        if "REQUEST_DENIED" in str(e):
+            return {
+                "error": True,
+                "message": "I am unable to provide directions at this time due to a server configuration issue. The Google Maps API key may be invalid or require a billing account to be enabled. Please contact support.",
+                "support_contact": settings.support_phone
+            }
+        return {
+            "error": True,
+            "message": f"Unable to get directions at this time due to a Google Maps API error: {e}",
+            "support_contact": settings.support_phone
+        }
     except Exception as e:
         logger.error(f"Error getting directions: {e}")
         return {

@@ -75,7 +75,7 @@ const Chat: React.FC = () => {
 
   return (
     <div className={styles.chat}>
-      <div className={styles.chatHeader}>Chat with APIConf Agent</div>
+      <div className={styles.chatHeader}>Chat with Ndu</div>
       <div className={styles.content}>
         <div className={styles.messages}>
           {messages.length === 0 ? (
@@ -113,8 +113,9 @@ const Chat: React.FC = () => {
             ))
           )}
           {isTyping && (
-            <div className={`${styles.message} ${styles.bot}`}>
+            <div className={`${styles.message} ${styles.bot} ${styles.typing}`}>
               <TypingIndicator />
+              <span>Ndu is typing...</span>
             </div>
           )}
           <div ref={messagesEndRef} />
