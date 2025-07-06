@@ -4,6 +4,12 @@ A comprehensive AI assistant for the API Conference Lagos 2025 community, built 
 
 ## 🌟 Features
 
+### 🤖 AI Assistant - Ndu
+- **Personal AI Guide**: Meet Ndu (short for Ndumodu, meaning "guide" in Igbo), your expressive Nigerian AI assistant
+- **Nigerian Flair**: Speaks with local slang and cultural context while remaining professional
+- **Smart Conversations**: Powered by Google ADK with Gemini 2.5 Flash model
+- **Session Management**: Maintains conversation context across interactions
+
 ### 🚌 Navigation & Transportation
 - **Route Planning**: Get directions to the conference venue using Google Maps
 - **Transportation Options**: Find nearby bus stops, train stations, and transport options
@@ -22,6 +28,11 @@ A comprehensive AI assistant for the API Conference Lagos 2025 community, built 
 - **Session Search**: Find sessions by title, topic, or speaker
 - **Personalized Recommendations**: Get schedule recommendations based on interests and experience level
 
+### 🌐 Web Scraping
+- **Real-time Data**: Fetch latest information from apiconf.net
+- **Dynamic Updates**: Get current speaker information and schedule changes
+- **Content Extraction**: Parse and format web content for easy consumption
+
 ### 💬 General Support
 - **FAQ Support**: Answer common conference questions
 - **Venue Information**: Details about facilities and services
@@ -38,7 +49,7 @@ A comprehensive AI assistant for the API Conference Lagos 2025 community, built 
 apiconf-agent/
 ├── app/
 │   ├── agents/
-│   │   ├── apiconf_agent.py          # Main agent implementation
+│   │   ├── apiconf_agent.py          # Main agent implementation (Ndu)
 │   │   └── tools/
 │   │       ├── navigation_tools.py   # Maps, directions, transportation
 │   │       ├── speaker_tools.py      # Speaker information
@@ -50,13 +61,32 @@ apiconf-agent/
 │   ├── schemas/
 │   │   ├── base.py                   # Base response schemas
 │   │   └── agents.py                 # Agent request/response models
+│   ├── services/
+│   │   └── web_scraping_service.py   # Web scraping functionality
 │   └── api/
 │       └── v1/
 │           └── agents_router.py      # FastAPI endpoints
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Chat.tsx              # Chat interface
+│   │   │   ├── Sidebar.tsx           # Navigation sidebar
+│   │   │   └── TypingIndicator.tsx   # Loading animations
+│   │   ├── App.tsx                   # Main React app
+│   │   └── main.tsx                  # React entry point
+│   ├── package.json                  # Frontend dependencies
+│   └── vite.config.ts                # Vite configuration
 ├── data/
 │   ├── speakers.json                 # Speaker information
 │   └── schedule.json                 # Event schedule
-├── pyproject.toml                    # Dependencies
+├── docker/
+│   ├── backend/
+│   │   └── Dockerfile                # Backend container
+│   └── nginx/
+│       ├── Dockerfile                # Nginx container
+│       └── nginx.conf                # Nginx configuration
+├── pyproject.toml                    # Python dependencies
+├── docker-compose.yml                # Container orchestration
 ├── env.example                       # Environment variables template
 ├── main.py                           # FastAPI application entry
 └── README.md                         # This file
@@ -66,12 +96,15 @@ apiconf-agent/
 
 ### Prerequisites
 
-- Python 3.10 or higher
-- Poetry (for dependency management)
+- Python 3.13 or higher
+- Node.js 18+ (for frontend)
+- Poetry (for Python dependency management)
+- Docker & Docker Compose (recommended)
 - Google API Key (for Google ADK and Maps)
-- Google Maps API Key
 
-### Installation
+### Option 1: Docker (Recommended)
+
+This is the easiest way to get started:
 
 1. **Clone the repository**
    ```bash
@@ -79,42 +112,62 @@ apiconf-agent/
    cd apiconf-agent
    ```
 
-2. **Install dependencies**
-   ```bash
-   poetry install
-   ```
-
-3. **Set up environment variables**
+2. **Set up environment variables**
    ```bash
    cp env.example .env
    # Edit .env with your API keys and configuration
    ```
 
-4. **Configure your API keys**
+3. **Build and run with Docker**
+   ```bash
+   docker-compose up --build
+   ```
+
+4. **Access the application**
+   - **Frontend**: http://localhost
+   - **API Docs**: http://localhost/docs
+   - **Health Check**: http://localhost/api/v1/agents/health
+
+### Option 2: Local Development
+
+1. **Clone and set up backend**
+   ```bash
+   git clone <repository-url>
+   cd apiconf-agent
+   cp env.example .env
+   poetry install
+   ```
+
+2. **Set up frontend**
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+3. **Configure your API keys**
    ```bash
    # In your .env file:
    GOOGLE_API_KEY=your_google_api_key_here
    GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-   CONFERENCE_VENUE_NAME="The Zone"
-CONFERENCE_VENUE_ADDRESS="Plot 9, Gbagada Industrial Scheme beside UPS, Gbagada - Oworonshoki Expy, Lagos, Lagos, Nigeria 100234"
-CONFERENCE_VENUE_COORDINATES="6.5481,3.3789"
-CONFERENCE_DATES="July 18th & 19th, 2025"
-SUPPORT_PHONE="+234-XXX-XXX-XXXX"
-SUPPORT_EMAIL="support@apiconf.net"
+   DATABASE_URL=postgresql://user:password@localhost/apiconf_agent
+   SECRET_KEY=your-secret-key-here
    ```
 
-5. **Run the application**
+4. **Run the applications**
    ```bash
+   # Terminal 1 - Backend
    poetry run python main.py
+   
+   # Terminal 2 - Frontend
+   cd frontend
+   npm run dev
    ```
-
-The API will be available at `http://localhost:8000`
 
 ## 📚 API Documentation
 
 ### Endpoints
 
-#### Chat with Agent
+#### Chat with Ndu (AI Agent)
 ```http
 POST /api/v1/agents/chat
 ```
@@ -122,7 +175,7 @@ POST /api/v1/agents/chat
 **Request Body:**
 ```json
 {
-  "message": "How do I get to the conference venue from Ikeja?",
+  "message": "How do I get to The Zone from Ikeja?",
   "user_id": "user123",
   "session_id": "session456"
 }
@@ -132,12 +185,16 @@ POST /api/v1/agents/chat
 ```json
 {
   "success": true,
-  "data": {
-    "response": "To get to the Lagos Continental Hotel from Ikeja, you can take...",
+  "response": "Omo, that's a good question! To get to The Zone from Ikeja...",
+  "user_id": "user123",
+  "session_id": "session456",
+  "confidence": 0.9,
+  "metadata": {
     "user_id": "user123",
-    "session_id": "session456"
-  },
-  "message": "Message processed successfully"
+    "session_id": "session456",
+    "timestamp": 1703123456.789,
+    "tools_used": []
+  }
 }
 ```
 
@@ -151,16 +208,11 @@ GET /api/v1/agents/status
 GET /api/v1/agents/health
 ```
 
-#### Conference Information
-```http
-GET /api/v1/agents/info
-```
-
 ### Interactive Documentation
 
 Once the server is running, visit:
-- **Swagger UI**: `http://localhost:8000/docs`
-- **ReDoc**: `http://localhost:8000/redoc`
+- **Swagger UI**: http://localhost/docs
+- **ReDoc**: http://localhost/redoc
 
 ## 🛠️ Development
 
@@ -168,42 +220,61 @@ Once the server is running, visit:
 
 The project follows a modular architecture:
 
-- **`app/agents/`**: AI agent implementation and tools
+- **`app/agents/`**: AI agent implementation (Ndu) and tools
 - **`app/config/`**: Configuration and settings management
 - **`app/schemas/`**: Pydantic models for API requests/responses
 - **`app/api/`**: FastAPI routes and endpoints
+- **`app/services/`**: Business logic and external service integrations
+- **`frontend/`**: React application with TypeScript
 - **`data/`**: Static data files (speakers, schedule)
 
 ### Adding New Tools
 
 1. Create a new tool file in `app/agents/tools/`
-2. Implement your tool functions
+2. Implement your tool functions following Google ADK conventions
 3. Register the tool in `app/agents/apiconf_agent.py`
 4. Update the agent instructions if needed
 
 Example tool:
 ```python
 # app/agents/tools/my_tool.py
+from google.adk.tools import FunctionTool
+
 def my_tool_function(param: str, **kwargs) -> Dict[str, Any]:
     """My custom tool function."""
     return {
         "success": True,
         "result": f"Processed: {param}"
     }
+
+def get_my_tools() -> List[FunctionTool]:
+    """Get my custom tools."""
+    return [
+        FunctionTool(
+            name="my_tool",
+            description="A custom tool for processing data",
+            function=my_tool_function
+        )
+    ]
 ```
 
 ### Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `GOOGLE_API_KEY` | Google ADK API key | Yes |
-| `GOOGLE_MODEL_NAME` | Google model to use | No (default: gemini-2.5-flash) |
-| `GOOGLE_MAPS_API_KEY` | Google Maps API key | Yes |
-| `CONFERENCE_VENUE_NAME` | Conference venue name | Yes |
-| `CONFERENCE_VENUE_ADDRESS` | Venue address | Yes |
-| `CONFERENCE_VENUE_COORDINATES` | Venue coordinates (lat,lng) | Yes |
-| `SUPPORT_PHONE` | Support phone number | Yes |
-| `SUPPORT_EMAIL` | Support email | Yes |
+| Variable | Description | Required | Default |
+|----------|-------------|----------|---------|
+| `GOOGLE_API_KEY` | Google ADK API key | Yes | - |
+| `GOOGLE_MODEL_NAME` | Google model to use | No | gemini-2.5-flash |
+| `GOOGLE_MAPS_API_KEY` | Google Maps API key | Yes | - |
+| `DATABASE_URL` | PostgreSQL database URL | Yes | - |
+| `REDIS_URL` | Redis connection URL | No | redis://localhost:6379/0 |
+| `CONFERENCE_VENUE_NAME` | Conference venue name | Yes | - |
+| `CONFERENCE_VENUE_ADDRESS` | Venue address | Yes | - |
+| `CONFERENCE_VENUE_COORDINATES` | Venue coordinates (lat,lng) | Yes | - |
+| `CONFERENCE_DATES` | Conference dates | Yes | - |
+| `SUPPORT_PHONE` | Support phone number | Yes | - |
+| `SUPPORT_EMAIL` | Support email | Yes | - |
+| `SECRET_KEY` | Application secret key | Yes | - |
+| `CORS_ORIGINS` | Allowed CORS origins | No | ["http://localhost:3000"] |
 
 ## 🧪 Testing
 
@@ -217,49 +288,35 @@ poetry run pytest
 poetry run pytest --cov=app
 ```
 
-## 🚀 Running with Docker (Recommended)
-
-This is the recommended way to run the application for both development and production.
-
-### Prerequisites
-
-- Docker
-- Docker Compose
-
-### Setup
-
-1.  **Create an environment file**:
-
-    Copy the example environment file and update it with your configuration and API keys.
-
-    ```bash
-    cp env.example .env
-    ```
-
-    Make sure to fill in all the required variables in the `.env` file.
-
-2.  **Build and run the application**:
-
-    ```bash
-    docker-compose up --build
-    ```
-
-    This command will build the Docker images for the backend and frontend, and start the services. The `-d` flag can be added to run in detached mode.
-
-3.  **Access the application**:
-
-    Once the containers are running, you can access:
-    - **Frontend Application**: [http://localhost](http://localhost)
-    - **API Docs (Swagger UI)**: [http://localhost/docs](http://localhost/docs)
-    - **API Docs (ReDoc)**: [http://localhost/redoc](http://localhost/redoc)
-
-### Stopping the application
-
-To stop the services, press `Ctrl+C` in the terminal where `docker-compose` is running, or run:
-
+### Frontend Testing
 ```bash
-docker-compose down
+cd frontend
+npm run lint
 ```
+
+## 🚀 Deployment
+
+### Docker Deployment
+
+1. **Build production images**
+   ```bash
+   docker-compose -f docker-compose.yml build
+   ```
+
+2. **Run in production mode**
+   ```bash
+   docker-compose -f docker-compose.yml up -d
+   ```
+
+### Environment Configuration
+
+For production deployment, ensure you have:
+
+- **Database**: PostgreSQL instance
+- **Redis**: Redis instance for caching
+- **API Keys**: Valid Google ADK and Maps API keys
+- **SSL**: HTTPS certificates for production
+- **Domain**: Configured domain name
 
 ## 📊 Monitoring
 
@@ -269,6 +326,7 @@ The application includes comprehensive logging and monitoring:
 - **Health Checks**: Built-in health check endpoints
 - **Performance Metrics**: Request processing time headers
 - **Error Handling**: Graceful error handling with fallback options
+- **Session Management**: Conversation context tracking
 
 ## 🔧 Configuration
 
@@ -287,10 +345,18 @@ CORS_ORIGINS=["http://localhost:3000", "https://apiconf.net"]
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes following Google ADK conventions
 4. Add tests for new functionality
-5. Submit a pull request
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Submit a pull request
+
+### Code Style
+
+- **Python**: Follow PEP 8, use Black for formatting
+- **TypeScript**: Use ESLint and Prettier
+- **Google ADK**: Follow Google ADK conventions for agent development
 
 ## 📄 License
 
@@ -302,16 +368,21 @@ For support and questions:
 - **Phone**: Check your `.env` file for the support phone number
 - **Email**: Check your `.env` file for the support email
 - **Documentation**: Visit `/docs` when the server is running
+- **AI Assistant**: Chat with Ndu directly through the application
 
 ## 🎯 Roadmap
 
-- [ ] Real-time session updates
+- [ ] Real-time session updates via WebSockets
 - [ ] Integration with conference registration system
-- [ ] Multi-language support
+- [ ] Multi-language support (Yoruba, Hausa, Igbo)
 - [ ] Mobile app integration
 - [ ] Advanced analytics and insights
 - [ ] Integration with social media platforms
+- [ ] Voice interface for Ndu
+- [ ] Offline mode for basic functionality
 
 ---
 
-**Built with ❤️ for the API Conference community in Nigeria** 
+**Built with ❤️ for the API Conference community in Nigeria**
+
+*Meet Ndu - Your AI guide for API Conference Lagos 2025! 🎤✨* 
