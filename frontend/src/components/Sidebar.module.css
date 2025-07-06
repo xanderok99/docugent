@@ -1,0 +1,106 @@
+.sidebar {
+  width: 260px;
+  background-color: #f7f9fc;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eaf0f6;
+}
+
+.logo {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.newChatButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #2F20BF;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: background-color 0.2s;
+}
+
+.newChatButton:hover {
+  background-color: #251999;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav a:hover {
+  background-color: #e9eef5;
+}
+
+.nav a.active {
+  background-color: #e1ef9a;
+  color: #334155;
+  font-weight: 600;
+}
+
+.recentChats {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.recentChats h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  padding: 0 12px;
+}
+
+.chatItem {
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  color: #334155;
+}
+
+.chatItem:hover {
+  background-color: #e9eef5;
+} 

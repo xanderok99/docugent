@@ -1,0 +1,144 @@
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100%;
+}
+
+.chatHeader {
+  padding: 22px 24px;
+  border-bottom: 1px solid #eaf0f6;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.welcome {
+  text-align: center;
+  margin: auto 0;
+  padding-bottom: 100px; /* Push it up a bit */
+}
+
+.welcome h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.welcome p {
+  font-size: 16px;
+  color: #475569;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.promptSuggestions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.promptButton {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  padding: 10px 16px;
+  border-radius: 18px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #334155;
+}
+
+.promptButton:hover {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 12px; /* For scrollbar */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+}
+
+.message {
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 70%;
+  line-height: 1.5;
+}
+
+.user {
+  background-color: #2F20BF;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 2px;
+}
+
+.bot {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  align-self: flex-start;
+  border-bottom-left-radius: 2px;
+}
+
+.inputArea {
+  padding: 24px;
+  flex-shrink: 0;
+  border-top: 1px solid #eaf0f6;
+}
+
+.inputForm {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.inputField {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.sendButton {
+  padding: 10px;
+  border: none;
+  background-color: #2F20BF;
+  color: white;
+  border-radius: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.2s;
+}
+
+.sendButton:hover {
+  background-color: #251999;
+} 
