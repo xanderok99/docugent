@@ -1,13 +1,14 @@
 """
 Schedule management tools for the API Conference AI Agent.
-Handles event schedules, session search, and personalized recommendations.
+Handles conference schedule, session information, and personalized recommendations.
 """
 
 import json
+import logging
 from typing import Dict, Any, Optional, List
 from datetime import datetime, timedelta
 from pathlib import Path
-from google.generativeai.types import Tool
+from google.adk.tools import FunctionTool
 
 from app.config.logger import Logger
 from app.config.settings import settings
@@ -279,7 +280,7 @@ def get_session_details(session_id: str, **kwargs) -> Optional[Dict[str, Any]]:
             "support_contact": settings.support_phone
         }
 
-def get_sessions_by_time(time_slot: str, day: str = None, **kwargs) -> Optional[Dict[str, Any]]:
+def get_sessions_by_time(time_slot: str, day: Optional[str] = None, **kwargs) -> Optional[Dict[str, Any]]:
     """
     Get sessions for a specific time slot.
     
@@ -325,38 +326,14 @@ def get_sessions_by_time(time_slot: str, day: str = None, **kwargs) -> Optional[
             "support_contact": settings.support_phone
         }
 
-def get_schedule_tools() -> List[Tool]:
+def get_schedule_tools() -> List[FunctionTool]:
     """Get all schedule-related tools."""
     
     return [
-        Tool(
-            name="get_full_schedule",
-            description="Get the complete conference schedule",
-            func=get_full_schedule
-        ),
-        Tool(
-            name="get_schedule_by_day",
-            description="Get schedule for a specific day",
-            func=get_schedule_by_day
-        ),
-        Tool(
-            name="search_sessions",
-            description="Search for sessions based on title, topic, or speaker",
-            func=search_sessions
-        ),
-        Tool(
-            name="recommend_schedule",
-            description="Recommend a personalized schedule based on user interests and experience level",
-            func=recommend_schedule
-        ),
-        Tool(
-            name="get_session_details",
-            description="Get detailed information about a specific session",
-            func=get_session_details
-        ),
-        Tool(
-            name="get_sessions_by_time",
-            description="Get sessions for a specific time slot",
-            func=get_sessions_by_time
-        )
+        FunctionTool(get_full_schedule),
+        FunctionTool(get_schedule_by_day),
+        FunctionTool(search_sessions),
+        FunctionTool(recommend_schedule),
+        FunctionTool(get_session_details),
+        FunctionTool(get_sessions_by_time)
     ] 

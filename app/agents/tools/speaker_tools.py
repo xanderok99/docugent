@@ -6,7 +6,7 @@ import json
 import logging
 from typing import List, Dict, Any, Optional
 from pathlib import Path
-from google.generativeai.types import Tool
+from google.adk.tools import FunctionTool
 
 logger = logging.getLogger(__name__)
 
@@ -175,39 +175,15 @@ class SpeakerTools:
             "last_updated": meta.get("last_updated", "Unknown")
         }
 
-def get_speaker_tools() -> List[Tool]:
+def get_speaker_tools() -> List[FunctionTool]:
     """Get all speaker-related tools."""
     speaker_tools = SpeakerTools()
     
     return [
-        Tool(
-            name="get_all_speakers",
-            description="Get information about all speakers at the conference",
-            func=speaker_tools.get_all_speakers
-        ),
-        Tool(
-            name="search_speakers",
-            description="Search for speakers by name, company, or topics",
-            func=speaker_tools.search_speakers
-        ),
-        Tool(
-            name="get_speaker_by_name",
-            description="Get detailed information about a specific speaker by name",
-            func=speaker_tools.get_speaker_by_name
-        ),
-        Tool(
-            name="get_speakers_by_topic",
-            description="Find speakers who specialize in a specific topic or technology",
-            func=speaker_tools.get_speakers_by_topic
-        ),
-        Tool(
-            name="get_speakers_by_company",
-            description="Find speakers from a specific company or organization",
-            func=speaker_tools.get_speakers_by_company
-        ),
-        Tool(
-            name="get_speaker_statistics",
-            description="Get statistics and overview of the speaker lineup",
-            func=speaker_tools.get_speaker_statistics
-        )
+        FunctionTool(speaker_tools.get_all_speakers),
+        FunctionTool(speaker_tools.search_speakers),
+        FunctionTool(speaker_tools.get_speaker_by_name),
+        FunctionTool(speaker_tools.get_speakers_by_topic),
+        FunctionTool(speaker_tools.get_speakers_by_company),
+        FunctionTool(speaker_tools.get_speaker_statistics)
     ] 

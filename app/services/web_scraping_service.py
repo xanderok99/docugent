@@ -13,6 +13,10 @@ from datetime import datetime, timedelta
 
 logger = logging.getLogger(__name__)
 
+class WebScrapingServiceError(Exception):
+    """Custom exception for web scraping service errors."""
+    pass
+
 class WebScrapingService:
     """Service for scraping API Conference website data."""
     

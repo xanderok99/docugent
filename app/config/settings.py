@@ -3,7 +3,7 @@ Application settings and configuration management.
 """
 
 from typing import List
-from pydantic import Field, validator
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
@@ -47,14 +47,16 @@ class Settings(BaseSettings):
     secret_key: str = Field(..., env="SECRET_KEY")
     access_token_expire_minutes: int = Field(30, env="ACCESS_TOKEN_EXPIRE_MINUTES")
     
-    @validator("cors_origins", pre=True)
+    @field_validator("cors_origins", mode="before")
+    @classmethod
     def parse_cors_origins(cls, v):
         """Parse CORS origins from string to list."""
         if isinstance(v, str):
             return [origin.strip() for origin in v.split(",")]
         return v
     
-    @validator("conference_venue_coordinates")
+    @field_validator("conference_venue_coordinates")
+    @classmethod
     def validate_coordinates(cls, v):
         """Validate venue coordinates format."""
         try:

@@ -9,15 +9,17 @@ import json
 from typing import Dict, Any, Optional, List
 from datetime import datetime
 from pathlib import Path
-from google.generativeai.types import Tool
+from google.adk.tools import FunctionTool
+import logging
 
 from app.config.settings import settings
 from app.config.logger import Logger
-from app.services.web_scraping_service import web_scraping_service
+from app.services import web_scraping_service
+from app.services.web_scraping_service import WebScrapingService, WebScrapingServiceError
 
-logger = Logger.get_logger(__name__)
+logger = logging.getLogger(__name__)
 
-async def scrape_apiconf_website(url: str = None, **kwargs) -> Optional[Dict[str, Any]]:
+async def scrape_apiconf_website(url: Optional[str] = None, **kwargs) -> Optional[Dict[str, Any]]:
     """
     Scrape information from the API Conference website using efficient caching.
     
@@ -158,23 +160,11 @@ async def _update_local_data_files(scraped_data: Dict[str, Any]) -> None:
     except Exception as e:
         logger.error(f"Error updating local data files: {e}")
 
-def get_web_scraping_tools() -> List[Tool]:
+def get_web_scraping_tools() -> List[FunctionTool]:
     """Get all web scraping-related tools."""
     
     return [
-        Tool(
-            name="scrape_apiconf_website",
-            description="Scrape information from the API Conference website using efficient caching",
-            func=scrape_apiconf_website
-        ),
-        Tool(
-            name="get_conference_info",
-            description="Get comprehensive conference information including venue, dates, and registration details",
-            func=get_conference_info
-        ),
-        Tool(
-            name="update_conference_data",
-            description="Update conference data by scraping the website and saving to local files",
-            func=update_conference_data
-        )
+        FunctionTool(scrape_apiconf_website),
+        FunctionTool(get_conference_info),
+        FunctionTool(update_conference_data)
     ] 

@@ -8,7 +8,7 @@ from typing import Dict, Any, Optional, List
 import googlemaps
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
-from google.generativeai.types import Tool
+from google.adk.tools import FunctionTool
 
 from app.config.settings import settings
 from app.config.logger import Logger
@@ -236,28 +236,12 @@ def get_real_time_transport_info(location: str, **kwargs) -> Optional[Dict[str, 
             "support_contact": settings.support_phone
         }
 
-def get_navigation_tools() -> List[Tool]:
+def get_navigation_tools() -> List[FunctionTool]:
     """Get all navigation-related tools."""
     
     return [
-        Tool(
-            name="get_directions_to_venue",
-            description="Get directions from user's location to the conference venue",
-            func=get_directions_to_venue
-        ),
-        Tool(
-            name="find_nearby_transportation",
-            description="Find nearby bus stops, train stations, and other transportation options",
-            func=find_nearby_transportation
-        ),
-        Tool(
-            name="get_venue_access_info",
-            description="Get information about accessing the conference venue",
-            func=get_venue_access_info
-        ),
-        Tool(
-            name="get_real_time_transport_info",
-            description="Get real-time transportation information for a location",
-            func=get_real_time_transport_info
-        )
+        FunctionTool(get_directions_to_venue),
+        FunctionTool(find_nearby_transportation),
+        FunctionTool(get_venue_access_info),
+        FunctionTool(get_real_time_transport_info)
     ] 
