@@ -24,7 +24,7 @@ services:
       dockerfile: docker/nginx/Dockerfile
     container_name: apiconf-agent-nginx
     ports:
-      - "80:80"
+      - "2025:80"
     depends_on:
       backend:
         condition: service_healthy
