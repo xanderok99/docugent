@@ -35,6 +35,16 @@ def get_directions_to_venue(origin: str, mode: str = "transit", **kwargs) -> Opt
         venue_coords = settings.conference_venue_coordinates.split(",")
         venue_lat, venue_lng = float(venue_coords[0]), float(venue_coords[1])
         
+        # Detect if origin is far/interstate
+        far_keywords = [
+            'Abuja', 'Port Harcourt', 'Kano', 'Kaduna', 'Enugu', 'Ibadan', 'Benin', 'Jos', 'Owerri', 'Maiduguri',
+            'Asaba', 'Onitsha', 'Calabar', 'Uyo', 'Abeokuta', 'Ilorin', 'Makurdi', 'Sokoto', 'Yola', 'Gombe',
+            'Bauchi', 'Lokoja', 'Minna', 'Akure', 'Osogbo', 'Ado Ekiti', 'Katsina', 'Zaria', 'Warri', 'Ekpoma',
+            'interstate', 'long distance', 'outside Lagos', 'far', 'traveling from', 'travelling from'
+        ]
+        origin_lower = origin.lower() if origin else ''
+        is_far = any(k.lower() in origin_lower for k in far_keywords) or 'lagos' not in origin_lower
+        
         # Get directions
         directions = gmaps.directions(
             origin,
@@ -70,6 +80,13 @@ def get_directions_to_venue(origin: str, mode: str = "transit", **kwargs) -> Opt
         if 'fare' in route:
             fare_info = route['fare'].get('text', fare_info)
         
+        # Early travel advice
+        early_advice = ""
+        if is_far:
+            early_advice = (
+                "<b>Since you're coming from quite a distance, I recommend you start your journey early to avoid delays and arrive on time for the conference!</b><br><br>"
+            )
+        
         return {
             "success": True,
             "origin": origin,
@@ -81,7 +98,8 @@ def get_directions_to_venue(origin: str, mode: str = "transit", **kwargs) -> Opt
             "fare_estimate": fare_info,
             "alternative_routes": len(directions) > 1,
             "venue_address": settings.conference_venue_address,
-            "support_contact": settings.support_phone
+            "support_contact": settings.support_phone,
+            "early_advice": early_advice
         }
         
     except ApiError as e:

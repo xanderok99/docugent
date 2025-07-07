@@ -38,6 +38,9 @@ class Settings(BaseSettings):
     scraping_delay: int = Field(1, env="SCRAPING_DELAY")
     user_agent: str = Field("Mozilla/5.0 (compatible; APIConfBot/1.0)", env="USER_AGENT")
     
+    # Data Sources
+    google_sheets_url: str = Field(..., env="GOOGLE_SHEETS_URL")
+    
     # API Configuration
     api_host: str = Field("0.0.0.0", env="API_HOST")
     api_port: int = Field(8000, env="API_PORT")

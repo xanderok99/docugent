@@ -8,6 +8,7 @@ import { FiSend } from 'react-icons/fi';
 interface Message {
   text: string;
   sender: 'user' | 'bot';
+  timestamp: string;
 }
 
 const Chat: React.FC = () => {
@@ -18,7 +19,11 @@ const Chat: React.FC = () => {
   const handleSend = async (messageToSend: string) => {
     if (!messageToSend.trim()) return;
 
-    const userMessage: Message = { text: messageToSend, sender: 'user' };
+    const userMessage: Message = {
+      text: messageToSend,
+      sender: 'user',
+      timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+    };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     setIsTyping(true);
 
@@ -43,6 +48,7 @@ const Chat: React.FC = () => {
       const botMessage: Message = {
         text: result.data.response,
         sender: 'bot',
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prevMessages) => [...prevMessages, botMessage]);
     } catch (error) {
@@ -50,6 +56,7 @@ const Chat: React.FC = () => {
       const errorMessage: Message = {
         text: 'Sorry, I seem to be having trouble connecting. Please try again later.',
         sender: 'bot',
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prevMessages) => [...prevMessages, errorMessage]);
     } finally {
@@ -102,13 +109,16 @@ const Chat: React.FC = () => {
                   msg.sender === 'user' ? styles.user : styles.bot
                 }`}
               >
-                {msg.sender === 'bot' ? (
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                    {msg.text}
-                  </ReactMarkdown>
-                ) : (
-                  msg.text
-                )}
+                <div className={styles.messageContent}>
+                  {msg.sender === 'bot' ? (
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {msg.text}
+                    </ReactMarkdown>
+                  ) : (
+                    msg.text
+                  )}
+                </div>
+                <div className={styles.timestamp}>{msg.timestamp}</div>
               </div>
             ))
           )}

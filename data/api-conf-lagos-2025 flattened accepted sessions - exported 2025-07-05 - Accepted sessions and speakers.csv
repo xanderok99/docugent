@@ -1,0 +1,503 @@
+Title,Description,Owner,Owner Email,Session format,Want to speak at our bi-weekly Twitter Space?,Owner Informed,Owner Confirmed,Room,Scheduled At,Scheduled Duration,Live Link,Recording Link,Speaker Id,FirstName,LastName,Email,TagLine,Bio,X (Twitter),LinkedIn,Company Website,Profile Picture
+From Frustration to Flow: Creating API Documentation Developers Actually Love,"In this session, we'll explore how to transform your API documentation from a necessary evil into a powerful developer experience asset. You'll learn the critical elements that separate documentation that gets cursed at from documentation that gets praised, with specific techniques to implement immediately.
+
+We'll cover:
+
+1. The anatomy of exceptional API documentation: structure, language, and visual elements
+
+2. How to write clear reference material while telling the ""story"" of your API
+
+3. Documentation-driven development: why great docs start before a single line of code (OpenAPI)
+
+4. Testing documentation for accuracy and usability
+
+5. Tools and automation to keep the documentation current and trustworthy
+",Chisom Uma,chisomuma476@gmail.com,Keynote,Yes,4 Jun 2025 07:08 AM,4 Jun 2025 09:18 AM,Ruby Hall,18 Jul 2025 10:00 AM,15,,,ce9cdf48-cb8a-4f3c-9168-96bfc4d02f95,Chisom,Uma,chisomuma476@gmail.com,Technical Writer and Marketing Manager at Hamari Labs,"Chisom Uma is a seasoned Technical Writer and Documentation engineer with over 3 years of experience bridging the gap between complex technical systems and the developers or end-users who implement them. 
+
+A passionate advocate for documentation as a product, Chisom regularly contributes to open-source documentation projects. He is an open-source docs contributor at NGINX and an open-source maintainer.",,https://www.linkedin.com/in/chisom-uma-36187a236/,https://hamari.agency/,https://sessionize.com/image/1421-400o400o1-VyGD8PvnDmdHDsvHxh5cyw.jpg
+Building to last,Building APIs that can stand the test of time from the ground up.,Michael Owolabi,michael.i.owolabi@gmail.com,Keynote,,27 Mar 2025 02:25 PM,31 Mar 2025 07:33 PM,Ruby Hall,18 Jul 2025 10:15 AM,15,,,4cebc013-9784-4889-a1f1-23d6cfb4464c,Michael,Owolabi,michael.i.owolabi@gmail.com,CTO at Spleet,"Michael is an experienced Software Engineer who is result-oriented and passionate about developing innovative solutions to business problems. He is well-versed in Agile workflow and has a proven record of developing viable solutions that deliver a great user experience. Having 5+ years of experience, he has been able to help companies cut costs and increase revenue by improving software processes internally and on the customer-facing side. Michael is an excellent communicator with exceptional team skills. He also writes technical articles to make the learning process easier for others. Other than Software-Engineering He is also passionate about charity and human rights (#EducationForAll) and currently volunteers with the United Nations.",https://twitter.com/iMichaelOwolabi,https://www.linkedin.com/in/imichaelowolabi/,https://spleet.africa,https://sessionize.com/image/aef2-400o400o1-XwrGwNyHhV8C15Ve9hjp9A.png
+Building APIs on cloudflare,"Cloudflare has evolved beyond just a CDN, offering powerful tools for building and deploying APIs at the edge. In this session, we’ll explore how to leverage Cloudflare Workers, KV storage, Durable Objects, and other Cloudflare services to build high-performance, globally distributed APIs.
+
+Attendees will gain insights into designing APIs that are cost-effective, resilient, and optimized for low-latency requests. We’ll also cover best practices for authentication, rate limiting, and caching to ensure security and scalability. Whether you're new to Cloudflare or looking to enhance your existing API infrastructure, this session will provide actionable strategies to help you build APIs that thrive in a cloud-first world.",Daniel Benjamin,benjamindaniel706@gmail.com,Lightning talk,Yes ,27 May 2025 08:27 PM,30 May 2025 11:20 AM,Ruby Hall,18 Jul 2025 10:35 AM,10,,,84d9505e-cd27-4c64-88d3-57b4e5ca87d1,Daniel,Benjamin,benjamindaniel706@gmail.com,Software Engineer,Daniel is a fun guy that occasionally build software.,https://twitter.com/papidb,https://www.linkedin.com/in/benjamin-daniel/,,https://sessionize.com/image/bad6-400o400o1-WssGKbHqTRuemL46LfcGo1.jpg
+"Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore a",,Sikiru Abidemi Tiamiyu,tiamiyusikiruabidemi@gmail.com,Workshop,,5 Jul 2025 11:40 AM,No,Emerald Hall,18 Jul 2025 10:35 AM,45,,,354dda74-4915-49a2-8999-dde7c90de1b6,Sikiru Abidemi,Tiamiyu,tiamiyusikiruabidemi@gmail.com,Software Engineer,"Tiamiyu Sikiru Abidemi is a seasoned Software Engineer with extensive experience in web and mobile development. He is highly skilled in crafting robust user interfaces, implementing responsive designs, and debugging complex applications.
+
+His expertise encompasses:
+ * Building web apps
+ * Mobile Development
+ * Technical Leadership
+
+Tiamiyu is also a Lead Organizer for Google Developers Group (GDG) Ibadan, actively contributing to the tech community and sharing knowledge on emerging web technologies.
+",https://x.com/eeskay01,https://www.linkedin.com/in/tiamiyu-sikiru-abidemi,,https://sessionize.com/image/7c4c-400o400o1-1fda4f02-06c6-4a6c-a300-3c5c48262ecd.jpg
+API Architecure,"Short discuss on common sense architecture for APIs that would optimize performance, scalability, innovation, security, and governance",Echezona Agubata,eche.agubata@gmail.com,Lightning talk,Yes,27 Mar 2025 02:25 PM,27 Mar 2025 05:19 PM,Ruby Hall,18 Jul 2025 10:45 AM,10,,,a738497b-82c7-4a8c-a791-b9b70fff6bd0,Echezona,Agubata,eche.agubata@gmail.com,Fanatic Zero,"Echezona Agubata is the Chief Technology Officer (CTO) at the Coronation Merchant Bank of Nigeria. He develops and drives the execution of IT Strategy, leads the Technology teams in aligning the IT ecosystem with the business strategy. He is also a board advisory for Technology leverage for strategic business growth. He is known in the Nigeria Tech and Banking industry as Eche.
+Previously, Eche served as Head of IT Governance and Strategy at Union Bank of Nigeria as well as the Chief Technology Officer of Guaranty Trust Pension and Fund Managers and also at different times as Head of IT Infrastructure, Head of IT Relationship Management and Head of IT Digital Channels at Guaranty Trust Bank.
+He is a strong advocate and strategist for Zero Downtime, Simplified innovation and Fanatic support processes in the places he has worked. He has also played critical roles in several innovations and implementations within the industry. He is very passionate about strategy execution and IT performance. Through his career, he has amassed experience and provides consult in IT Strategy, IT service management, IT Service Delivery and IT Governance",,https://ng.linkedin.com/in/echezona-agubata,,https://sessionize.com/image/fea9-400o400o1-VrYfj95QGvT8vAhjpM84wa.jpg
+Autonomous APIs: Can APIs Self-Heal and Self-Optimize?,"APIs are evolving into self-optimizing, self-healing intelligent systems powered by AI and automation. They can detect failures, optimize performance in real time, and adapt dynamically to changing traffic patterns. I’ll discuss the key challenges with traditional APIs, how Autonomous APIs are addressing these issues, and how we can start integrating these tools into our work.",Olakunle Dosunmu,olakunledosunmu@gmail.com,Session,,27 May 2025 08:27 PM,27 May 2025 08:36 PM,Amber Hall,18 Jul 2025 11:20 AM,25,,,31b2e7e8-5e69-4c0f-8a16-ab542469c249,Olakunle,Dosunmu,olakunledosunmu@gmail.com,Senior Backend Engineer at ETranzact Global ,"Olakunle Dosunmu is an experienced software engineer with 8+ years of expertise in building scalable APIs and microservices. He specializes in lean architecture and high-performance backend systems, ensuring efficiency and reliability.
+
+Currently, he works at Etranzact Global, where he leads the development of fintech products that power digital payments across Africa. His work enables seamless financial transactions, driving financial inclusion and innovation in the fintech space.",https://x.com/OlakunleDosunmu/,https://www.linkedin.com/in/olakunledosunmu/,,https://sessionize.com/image/33cf-400o400o1-HGGzsyjUH6KBnQzYvYu88D.jpg
+Why Your API is Making Frontend Developers’ Lives Harder (And How to Fix It),"APIs are the backbone of modern applications, but too often, they create unnecessary friction for front-end developers. Considerable APIs are designed without considering real-world integration challenges, leading to mismatched data structures, inconsistent responses, over-fetching or under-fetching issues and a general disconnect between what’s built and what’s needed.
+
+As a result, frontend engineers are forced to act as makeshift QA testers, product managers, and even API negotiators—debugging inconsistencies, requesting endless fixes, and building extra layers of abstraction to make APIs usable. This slows down development, increases frustration, and ultimately impacts user experience.
+
+In this session, I’ll share insights from my experience as a front-end engineer working closely with APIs, highlighting common pitfalls that make integration difficult. More importantly, I’ll provide actionable strategies for API developers to build intuitive, predictable, and truly frontend-friendly interfaces.
+
+Key takeaways:
+- How poor API design forces frontend developers into unnecessary workarounds
+- The most common API mistakes that create friction in frontend integration
+- Best practices for structuring API responses, ensuring consistency, and reducing over-fetching/under-fetching
+- The role of API contracts, OpenAPI specs, and real-world testing in creating seamless integrations
+- How better collaboration between frontend and backend teams leads to faster development cycles
+
+If you’re an API developer, product owner, or even a frontend engineer looking to advocate for better APIs, this session will provide the insights and tools needed to bridge the API-frontend gap and build products that work.",Olamide Ilori,hiloryolamide@gmail.com,Session,,30 May 2025 06:01 AM,30 May 2025 05:15 PM,Emerald Hall,18 Jul 2025 11:20 AM,25,,,c002da21-9e37-480c-ae3e-62dbe7f6161c,Olamide,Ilori,hiloryolamide@gmail.com,Lead Frontend Engineer - Prospa YC (W21),"Olamide Ilori is a Frontend Engineer with experience building high-quality, user-centred applications. Passionate about creating impactful digital experiences, Olamide specializes in writing scalable code, optimizing performance, and delivering solutions that drive business growth.
+
+Beyond coding, Olamide Ilori is an experienced technical mentor and has sat on interview panels, helping to recruit and assess Software Engineering and QA talent. With a knack for fostering collaboration and sharing knowledge, Olamide has spoken at tech conferences and led workshops and training sessions to empower teams and individuals in the tech space.",https://x.com/dev_lammy,https://www.linkedin.com/in/emmanuel-olamide-ilori/,https://getprospa.com,https://sessionize.com/image/0342-400o400o1-h8j9isbEvjeMFVi73rc2th.png
+API Engineering at Mono: Scaling Microservices to Handle Millions of Requests per Month,"In this practical and insightful talk, we’ll dive into how Mono Financial Services scales and manages multiple microservices to handle millions of API requests each month across its services.
+
+We’ll explore:
+
+- The infrastructure powering our API systems, primarily built on Kubernetes
+- How we use internal metrics and live error tracking to maintain reliability in production
+- Strategies for managing resource costs and optimizing performance at scale
+- Real-world examples like handling memory-intensive cron jobs and traffic spikes
+
+This talk will offer a behind-the-scenes look into the engineering decisions that help us stay performant and cost-efficient, and how you can apply these practices when building your high-traffic API systems.
+
+Whether you’re building your first distributed system or scaling existing services, you’ll leave with actionable insights from our production experience.",Betty Alagwu,bettyalagwu@gmail.com,Session,yes,27 May 2025 08:27 PM,27 May 2025 08:36 PM,Ruby Hall,18 Jul 2025 11:20 AM,25,,,5c7ba387-f767-4a95-833e-af3ac1a8d3da,Betty,Alagwu,bettyalagwu@gmail.com,Full stack Software Engineer at Mono,"Full stack software engineer at Mono, the fintech Plaid for African businesses. 3 years of professional software engineering experience, open source enthusiast, and previously a product manager for an open source startup.
+
+",https://x.com/bettyalagwu,https://linkedin.com/in/bettyalagwu,https://mono.co/,https://sessionize.com/image/e3fb-400o400o1-JcvDcEKDz7RUuFfHGRwSj8.jpg
+ Building an AI Documentation Agent for Your API using RAG,"Transform your API codebase into an interactive AI agent using Retrieval-Augmented Generation (RAG). This talk explores how to tokenize your entire codebase, understand function behaviors and API endpoints, and create a conversational interface that lets developers chat with your documentation.
+We'll examine:
+
+- Converting functions, endpoints, and their implementations into a RAG-ready knowledge base
+- Techniques for accurate code tokenization and embedding
+- Building an intelligent agent that understands your API's domain context
+- Architecture for integrating RAG with your existing documentation
+- Strategies for handling code updates and maintaining documentation accuracy
+
+The session details practical strategies for creating an AI documentation agent that can explain your API's functionality, describe endpoints, and provide contextual insights about your codebase.
+Target Audience:
+
+- Developer Experience Engineers
+- API Platform Teams
+- Backend Developers
+- Documentation Maintainers",Favour Onuoha,heyonuoha@gmail.com,Workshop,Yes,27 Mar 2025 02:25 PM,3 Jun 2025 01:13 PM,Ruby Hall,18 Jul 2025 11:45 AM,45,,,36433464-33e6-4341-88af-b6cf56cf1357,Favour,Onuoha,heyonuoha@gmail.com,Senior Developer Relations Engineer at Swing Finance,"I am a Senior Developer Relations Engineer at Swing Finance with over 6 years of professional experience in the tech ecosystem. I'm also a Content Creator at X, Technical Writer at FreeCodeCamp, and a Fullstack Blockchain Developer",https://twitter.com/heyOnuoha,http://linkedin.com/feed/,http://swing.xyz/,https://sessionize.com/image/a051-400o400o1-XbkZrXFQt34fN7tToqmD14.png
+API Specifications: Open Banking Specification,"Session Objectives
+1. What is Open Banking
+2. Benefits of Open Banking
+3. Open Banking API Specifications 
+4. Security Specifications in Open Banking
+5. Implementation and Best Practices
+6. Sample Use cases
+7. Questions and Answers
+
+The Audience will:
+1. Understand the core concepts and benefits of Open Banking.
+2. Gain an understanding of Open Banking API specifications.
+3. Learn how to implement and work with Open Banking APIs.
+4. Explore security considerations and best practices.
+5. See real-world use cases and the future of Open Banking
+",Oluwatimilehin Samuel Alapakristi,samalapsy@gmail.com,Workshop,Yes,4 Jun 2025 06:55 AM,4 Jun 2025 09:06 AM,Emerald Hall,18 Jul 2025 11:45 AM,45,,,de6665dd-1fd4-4037-8084-e625bbba490c,Oluwatimilehin Samuel,Alapakristi,samalapsy@gmail.com,Senior Software Engineer @ OnePipe.io,"With many years of extensive experience in software design and development spanning diverse sectors including Fintech, EdTech, Health Tech, eCommerce, and Logistics, I have consistently demonstrated expertise in leading engineering teams. My proven track record includes spearheading projects from conception to implementation, resulting in the delivery of cutting-edge solutions that enhance business efficiency.
+
+As a result-driven and product-focused engineer, I excel in solving complex challenges and driving tangible outcomes. With strong interpersonal skills, I effectively collaborate with cross-functional teams to achieve project objectives. 
+
+I am deeply committed to continuous learning and believe in the power of deliberate practice to refine and expand my skills. I am also dedicated to delivering excellence in every aspect of my work, and I thrive in dynamic environments where innovation is encouraged and valued.",https://twitter.com/samalapsy,https://www.linkedin.com/in/samalapsy/,,https://sessionize.com/image/ddda-400o400o1-H9njas5S5sVpQm2d55gdvW.jpg
+Getting Your OpenAPI Spec Ready for Code Generation,"Last year, we explored how to design and document APIs with OpenAPI. This year, we’re going a step further—into the world of code generation.
+
+In this advanced session, we’ll show you how to evolve your OpenAPI specs from static descriptions into powerful, reusable assets that generate SDKs, server stubs, tests, and more. But to get clean, usable code, your spec needs more than just endpoints—it needs structure, consistency, and intention.
+
+Attendees will learn how to:
+
+- Refactor your specs for codegen success (think: reusable components, enums, type safety)
+
+- Avoid common pitfalls like vague schemas, circular refs, or overloaded responses
+
+- Enforce consistency with style guides and automated linting
+
+- Integrate your specs into CI/CD pipelines for validation and governance
+
+- Generate tailored docs, SDKs, and test clients—automatically
+
+- Balance automation vs control: When to let the generator do the work—and when to intervene
+
+We’ll demo code generation tools in action (like OpenAPI Generator, NSwag, and Stoplight), and share real-world lessons from teams using OpenAPI across production systems. You’ll also get practical tips for integrating codegen into your API lifecycle and CI/CD workflows.
+
+This session is perfect for developers, architects, and technical writers ready to take their OpenAPI game to the next level—turning documentation into real, usable code.",Funke Olasupo,fizzyflexy397@gmail.com,Workshop,,27 May 2025 08:27 PM,29 May 2025 07:19 PM,Amber Hall,18 Jul 2025 11:45 AM,45,,,c8f78748-06b6-4210-ae7a-634fcc90fb2d,Funke,Olasupo,fizzyflexy397@gmail.com,"Technical Writer, Rocket.Chat","Funke is a seasoned technical writer with a proven track record of producing clear user and developer   focused technical documentation. 
+
+Her background in secure communication & collaboration, developer products and fintech has equipped her with the skills necessary to thrive in documenting various sectors. 
+
+From developing comprehensive user guides and API documentation to crafting engaging tutorials and online help systems, she is adept at translating complex technical concepts into easily understandable content for diverse audiences.
+
+She currently works at Rocket.Chat as a Technical Writer. In the past , she has worked with OpenFoodFacts and Macrometa.. She is also consistently contributing to the knowledge base of companies like Twillio, Honeybadger and ButterCMS through back-end engineering articles and tutorials.
+
+When she’s not producing documentation, she’s co-organising developer and women-in-tech conferences across her region through the Google Developer Groups and Women Techmakers Ambassador program .",https://twitter.com/OlasupoFunke,https://www.linkedin.com/in/olasupofunke/,https://www.rocket.chat/,https://sessionize.com/image/40bf-400o400o1-SF1tsYnBuGx46FjM2Pbwc.jpg
+API Security in Web3: Protecting Decentralized Applications from Common Threats,"As decentralized applications (dApps) continue to gain adoption, the APIs powering them have become critical, and increasingly vulnerable. This session explores the unique security challenges of Web3 APIs and offers practical strategies for protecting them.
+
+We'll dive into real-world attack vectors such as replay attacks, supply chain attack, smart contract exploits, API key leakage, and denial of service, and discuss how authentication mechanisms like OAuth2, JWT, and wallet-based auth (e.g., SIWE) can be adapted for decentralized contexts. You’ll also learn how to design APIs with security in mind from day one—balancing openness and access control in a trust-minimized environment.
+
+Whether you're building DeFi protocols, NFT marketplaces, or DAO tools, this talk will help you secure your Web3 APIs against emerging threats and build with confidence in a rapidly evolving landscape.",Daniel Anomfueme,anomfuemedaniel@gmail.com,Lightning talk,,27 May 2025 08:27 PM,2 Jun 2025 06:44 AM,Ruby Hall,18 Jul 2025 01:30 PM,10,,,194302b8-82f8-424e-8036-572a3382f349,Daniel,Anomfueme,anomfuemedaniel@gmail.com,"Founder DeSci Africa, Community Builder VitaDAO","For almost four years, Daniel Anomfueme has been an active builder of several Tech and Non-Tech Communities.
+
+He is currently exploring the possibilities of Decentralized Science as a contributor at VitaDAO and he recently started DeSci Africa to create awareness of DeSci in Africa.",Http://twitter.com/Lifeofdanel,https://www.linkedin.com/in/lifeofdan-el/,https://dan-el.xyz/,https://sessionize.com/image/48ed-400o400o1-QGALcgcauFMKBj237vNr1d.jpg
+"Next-Gen API as a Service: AI-Driven Delivery, Adaptive Documentation, and Seamless Integration","APIs are evolving beyond static endpoints into intelligent services that adapt to user needs. This session explores how AI can drive scalable, personalized API experiences, improve documentation delivery, and enable seamless integration into any tech stack. Discover how to transform APIs from mere technical components into user-centric products that fit effortlessly into diverse ecosystem",Abimbola Bajomo,bajomoabimbola@gmail.com,Session,,27 Mar 2025 02:25 PM,27 Mar 2025 03:01 PM,Ruby Hall,18 Jul 2025 01:40 PM,25,,,91debd1d-e912-47d3-a19e-fa911c90b176,Abimbola,Bajomo,bajomoabimbola@gmail.com,Lead Product Manager Remita Payment Services limited,"Abimbola is a seasoned product manager with over 7 years of experience in crafting and delivering top-tier products. Her expertise spans business analysis, prioritization, API development, infrastructure management, and solution delivery. Throughout her career, she has worked closely with engineering, data, and cross-functional teams to create profitable products across diverse sectors, including legal, logistics, media, finance, and education.
+
+In her current role as Lead Product Manager at Remita, a leading payments infrastructure company, Abimbola heads the Collections Product Suite. She drives the product strategy, development, and delivery for API-driven solutions, accounts and card switching, and various collection touchpoints such as platform as a service, payment gateways, agency banking, and POS systems. Her leadership, combined with her keen analytical skills and ability to prioritize effectively, has resulted in these products generating over $2 million in revenue, underscoring her ability to develop impactful and profitable solutions that address real-world needs.
+
+Outside of Remita, Abimbola is the founder of Product Talkative, a platform designed to help technology professionals advance their careers and unlock new opportunities. Through Product Talkative, she shares her expertise and passion for product management, empowering individuals to enhance their skills and achieve their career goals",,https://www.linkedin.com/in/abimbolabajomo/,,https://sessionize.com/image/2696-400o400o1-J6cQ1tdFe5jPwYwvfEmAbv.jpg
+Designing Seamless API Experiences: Integrating Product Design with API Innovation,"This elaborates on how product designers and integration teams collaborate to create intuitive, secure, and scalable API experiences. This session highlights best practices, practical tools, and emerging trends to transform APIs from mere backend utilities into strategic enablers of innovative digital products.",Justice Anaba,anaba.justice@gmail.com,Session,,27 May 2025 08:27 PM,28 May 2025 12:27 PM,Emerald Hall,18 Jul 2025 01:40 PM,25,,,7cc2a99d-0355-477e-bc86-f4a58daf305d,Justice,Anaba,anaba.justice@gmail.com,"Brand Product Designer, SeamlessHR","A multifaceted creative leader with a unique blend of engineering, design, and digital marketing expertise, Justice has built a career around creating impactful brand solutions in highly competitive markets. With over 11 years of experience, Justice combines technical acumen with a deep understanding of creative processes to drive innovation in design and branding. 
+",,https://www.linkedin.com/in/justice-anaba/,,https://sessionize.com/image/7878-400o400o1-fQsG4SKtJumMo1ZnWboBEm.jpg
+Monitoring your APIs like a SuperHero with the Kubernetes prometheus stack,"In today’s increasingly containerized and microservices-oriented world, real-time observability and proactive monitoring are crucial for delivering resilient and high-performing APIs. In this session, we will explore how the Kube Prometheus Stack can serve as a powerful ally in maintaining the health of your services, ensuring you detect issues before they escalate. Attendees will learn the fundamentals of setting up Prometheus, configuring Alertmanager for intelligent notifications, and creating intuitive dashboards in Grafana—all within a Kubernetes environment.
+
+We will walk through best practices for instrumenting APIs, showcasing how to collect and analyze metrics that matter most to your users and business. From troubleshooting performance bottlenecks to scaling your monitoring infrastructure, this talk will provide a comprehensive overview of how to leverage the full potential of the Kube Prometheus Stack. By the end of the session, participants will have the tools, insights, and confidence to monitor their APIs “like a superhero,” preventing minor hiccups from becoming major disruptions and keeping critical services running smoothly. ",Michael Mekuleyi,mekuleyimichael@gmail.com,Workshop,Yes,18 May 2025 06:40 PM,29 May 2025 11:19 PM,Ruby Hall,18 Jul 2025 02:05 PM,45,,,f4cdf876-e863-4dee-9b6a-0f047d4cab54,Michael,Mekuleyi,mekuleyimichael@gmail.com,"Senior DevOps Engineer, Yassir","Hi, My name is Michael Mekuleyi. I work as a DevOps Engineer and volunteer as a Google Developer Expert and an AWS Community Builder. My interests are DevOps/SRE, Google Cloud, and Flutter. When I am not writing code or working in product meetings, I am playing music and trying out new recipes.",https://twitter.com/monnarene,https://www.linkedin.com/in/monarene/,https://github.com/monarene,https://sessionize.com/image/33da-400o400o1-PC73Vaadgkjuqf67k1oBzr.jpeg
+Server-Side Rendering with Dart: Building Dynamic Web Applications,"Generally, dart as a language seems to have been popularized by the flutter framework and people don't think server side work when they think dart.
+
+In this session, I'll share our journey building shortly, a high-performance URL shortener, using dart's server-side rendering capabilities. 
+
+Attendees Will Gain hands-on experience with server-side rendering in Dart, techniques for creating maintainable template systems, performance optimisation strategies that actually work.
+
+Whether you're building a simple website or a complex web application, you'll walk away with actionable insights and practical skills you can immediately apply to your projects. 
+
+Join me to learn how server-side rendering with Dart can transform your web development experience.",Samuel Abada,abadasamuelosp@gmail.com,Workshop,,27 May 2025 08:27 PM,29 May 2025 06:27 PM,Emerald Hall,18 Jul 2025 02:05 PM,45,,,f60af971-bfc5-4735-8f27-68b71de0e2f8,Samuel,Abada,abadasamuelosp@gmail.com,"Google Developer Expert, Flutter & Dart","Samuel is a Google Developer Expert for Flutter and Dart and leads the mobile engineering efforts at Shuttlers Mobility. With 8 years of experience in the software industry, Samuel has spent the last 6 years focusing on mobile development, particularly with Flutter. They are a co-organizer of the Flutter Lagos and Flutter Akure communities, as well as the Google Developers Group Akure.
+
+Passionate about open-source technologies and building developer tooling, Samuel enjoys sharing knowledge through technical articles and speaking at events and conferences. Outside of coding, Samuel is an avid gamer, lover of anime.",https://twitter.com/mastersam_,https://www.linkedin.com/in/abada-samuel,,https://sessionize.com/image/2e65-400o400o1-aUVsgQJAGE1aarDyjt5fk8.png
+AI-driven HATEOAS,"HATEOAS stands for Hypermedia as the Engine of Application State. It's one of the small part of RESTful constraints for building self-descriptive and optimal experience APIs. However, most of the API providers forget to implement it in their APIs. In this talk, I will break down how to design and build HATEOAS-based APIs powered by AI that tracks users/developers behaviour of using an API and then help to navigating through the APIs for different endpoints.",Pratham Kumar,pratham.kumar@apilayer.com,Session,,27 Mar 2025 02:25 PM,27 Mar 2025 02:30 PM,Ruby Hall,18 Jul 2025 02:50 PM,25,,,4c51cdc6-6365-46ca-bb7f-98ab8d1cd99b,Pratham,Kumar,pratham.kumar@apilayer.com,Developer Relations Manager at APILayer,Pratham has been a DevRel ever since he figured out there's a lot potential on social and community-driven spaces for developers. He built a community of over 450K developers across socials.,https://x.com/prathkum,https://linkedin.com/in/prathkum,https://apilayer.com,
+APIs Don’t Speak — Dashboards Do,"APIs are the invisible powerhouses driving most digital interactions, but traditional monitoring often falls short when it comes to explaining why slowdowns or failures happen. In this session, I will explore how data professionals can create dashboards that provide a comprehensive view of API performance, going beyond just response codes.
+
+Using Power BI, I will demonstrate how to visualise key metrics like latency spikes, call volume patterns, and performance bottlenecks in ways that resonate with engineers, product managers, and business stakeholders alike. This isn’t about eye-catching visuals, but it’s about building dashboards that enable teams to take action quickly, gain deeper insights, and work more efficiently.
+
+Whether you're in data, DevOps, or product management, this session will equip you with the tools to turn raw logs into impactful visual narratives that drive smarter decisions.",Nwaamaka Iduwe,nwaamaka_iduwe@yahoo.com,Session,Yes,27 May 2025 08:27 PM,27 May 2025 10:50 PM,Emerald Hall,18 Jul 2025 02:50 PM,25,,,2001a8b2-77e3-4a47-b38a-8401a2f9ff6a,Nwaamaka,Iduwe,nwaamaka_iduwe@yahoo.com,Business Intelligence Analyst | Power BI Enthusiast | Data Storyteller,"Nwaamaka Iduwe is a Business Intelligence Analyst with a background in finance and data science. She has designed over a dozen interactive Power BI dashboards for some of the largest retail and public sector players in Africa, helping stakeholders identify trends, inefficiencies, and growth opportunities with clarity and confidence.
+
+She’s passionate about making technical insights digestible, and she’s especially interested in the intersection of APIs, performance monitoring, and visual storytelling. Nwaamaka has also mentored aspiring data professionals, co-authored two published machine learning research papers, including work on LLMs in crisis response, and worked across industries to help teams become more data-informed, not just data-driven.",https://x.com/amakaa__i?s=21,http://linkedin.com/in/nwaamaka-iduwe-msc-b76152158,,https://sessionize.com/image/cecc-400o400o1-N1z7UVmC79BSz8W46bMhFD.jpg
+Tested and Trusted : Building Testable APIs and Testing Testable APIs.,"APIs are an essential part of how our world functions today. From AI agents calling API endpoints to book a game, to service accounts calling APIs endpoints to start a cron job, all that we interact with on the interweb is connected by APIs, and these will only become more important as we march towards a more connected future. In my 7+ years of experience building and testing APIs, I have discovered certain principles that make for a testable API. Seemingly basic things, like appropriate status codes and clear error messages, pagination and filtering, are the difference between a passable and a testable API. The goal of the workshop is to give people a hand-on guide in the creation of such testable APIs, and more importantly, how to test such APIs. The audience is developers, QA Engineers, SDETs and every stakeholder involved in API quality conversations.
+
+Thank you for the opportunity, I look forward to hearing from you",Fehintoluwa Dahunsi,dahunsi.fehinti@gmail.com,Workshop,Yes,27 May 2025 08:27 PM,27 May 2025 08:36 PM,Emerald Hall,18 Jul 2025 03:15 PM,45,,,a14cb0ee-6680-4732-aac4-14e7e97a4b92,Fehintoluwa,Dahunsi,dahunsi.fehinti@gmail.com,"Senior Software Engineer, Andela, Professional Cloud Architect, GCP","Fehintoluwa Dahunsi is a distinguished Senior Software Developer in Test, renowned for his expertise in test automation, DevOps, and continuous integration/continuous deployment (CI/CD) methodologies. With a robust background in both software development and testing, Fehintoluwa has consistently demonstrated his ability to enhance product quality and streamline development processes across diverse and complex environments.  As a speaker, Fehintoluwa brings a wealth of real-world experience and practical knowledge to his sessions. His presentations are known for being engaging, insightful, and packed with actionable takeaways. Whether discussing the future of DevOps or diving deep into the specifics of test automation and CI/CD, Fehintoluwa’s sessions are a must-attend for anyone looking to enhance their understanding and capabilities in the fast-evolving world of DevOps.",,https://www.linkedin.com/in/fehintoluwa-dahunsi,https://www.siemens-energy.com/global/en/home.html,https://sessionize.com/image/64dc-400o400o1-hKEA62cv9jA7KxZDdb1btZ.jpg
+From Vision to Execution: Building APIs as Scalable Products in Fintech,"In the fast-paced world of fintech, building scalable APIs isn't just about exposing endpoints—it's about crafting products that can evolve with customer needs, regulatory expectations, and business growth.
+
+In this talk, I (Solomon Olalemi), a seasoned technical product leader in Nigeria’s fintech ecosystem, will share practical product-led approach to designing and managing APIs as real, scalable products. Drawing from my multiple experiences across microfinance banking, digital banking, payment infrastructures, and cross-border payment platforms, Solomon will walk attendees through the following;
+
+1. How to go from a product vision to an API delivery roadmap.
+2. Techniques to align engineers, operations, compliance, and marketing teams.
+3. Designing APIs with business scalability and partner integrations in mind.
+4. Creating lifecycle plans for APIs: versioning, onboarding, feedback loops.
+5. Managing internal vs. external APIs and monetizing API platforms
+
+Attendees will leave with a framework for transforming API efforts from one-off projects into strategic, revenue-driving products—ready to serve thousands of users, partners, and ecosystems.
+
+Whether you're a product manager, API engineer, or startup founder, this session will equip you with the mindset, tools, and real-world insights to lead successful API-first initiatives in fintech and beyond.
+
+",Solomon Olalemi,olalemis@gmail.com,Workshop,Yes,27 May 2025 08:27 PM,27 May 2025 09:22 PM,Ruby Hall,18 Jul 2025 03:15 PM,45,,,d17cd891-4144-431d-8775-1bf2f5484c12,Solomon,Olalemi,olalemis@gmail.com,"Product Manager, Polaris Bank","Solomon Olalemi is a seasoned product manager with a rich background spanning over 6+ years in the industry. His journey in product management has been marked by a diverse portfolio of projects, each contributing to his expertise and insight into the field.
+
+Solomon's career began with groundbreaking work at Payercoins Inc., where he spearheaded the development of a cryptocurrency infrastructure, laying the foundation for innovative financial solutions. His passion for driving impactful change led him to the forefront of the remittance industry in Africa, where he played a pivotal role in building a remittance platform that revolutionized payment systems across the continent.
+
+Transitioning to the banking sector, Solomon joined the ranks of a prominent Nigerian bank, where he currently leads the charge in developing a cutting-edge digital banking platform. Under his guidance, the bank, Polaris Bank, has garnered prestigious accolades, including the coveted title of Digital Bank of the Year in Nigeria for three consecutive years, affirming Solomon's prowess in the realm of digital innovation.
+
+Beyond his professional endeavours, Solomon is known for his unwavering dedication to personal growth and knowledge acquisition. A voracious reader, he embarked on a remarkable journey in 2017, devouring an impressive 104 books in a single year—an achievement that speaks volumes about his thirst for learning and self-improvement.
+
+When he's not at the helm of the product team, Solomon can often be found immersed in the intricacies of revamping lending products, leveraging his expertise to drive innovation and excellence in financial services.
+
+With a relentless drive for excellence and a passion for pushing boundaries, Solomon Olalemi continues to make indelible contributions to the world of product management, shaping the future of fintech and digital innovation one breakthrough at a time.
+
+When I am not working, you will find me reading or talking to friends.",https://x.com/IamSolomonOla,https://ng.linkedin.com/in/solomonolalemi,,https://sessionize.com/image/fe8f-400o400o1-BW55yQhDwpjPCPquyHFcmk.jpg
+Designing Developer-Friendly APIs: A Frontend Engineer’s Wishlist,"APIs are contracts—and the frontend is often the first to feel the pain when those contracts are hard to use, poorly documented, or constantly changing. In this talk, we’ll explore API design from a frontend developer’s point of view, highlighting what makes an API intuitive, reliable, and delightful to consume.
+
+Drawing from real-world experience building UIs across fintech, healthtech, and marketing platforms, I’ll share a practical ""wishlist"" of features, patterns, and practices frontend developers dream of—like predictable error handling, meaningful status codes, well-structured responses, clear documentation, and thoughtful versioning.
+
+Whether you build APIs or work closely with the teams that do, this session will leave you with actionable ideas to improve the developer experience (DX) of your APIs and make frontend integration a breeze.",Joshua Onyeuche,joshuaonyeuche@gmail.com,Session,,4 Jun 2025 07:08 AM,4 Jun 2025 07:12 AM,Emerald Hall,18 Jul 2025 04:00 PM,25,,,9b8ce9ae-2c3e-4d2e-9dd0-cb2d288a8c13,Joshua,Onyeuche,joshuaonyeuche@gmail.com,"Software Engineer, Emergency Response Africa","Joshua Onyeuche is a Software Engineer with over 5 years of experience building intuitive, performant, and scalable web interfaces. He has led software development initiatives across fintech, healthtech, and marketing tech companies, including Terragon, Emergency Response Africa, and CreditRegistry.
+
+He’s the creator of Frontend Bistro, a blog series where he shares deep dives into frontend engineering, performance, DevOps, real-time systems, and the future of UI development. Passionate about clean UX and great developer experience (DX), Joshua advocates for better collaboration between frontend and backend teams—especially around API design and usability.
+
+When he’s not pushing pixels or squashing bugs, you’ll find him mentoring developers, exploring new technologies, or designing sleek visuals for his local community.",,https://www.linkedin.com/in/jonyeuche/,,https://sessionize.com/image/957d-400o400o1-9nV38VcaX6UwPYXyKaGRfB.png
+Banking Without Banks? Building Resilient Wallet Infrastructure in Unstable Times,"In January 2021, Providus bank announced they were shutting down their virtual account service. This sent many  fintechs (piggyvest, risevest, etc) into a frenzy. 
+
+The engineering and business teams needed to find new providers, build new rails, connect the rails, test the connection, make the rails available in record time.
+
+How were they able to do it?
+
+In this talk, I will use a dummy fintech app (Akeke). I will describe the best-practice microservice architecture that makes it easy to turn off any API and connect to another in record time.
+ 
+This talk breaks down how the right architecture decisions — microservices, abstraction layers, event queues, and modular APIs — allowed teams to pivot fast under pressure.
+
+",Mustapha Rufai,shotbymustopha@gmail.com,Session,"Yes, I will love to speak on the twitter space.",27 May 2025 08:27 PM,27 May 2025 10:02 PM,Ruby Hall,18 Jul 2025 04:00 PM,25,,,2f3e3756-391e-4eab-94db-4284487c398f,Mustapha,Rufai,shotbymustopha@gmail.com,Software Engineer,"Mustapha is a software engineer who loves teaching. He led developer engagement at Paga and creates technical content for Linkedin Learning, Pluralsight (via DeveloperIntelligence ). 
+
+You will find him at the intersection of developer education, software development, and community management.
+",https://twitter.com/iafur,https://www.linkedin.com/in/mustapha-rufai/,,https://sessionize.com/image/3586-400o400o1-7FwyWgdVtgzRukfdLpRRvQ.jpg
+The API Mindset for Mass Innovation,"In an era where speed, scalability, and openness define market leadership, APIs have evolved far beyond mere technical interfaces — they are strategic assets, collaboration tools, and innovation accelerators.
+
+This keynote explores what it means to adopt an “API Mindset” — a philosophy that views every product, service, and organization as a platform that others can build upon. From internal teams to global ecosystems, the API mindset reshapes how we design products, share knowledge, structure teams, and scale ideas.
+
+We’ll uncover:
+
+- How APIs enable modularity and reuse, unlocking velocity across industries
+- Why thinking like a platform company transforms not just tech, but culture and governance
+- How developer experience (DX) and agent experience (AX) are critical for innovation at scale
+- Real-world examples of organizations that grew by opening their boundaries and embracing composability
+- How to design not just APIs, but contracts of trust between humans, machines, and markets",API Conference Lagos,apiconferencelagos@gmail.com,Keynote,,No,No,Ruby Hall,19 Jul 2025 09:30 AM,15,,,f2a22ec1-8eea-4122-bed1-64992e698324,Mehdi ,Medjaoui,,,"- Founder of Olympe.Legal, the AI-powered law firm
+- Founder of the APIdays.io conferences series 
+- Co-founder of OAuth.io, the API for Login APIs (acquired)
+- Author of Continuous API Management (O'Reilly 2019, 2021)
+- European Commission Expert on APIs for Governments
+- Lecturer in HEC MBA, EMLyon Exec MBA, and International MBA",https://x.com/medjawii,https://www.linkedin.com/in/mehdimedjaoui/,https://www.apidays.global/,https://sessionize.com/image/9f23-400o400o1-NuCyDbTHGM4oub1RaZ1Bke.jpg
+"DevOps Meets APIs: Building, Governing, & Scaling API-First Architectures for Enterprise Application","In this session, we'll explore how DevOps principles can be applied to the full lifecycle of API development — from design to deployment, governance to observability. Drawing from real-world enterprise experience, I’ll share how to build scalable API platforms, automate policy enforcement using CI/CD, and deliver a self-service developer experience.
+
+We'll also cover how to optimize performance, ensure compliance, and manage internal APIs at scale, using modern DevOps tooling and strategies. Whether you're an API architect or DevOps leader, you'll leave with practical insights to build reliable, secure, and governed APIs that support fast-moving development teams.",Ademola Adelekan,ademolaadelekan09@gmail.com,Keynote,No,27 May 2025 08:27 PM,27 May 2025 08:36 PM,Ruby Hall,19 Jul 2025 09:45 AM,15,,,f17e3a8c-07cc-471d-8cc4-3b45739d42f8,Ademola,Adelekan,ademolaadelekan09@gmail.com,Head of DevOps Engineering at Interswitch(INDECO) | Platform Strategy & API Governance,"Ademola Adelekan is an experienced DevOps and Software Quality Assurance Engineer with a proven track record in building secure, scalable, and high-performing systems. With a background in Management Information Systems from the Federal University of Technology, he brings deep expertise across DevOps automation and platform engineering. Ademola has worked extensively across tech stacks including .net, Java, and SQL, and is passionate about driving developer productivity, improving system reliability, and building platforms that empower engineering teams to scale efficiently.",,https://www.linkedin.com/in/adelekan-ademola-62092b14b/,,https://sessionize.com/image/7818-400o400o1-GfBbFWH9C6gKowtVDyb5WC.jpg
+Caching Strategies for High-Traffic APIs,"I want to share insights on designing an effective caching layer for high-traffic APIs, drawing from my experience building the API that powers Treblle, an API observability platform handling 1 billion requests per month.
+
+In this talk, I’ll cover:
+    - Choosing the right caching backend (Redis, Memcached, etc.)
+    - Optimal deployment strategies and hosting considerations
+    - Best practices to maximize performance and reliability
+
+This session is geared towards intermediate developers looking to scale their APIs efficiently, with plenty of takeaways and a chance to exchange insights with senior engineers.",Nelson Isioma,nelsonisioma1@gmail.com,Lightning talk,Yes,27 May 2025 08:27 PM,31 May 2025 10:52 AM,Ruby Hall,19 Jul 2025 10:00 AM,10,,,e7c8681b-96d1-431d-bbd0-b9873adbf825,Nelson,Isioma,nelsonisioma1@gmail.com,"Technical Writer at PHPArch, Organizer of PHPxLagos","Technical Writer at PHPArch, Organizer of PHPxLagos",https://x.com/nelson_isioma,https://www.linkedin.com/in/nelson-isioma/,https://www.nelsonisioma.com/,https://sessionize.com/image/39af-400o400o1-Q7NeUGogC3hnYrph6End3C.jpg
+Embedded Insurance in 5 Minutes,"During my session, I will be talking about the economics of using APIs, the true cost of using APIs and things to look out for when choosing an API company.",Kimberly Samugana,kimberly@mycover.ai,Lightning talk,,27 May 2025 08:27 PM,28 May 2025 11:18 AM,Ruby Hall,19 Jul 2025 10:10 AM,10,,,c9ee0781-12f0-46e7-ab61-829d4cb71518,Kimberly,Samugana,kimberly@mycover.ai,MyCover.ai - API partnership Manager,"Kimberly leads partnerships at MyCover.ai where she spearheads API as a service to businesses in various sectors.  She has led integrations to over 40 tech businesses across Africa and believes we can alleviate poverty through insurance, one partnership at a time.  She is a graduate of the University of Benin and a Mckinsey Future Forward program alumni. She is a Tech Sales and Partnership Community, Premia Business Network, and Black Founders Community member. When Kimberly isn't working, she spends her time traveling. ",,https://www.linkedin.com/in/kimberlyjsamugana/,https://www.mycover.ai,https://sessionize.com/image/112f-400o400o1-pnQcWkpTkTjkr7Acp58e28.jpg
+Mycover.ai : API innovation in action,MyCover AI demo walkthrough,Omonigho Jimmy,kenjimmy17@gmail.com,Lightning talk,,No,No,Ruby Hall,19 Jul 2025 10:20 AM,10,,,526387c1-8681-478c-8ea5-03ba74ca8e1f,Omonigho,Jimmy,kenjimmy17@gmail.com,Senior Software Engineer and Head of Developer Relations,"Senior software engineer, 3x founding engineer, mentor, and husband.",https://twitter.com/glitzyken17,https://www.linkedin.com/in/omonigho-jimmy,https://kenjimmy.xyz,https://sessionize.com/image/90a3-400o400o1-NnxvCjcRXEsYVyN8BKfqAv.jpg
+Building Resilient Microservice APIs: Engineering for High-Stakes Environments,"In mission-critical environments where downtime directly impacts revenue and user trust, building resilient APIs requires more than just theoretical best practices. This session provides a practical, experience-based framework for designing microservice APIs that maintain stability even when facing unpredictable traffic patterns, infrastructure failures, and integration challenges.
+Drawing from real-world implementation experiences in the financial technology sector, this talk will walk through the evolution of resilience patterns across different scaling phases. Attendees will learn concrete strategies for implementing circuit breakers, rate limiters, and graceful degradation mechanisms in Node.js environments, along with monitoring approaches that provide actionable insights during system stress.",Ibiniyi Obikoya,obikoya11@gmail.com,Session,Already did,27 May 2025 08:27 PM,3 Jun 2025 02:49 PM,Amber Hall,19 Jul 2025 10:30 AM,25,,,3c9be750-4386-4dd6-a0cb-ec5cc9fbd496,Ibiniyi,Obikoya,obikoya11@gmail.com,Tech Lead @ Korapay,"Ibiniyi Obikoya is a Senior Backend Engineer and Technical Lead for the Merchant Platform and Tools (MPT) team at Kora Payments, where he builds scalable API infrastructure for financial services. With five years of experience in the tech industry, Ibiniyi has developed extensive expertise in Node.js, microservices architecture, and database technologies including MySQL, MongoDB, and Redis.
+Previously, Ibiniyi contributed to engineering teams at Paystack and Global Accelerex Ltd, where he designed and implemented mission-critical systems handling significant transaction volumes. His technical work focuses on creating resilient, high-performance APIs that power financial services across Africa.
+Beyond his engineering work, Ibiniyi is passionate about knowledge sharing and community building. He serves as a mentor at Grazac Academy in Nigeria, where he helps develop the next generation of software engineers. As the convener of the Christian Tech Community, he creates spaces for technologists to integrate their faith and professional practice.
+Ibiniyi holds a BSc in Computer Science from the University of Ibadan and regularly shares insights on software development, career growth, and technical leadership through speaking engagements and his YouTube channel ""Beyond Code with Ibiniyi.""",https://twitter.com/Hybeecodes,https://www.linkedin.com/in/hybeecodes,https://hybeecodes.github.io/,https://sessionize.com/image/f891-400o400o1-Qc8tA3B2PfU1Fh19Ndptu9.jpg
+Redis in Action: From Simple Cache to Advanced Queues and Streams,"Redis is more than just a cache—it’s a powerful data structure server that can handle event-driven architectures like real-time messaging, and background job processing. In this talk, we’ll explore how Redis goes beyond basic key-value storage and how to leverage it for queues and streams.",Kenechukwu Ozordi,kennyozordi@gmail.com,Session,Yes,27 May 2025 08:27 PM,28 May 2025 12:14 PM,Ruby Hall,19 Jul 2025 10:30 AM,25,,,fdc854fb-557e-4516-9b08-9f599827edbc,Kenechukwu,Ozordi,kennyozordi@gmail.com,"Software Engineer, GTBank.","Ozordi Kenechukwu is a Software Engineer specializing in backend development, API design, and automation. He builds scalable RESTful APIs, optimizes system integrations, and improves developer experience with clear documentation.",https://x.com/ozordi_ken,https://www.linkedin.com/in/ken-ozordi/,https://ozordi.betathing.com/,https://sessionize.com/image/e5af-400o400o1-pYBBzneR1NbcwDbn32kYx4.jpg
+From Chaos to Clarity: Building API Integrations That Don’t Burn Out Your Team or Product,"Situation (Context)
+Modern digital products thrive on ecosystems of APIs — from payments and identity to logistics, HR, and messaging. Building with multiple third-party services is no longer a luxury; it’s the foundation of reliability and scale in today’s software.
+
+Complication (Problem)
+Things spiral quickly when your product needs to integrate with multiple providers, each with different data models, error behaviors, rate limits, and webhook implementation. Inconsistent standards, flaky responses, silent failures, and ever-changing specifications turn your codebase into a brittle mess. The product and engineering team end up spending more time firefighting integrations than building product value.
+
+Question
+How can engineering teams build robust, scalable, and maintainable multi-provider API integrations without exhausting their developers or compromising product stability?
+
+Answer (The Talk)
+In this talk, I’ll walk through a proven playbook developed from integrating with nearly every major fintech provider in Nigeria, including payment providers, banks, switches, and how those principles apply across industries and verticals. Attendees will learn:
+
+Design principles for integration layers that normalize and abstract provider differences
+
+Practical fallback strategies and retry patterns that make flaky APIs survivable
+
+Architecture approaches that support seamless provider switching or multi-provider orchestration
+
+Observability techniques and tooling that reduce integration-related burnout
+
+How to avoid common anti-patterns in webhook handling, authentication flows, and versioning
+
+Attendees will leave with concrete strategies for building multi-provider API integrations that scale with their product and preserve team sanity in the process.",Simi Oluwatomi,deifilius1@gmail.com,Session,,27 May 2025 08:27 PM,28 May 2025 04:27 PM,Emerald Hall,19 Jul 2025 10:30 AM,25,,,85dcb8b2-73e1-4093-b5c3-a5907d11a195,Simi,Oluwatomi,deifilius1@gmail.com,Tech Lead | Software Developer | Cloud Developer | Community Builder,Simi Oluwatomi is a back-end developer with experience in the fintech and healthcare industry with a proven track record of designing and implementing scalable and secure software solutions that enable organizations to improve their operations and enhance their customers' experience.,https://x.com/simioluwatomi,https://www.linkedin.com/in/similoluwatomi,https://simioluwatomi.com/,https://sessionize.com/image/0332-400o400o1-pxWjThhGgQpJGt4uM7cXW8.jpg
+Beyond API Keys: Advanced Strategies for Securing Mobile API Integrations,"API security in mobile applications goes far beyond hiding API keys. Attackers can decompile apps, intercept network requests, and exploit vulnerabilities if security measures aren’t robust. This session explores advanced techniques for securing API integrations in mobile apps, including dynamic API key management, OAuth 2.0 best practices, mutual TLS authentication, certificate pinning, AES encryption for sensitive data, and runtime application self-protection (RASP). We’ll also discuss strategies to mitigate threats such as API abuse, unauthorized access, and reverse engineering.
+
+Attendees will walk away with practical strategies to implement resilient, secure, and attack-resistant API architectures for mobile applications.",Atuoha Anthony,atuohainitiatives@gmail.com,Session,Yes,27 May 2025 08:27 PM,27 May 2025 08:32 PM,Amber Hall,19 Jul 2025 11:20 AM,25,,,cb17af7d-78b2-44b9-b43f-cee228945054,Atuoha,Anthony,atuohainitiatives@gmail.com,Mobile Software Engineer,"Mobile Software Engineer specializing in Flutter/Dart, Kotlin (Jetpack Compose), Swift & SwiftUI, with a comprehensive background in web technologies. Skilled in designing, developing, and deploying software for Android, iOS, Web, and other platforms. Adept at collaborating effectively with cross-functional teams to create high-quality, scalable products.",https://twitter.com/atuohaa,https://linkedin.com/in/atuoha-anthony,https://sujimotonig.com,https://sessionize.com/image/5b61-400o400o1-UHMkrxpXctWhx5ybyTWDNJ.png
+Detecting threats and anomalies in API traffic with AI models.,"API security is a major concern, and adding AI makes it very current.",Alexander Garuba,alexandergaruba96@gmail.com,Session,,4 Jun 2025 06:55 AM,No,Emerald Hall,19 Jul 2025 11:20 AM,25,,,d6c8a7c0-e3a4-4c3b-b15a-317238b16c2a,Alexander,Garuba,alexandergaruba96@gmail.com,Money Africa CTO,"Alexander Garuba is a highly motivated and versatile full-stack developer with a proven track record of delivering robust, scalable, and maintainable software solutions. He has expertise in multiple programming languages and frameworks, including PHP, TypeScript, and JavaScript, and experience with various databases. Alexander is proficient in microservices architecture, employing SOLID principles, and writing testable code. Experienced in distributed systems (RabbitMQ, Redis) and cloud platforms (AWS, Kubernetes) with a focus on clean coding, problem-solving, and CI/CD.
+
+Alexander is currently the Chief Technology Officer at Money Africa in Lagos, Nigeria. He has also worked as a Senior Backend Engineer at commercetools in Berlin, Germany, and as an Application Engineer (Freelance) at AREA 17 in New York. He has also held Software Engineer positions at GENEO Software in Warwickshire, England, Reliance HMO in Lagos, Nigeria, and HotelsNG, also in Lagos. Alexander also has experience as a Software Engineer/Mentor (Freelance) at Decagon in Lagos, Nigeria",https://x.com/iamahless,https://linkedin.com/in/ahless,,https://sessionize.com/image/050a-400o400o1-3eX3BsEgEZVjeYjgdSE4Dy.jpg
+Detecting the Undetectable: Applying Merkle Trees and LLMs to Software Monitoring,"In 2019, Anthony Alaribe led a legacy service rewrite at Delivery Hero that went disastrously wrong when a single, overlooked field caused nearly $2 million in lost orders. 
+
+Determined to prevent such Incidents, Anthony dug into why these elusive bugs are so hard to detect automatically. In this retrospective and code dive, he shows how cryptographic techniques and LLM-powered analysis of logs and request payloads can reveal and track breaking changes once thought impossible to catch. 
+
+Expect a practical, story-driven session that walks you through the intuition—and the code—behind building a system to safeguard your software from similar costly surprises.",Anthony Alaribe,anthony@apitoolkit.io,Session,Yes,27 Mar 2025 02:25 PM,27 Mar 2025 03:47 PM,Ruby Hall,19 Jul 2025 11:20 AM,25,,,7dcc706d-900b-40c4-b42f-b30121752d8d,Anthony,Alaribe,anthony@apitoolkit.io,"Anthony Alaribe, Cofounder at APItoolkit","Anthony has spent over a decade building software at companies like Opera,
+Parity (Polkadot), and DeliveryHero. He has faced his fair share of dealing
+with Software incidences, downtime and breaking changes, including losing over $2m in
+orders to such issues at DeliveryHero, which prompted him to build
+APItoolkit.io, to help companies navigate their backend and API landscape.",https://twitter.com/tonialaribe/,https://www.linkedin.com/in/anthony-alaribe-293a41bb/,https://apitoolkit.io/,https://sessionize.com/image/9770-400o400o1-WfTyAJfTM7wuszUkyDrNdU.jpg
+Leveraging Subgraph APIs for Real-Time Blockchain Data,"In the evolving Web3 ecosystem, efficient data access is crucial for decentralized applications (dApps). Subgraph APIs provide a powerful solution for indexing and querying blockchain data, enabling developers to build highly responsive, real-time user interfaces.
+
+In this hands-on Workshop, attendees will learn how to:
+- Set up a Subgraph API to index blockchain data
+- Query blockchain events using GraphQL
+- How to build real-time dashboards for dApps using Next.js
+- Best practices for efficiently consuming Blockchain APIs
+
+By the end of this session, developers will have built a live Web3 dashboard that fetches, displays, and updates blockchain data in real-time.
+
+Who Should Attend?
+- Frontend & Full-Stack Developers building blockchain-integrated applications
+- Web3 Developers interested in efficient data querying
+- API Enthusiasts exploring GraphQL for blockchain data
+
+Why This Talk?
+Web3 developers often struggle with slow, inefficient on-chain data access. This session bridges the gap by teaching them how to use Subgraph APIs effectively to build scalable, high-performance Web3 applications.
+
+Agenda
+1. Introduction to Subgraph APIs - Why indexing matters in Web3
+2. Setting Up a Subgraph - Deploying on Blockchain Networks using The Graph
+3. GraphQL Basics - Querying blockchain transactions & smart contracts
+4. Building a Frontend UI - Connecting a Next.js app to a Subgraph API
+5. Rendering Real-Time Data - Fetching transfers, wallets & analytics
+6. Optimizing for Performance - Using polling, subscriptions & caching
+7. Wrap-up & Q/A",Emmanuel Odianosen,odia.emma@gmail.com,Workshop,,27 May 2025 08:27 PM,28 May 2025 07:59 AM,Amber Hall,19 Jul 2025 11:45 AM,45,,,e96b5855-1d51-4874-96a0-e43fe17f205b,Emmanuel,Odianosen,odia.emma@gmail.com,"Developer Relations, Somnia Blockchain.","Software Developer living in Lagos, Nigeria. Emmanuel works as a Developer Relations Engineer at Fuse Blockchain. A Developer Community organizer and Technical Writer, Emmanuel is keen on sharing practical technical knowledge to help other developers ramp up their web3 skills.",https://twitter.com/emma_odia,https://www.linkedin.com/in/emmaodia/,https://somnia.network,https://sessionize.com/image/7182-400o400o1-EPn5dRMaQUGB2KTZZTm4q.jpg
+"Powering Payments with ALATPay: Tools, APIs, and SDKs for Engineers",,API Conference Lagos,apiconferencelagos@gmail.com,Workshop,,No,No,Emerald Hall,19 Jul 2025 11:45 AM,45,,,3496254e-96f0-4595-af71-bd7c70b88af3,Adejoke  ,Haastrup,,"Developer Relations Lead, ALATPay ",,https://x.com/jastrup7,https://www.linkedin.com/in/haastrup-adejoke/,,https://sessionize.com/image/8488-400o400o1-GJEoxg3csB3jMhcFMDnrgk.jpg
+How Machines See:Build a product image search backend with Vision API Product Search,"How Machines See:Build a product image search backend with Vision API Product Search 
+
+https://developers.google.com/codelabs/build-product-search-backend#0 ",Buchi Michelle Okonicha,michelleokonicha@gmail.com,Workshop,,5 Jul 2025 11:40 AM,No,Ruby Hall,19 Jul 2025 11:45 AM,45,,,59a7c9d1-0743-41a3-8c8f-142b72fce3ee,Buchi Michelle,Okonicha,michelleokonicha@gmail.com,Software Engineer,"Buchi Michelle Okonicha is a software engineer, Google developer expert (GDE),  a Women Techmakers ambassador, and co-founder of Aricah. Her more than 34 articles can be found on dev.to, hashnode, medium, and tealfeed, and she also gives back through mentorship at various organizations like TCN women in tech program, sheCodeAfrica, and one-on-one with Buchi
+",https://twitter.com/mchelleOkonicha/,https://ng.linkedin.com/in/buchi-michelle-okonicha-0a3b2b194,https://www.landmarkafrica.com/,https://sessionize.com/image/d00b-400o400o1-n76v1Djn3KguQYU1hUsa9H.jpg
+How we monitor and maintain over 40 third party integrations at involve.me,This is a deep walk-through of how we monitor and maintain a lot of third-party integrations at involve.me that enables the AI-powered platform to help businesses turn website traffic into qualified leads. ,Paul Adams,adamsohiani@gmail.com,Lightning talk,No,4 Jun 2025 07:08 AM,4 Jun 2025 08:14 AM,Ruby Hall,19 Jul 2025 01:30 PM,10,,,fa429da3-63eb-4513-b41b-2863aa5e9d6f,Paul,Adams,adamsohiani@gmail.com,"Senior Integrations Engineer @ involve.me, Ex-CTO @ Selar.com","Paul Adams Ohiani is a Senior Software Developer with a passion for building scalable and impactful software.
+He works at involve.me, where he helps build the best interactive lead funnel platform. Previously, he served as CTO at Selar.co, leading the largest online e-commerce store builder in Africa.",https://twitter.com/iamadamspaul,https://www.linkedin.com/in/paul-adams-ohiani/,,https://sessionize.com/image/04bf-400o400o1-RP1vR6oHWKEKGvEQN6u4x4.jpg
+The Art and Science of Lovable API Documentation: Lessons from the Monnify Revamp,"Tired of developers struggling with your API documentation? Let's fix that! This session is a practical guide to creating API documentation that developers love to use. We'll cover actionable strategies for writing clear and concise content, structuring information for easy navigation, and incorporating interactive examples that bring your API to life. Learn how to leverage tools and techniques to improve the developer experience and build a thriving community around your API. Based on real-world experience and the successful revamp of Monnify's developer documentation, this talk will provide you with the tools and knowledge you need to create documentation that delights.
+
+Whether you're a seasoned API architect or a developer just starting out, you'll gain valuable insights to transform your documentation from a necessary evil to a powerful and loved resource.",Auwal MS,auwalforall@gmail.com,Session,,27 May 2025 08:27 PM,28 May 2025 12:42 AM,Emerald Hall,19 Jul 2025 01:40 PM,25,,,c81edb61-7959-4bf2-975a-380e1d0ea411,Auwal,MS,auwalforall@gmail.com,Software Engineering & Developer Relations,A software engineer with broad experience in software development covering multiple platforms. ,https://www.twitter.com/auwalms,https://www.linkedin.com/in/auwalms,https://monnify.com,https://sessionize.com/image/0e7e-400o400o1-61-7959-4bf2-975a-380e1d0ea411.b022f2c0-ddf9-4eaf-b594-04697046f112.JPG
+API-Driven Innovation: MyCover.ai’s Blueprint for Modernizing Insurance Ecosystems,"In an era where digital transformation is reshaping industries, the insurance sector is no exception. APIs (Application Programming Interfaces) have emerged as the backbone of innovation, enabling seamless integration, automation, and scalability. In this session, I will explore how MyCover.ai is leveraging API-driven solutions to modernize Africa’s insurance ecosystem—breaking down legacy barriers, enhancing customer experiences, and unlocking new business models.
+
+From frictionless policy issuance to real-time claims processing, discover how MyCover.ai’s API framework is empowering insurers, brokers, and fintech partners to operate with agility and efficiency. We’ll dive into real-world use cases, the challenges of digital adoption in emerging markets, and the future of insurance as an embedded, customer-centric service. The audience will learn how APIs aren’t just tools, but strategic assets for building the next generation of inclusive, tech-powered insurance.""
+
+Key Takeaways:
+
+The role of APIs in accelerating insurtech innovation.
+
+How MyCover.ai bridges gaps between traditional insurers and digital ecosystems.
+
+Practical insights on scalability, partnerships, and customer-centric design.
+
+The future of embedded insurance in Africa and beyond.",Oluwaseun Dabiri,dadsclement@gmail.com,Session,Yes,4 Jun 2025 09:39 PM,4 Jun 2025 11:08 PM,Amber Hall,19 Jul 2025 01:40 PM,25,,,dec7b594-bd29-4e72-b1a1-97fe4f73d051,Oluwaseun,Dabiri,dadsclement@gmail.com,"Product Architect | Product Manager, MyCover.ai","Oluwaseun is a multi-talented professional with expertise in both tech and the arts. With a background in computer science, software development, musicology, and music technology, he is passionate about building scalable and profitable products and has a strong commitment to community building and management.
+
+As a seasoned Product and Project Manager specializing in software project management, technical product management and product delivery, Oluwaseun excels in transforming innovative ideas into successful, market-ready products. His expertise spans the entire product lifecycle, from initial concept to final launch, ensuring alignment with user needs and business objectives.
+
+Currently, Oluwaseun works at MyCover.ai, an insurtech company dedicated to revolutionizing how Africans utilize and experience insurance. He plays a pivotal role in enabling innovators to seamlessly embed insurance into their existing offerings or launch new insurance verticals, driving product development and delivery in alignment with the company's vision of transforming the insurance landscape in Africa.
+
+In addition, Oluwaseun works with the Federal Ministry of Information, Communication, and Digital Economy, leading a federal initiative to train 3 million tech talents in Nigeria. Oluwaseun currently oversees this federal government initiative as the community manager for Ogun State.",https://x.com/dabsclement,https://www.linkedin.com/in/oluwaseun-dabiri/,https://mycover.ai,https://sessionize.com/image/581a-400o400o1-3SmhRuFoG1ALc4zoc4cCU7.jpg
+Scaling Payroll Across Africa,"Payroll is very central to work. Scaling anything is quite hard. Scaling across different markets is a lot of work. In this talk, I will be discussing lessons, challenges and ideas in which payment for workers can be scaled.
+
+In 2024, Africa is estimated to have around 1.48 billion people. Among these, there are about 482 million who are employed, and they need to be paid regularly.
+(monthly, weekly, annually etc).
+
+5 Personal Lessons I have learnt with Scaling Payroll
+
+1. Correctness Over Speed: Accuracy in calculations trumps rushing payments
+to avoid costly errors.
+2. Timely Payments Build Trust: Paying salaries on time enhances your
+company’s reputation.
+3. ERP Giants Are Skeptical: Big firms using Sage or Oracle are slow to trust new
+solutions and may undervalue your service.
+4. Embrace Customizations: Tailored solutions are expected—use them to differentiate your offering.
+5. It’s PAAS, Not SAAS: Payroll-as-a-Service means owning the client’s process,
+not just providing software.
+6. Shady Practices. Not necessarily illegal, more like skewed interpretations of
+the laws.
+
+Challenges
+1. Same-Day Payments Vary: Not all markets support instant transfers due to
+banking limitations.
+2. Changing Regulations: Tax, disability, and labor laws evolve frequently across
+countries.
+3. Local Nuances: Payroll calculations differ (e.g., Nigeria vs. Ethiopia).
+4. Multi-Currency Payments: Integrating with local payment bodies for diverse
+currencies is slow.
+5. Compliance Complexity: Ensuring adherence to local laws across markets.
+6. Customization Overload: Client-specific demands can strain resources.
+7. Expatriate Payments: Managing foreign employees adds regulatory and
+currency challenges.
+8. Shady Employees: Always scan code base for strange manipulations.
+
+Solutions
+1. APIs, APIs, APIs. You would need to integrate with local solutions, this might
+be the fastest way instead of building and scaling
+2. Monitor compliance and changing laws and respond quickly.
+3. Speed Matters. Optimize your code to process faster
+4. Have guardrails in your code and processes to prevent wrong payments from
+going out.
+
+",Favour Oriabure,thefavouroriabure@gmail.com,Session,,27 May 2025 08:27 PM,3 Jun 2025 04:58 PM,Ruby Hall,19 Jul 2025 01:40 PM,25,,,553171d5-c8b7-4512-8d5b-1c275d79f588,Favour,Oriabure,thefavouroriabure@gmail.com,Technical Architect - SeamlessHR,"Favour Oriabure is a seasoned professional with over 5 years of experience in the payroll space. He has played a key role in designing and scaling reliable payroll systems, and has successfully led cross-functional teams focused on payroll, payments, and credit solutions. Favour combines technical expertise with strategic leadership to deliver systems that are both robust and scalable.",https://x.com/home,https://www.linkedin.com/in/favour-oriabure/,,https://sessionize.com/image/083b-400o400o1-Ey92rTxsg5YWAW4YWn65m2.jpg
+How to design API Documentation that Technical & Non-technical Audience love,"Great API documentation is more than just reference material—it’s a bridge between developers, product managers, and business stakeholders. In this session, we’ll explore best practices for designing API documentation that caters to both technical and non-technical users. You’ll learn how to balance clarity with depth, structure content for different user needs, and incorporate visuals, tutorials, and interactive tools that enhance comprehension. We’ll also discuss common pitfalls, accessibility considerations, and how to leverage AI for dynamic documentation. Whether you're writing docs for developers, decision-makers, or end-users, this session will equip you with the tools to create documentation that is clear, engaging, and user-friendly.
+
+Who Should Attend?
+- Engineers responsible for documentation
+- Technical writers and content strategists
+- Product managers bridging technical and non-technical teams
+- UX designers focused on developer experience (DX)
+- Customer support and developer relations professionals",Mfonobong Umondia,umondiamfonobong@gmail.com,Session,Yes,4 Jun 2025 09:39 PM,5 Jun 2025 01:14 PM,Emerald Hall,19 Jul 2025 03:15 PM,25,,,600e4993-8228-47cf-a195-450293dbb54f,Mfonobong,Umondia,umondiamfonobong@gmail.com,Community Manager & Technical Writer ,"Mfonobong is a Community Manager with 6+ years of experience building, engaging, and scaling online communities, particularly in design and developer spaces. With a background in Product Design, she transitioned into community management, where she thrives in fostering connections, creating educational content, and driving engagement strategies.
+
+She has a strong track record of increasing engagement, launching brand-boosting initiatives, and writing insightful articles. As a skilled technical writer and programmer with Golang expertise, Mfonobong blends her technical knowledge with strategic community-building.",https://twitter.com/the_ladybella,https://www.linkedin.com/in/bellamfonobong/,,https://sessionize.com/image/0b51-400o400o1-a7jLJrwoSTi8qfU9PZNPgV.png
+"Mastering APIs as a Product Manager – Calling, Documenting, and Testing APIs","
+API literacy is important for all Product Managers, not just those building API-based products. While understanding APIs conceptually is useful, getting hands-on experience is just as crucial.  
+
+This practical workshop will help Product Managers learn how to interact with APIs, write clear documentation, and test API reliability—all without needing a technical background. By the end of the session, attendees will feel more confident working with APIs and collaborating with developers.  
+
+Key Takeaways of Workshop for PMs
+- Understand how to work with APIs—even without coding experience.  
+- Learn to write and review API documentation that developers can use easily.  
+- Ensure API reliability by testing and catching issues early.  
+- Communicate more effectively with engineers about API functionality and challenges.  
+",Aminat Fowoke Balogun,aminatbalogun00@gmail.com,Session,Yes,4 Jun 2025 06:55 AM,4 Jun 2025 10:19 AM,Amber Hall,19 Jul 2025 03:15 PM,25,,,da62c675-f62e-45a9-963d-9c12180670cc,Aminat Fowoke,Balogun,aminatbalogun00@gmail.com,"Technical Product Manager, Milsat Technologies","Aminat is a Technical Product Manager with over three years of experience in the geospatial industry, focused on redefining location intelligence in Africa. At Milsat, she has led the development of over five spatial solutions, supporting significant national projects such as the INEC 2023 elections, the upcoming 2030 census by the National Population Commission, and the Edo State economic profiling project with the World Bank.
+
+In collaboration with government agencies, she has helped leverage geospatial technology to solve real-world problems through innovative, impactful solutions. 
+Her background in software engineering and a degree in Computer Science from the University of Ilorin provide a solid foundation for effectively managing complex product development.
+
+She is also passionate about fostering inclusivity in the tech industry. She believes in the power of diverse teams and actively support initiatives to bring more people from different backgrounds into technology.",https://x.com/bhalow_meenat?mx=2,https://www.linkedin.com/in/aminatfowokebalogun/,https://www.milsat.africa/,https://sessionize.com/image/3893-400o400o1-Q5gS8UN9gTHWLgPMs36PCv.jpg
+Shaping the future of semiconductor manufacturing with GenAI,"Generative Artificial Intelligence is revolutionizing industrial decision-making by providing powerful new tools for complex problem-solving and data analysis. Technologies like Retrieval-Augmented Generation (RAG) and specialized models like Big GCVAE (Generalized-Controllable Variational AutoEncoder) are transforming how industries approach critical tasks such as failure analysis in semiconductor manufacturing.
+
+These AI systems excel at processing vast amounts of technical documentation and historical data to generate informed recommendations that closely mimic expert decision-making. By implementing context-aware RAG with asynchronous vector database searches, industries can achieve not only higher accuracy but also significant reductions in energy consumption, CO2 emissions, and operational costs compared to traditional approaches.
+
+The advantages extend beyond just efficiency. These systems enable companies to maintain institutional knowledge, reduce reliance on specialized expertise for routine decisions, and scale decision-making capabilities across complex operations. In sectors like energy, manufacturing, and semiconductors, where equipment failures can result in substantial losses, AI-powered decision support systems provide faster and more accurate root cause analysis.",Kenneth Ezukwoke,kennedyczar@gmail.com,Session,,28 May 2025 08:03 AM,28 May 2025 08:26 AM,Ruby Hall,19 Jul 2025 03:15 PM,25,,,cddbe480-9df3-47b1-8f7c-b8194aa48a67,Kenneth,Ezukwoke,kennedyczar@gmail.com,"Datategy, Lead Data Scientist-GenAI R&D"," Kenneth is a Lead Data Scientist (GenAI | LLM | Agent) at Datategy (🇫🇷), where I contribute to the development of the papAI-GenAI product. In this role, I am also actively engaged in computer vision projects, including Optical Character Recognition (OCR) and 2D-3D Pose Estimation.
+This comes after recently obtaining a Ph.D in Applied Mathematics-GenAI and Industrial Engineering from École Nationale Supérieure des Mines de Saint-Étienne (Department of Mathematics and Industrial Engineering, Institute Henri Fayol), working on Artificial Intelligence for Failure Analysis in Semiconductor Industry 4.0. An industrial collaboration with STMicroelectronics, Bosch, and Infineon AG under the FA4.0 EURIPIDES2-PENTA project.
+His Ph.D research focused on improving Generative Artificial intelligence via Probabilistic Graphical Modeling with Causal Large Language Models (LLMs), for decision-making during Failure Root Cause Analysis (FRCA). Advised by Professor Mireille Batton-Hubert, Professor Xavier Boucher (both from EMSE) and Pascal Gounet and Jerome Adrian (both Physical Failure Analyst Engineers, STMicroelectronics).
+
+More: https://kennedyczar.github.io",,https://www.linkedin.com/in/kenneth-ezukwoke-phd-4497b1155/,https://www.datategy.net,https://sessionize.com/image/d459-400o400o1-nAN3gaWXA6C14MFiNvsJB5.jpg
+Refactoring Legacy APIs with Domain-Driven Architecture,"Overview
+Many companies struggle with legacy APIs that are difficult to maintain, scale, or extend. They’re often tangled with business logic, hard to test, and resistant to change. This talk will focus on how Domain-Driven Architecture (DDA) helps untangle these systems by bringing clarity, modularity, and better domain modeling.
+
+Who This Is For
+This session is for software engineers or architects who work with legacy APIs and want a structured way to refactor them. If you’re dealing with monolithic APIs, struggling with unclear business logic, or planning to migrate to microservices, this talk will give you practical insights.
+
+What I will Cover in this talk
+- Identifying problems in legacy APIs that make them hard to maintain.
+- Key DDA concepts that help in refactoring (bounded contexts, aggregates, domain events).
+- A step-by-step approach to breaking down and refactoring an API without breaking existing consumers.
+- Real-world examples of refactoring APIs using DDA principles.
+
+What I Won’t Cover
+- A deep dive into specific frameworks or programming languages. The focus is on principles, not tools.
+- A complete rewrite strategy. This talk is about refactoring, not replacing your entire API.
+",Ijeoma Eti,ijayeti@gmail.com,Session,,4 Jun 2025 07:08 AM,4 Jun 2025 09:16 AM,Ruby Hall,19 Jul 2025 03:40 PM,25,,,dc5f8d48-00af-4d42-b62f-aed06a3ae23f,Ijeoma,Eti,ijayeti@gmail.com,Building Secure APIs,"Ijeoma is a backend engineer, where she focuses on building APIs and tackling complex technical challenges. She enjoys contributing to the open-source community, particularly with Layer5 Meshery. Outside of work, she likes to listen to podcasts and is currently learning German, always eager to expand her knowledge and skills.",https://x.com/EtiIjeoma,https://www.linkedin.com/in/ijeoma-eti,https://layer5.io,https://sessionize.com/image/977d-400o400o1-WE7pdDNDHqGxr9VSA75Weq.jpg
+Microservices Architecture 101: Principles and Best Practices,"Context:
+
+As a former software developer, now leading product manager, i have always been technical, and I have had to opportunity to experience this from both a ""developer"" and a ""products"" perspective. 
+
+Currently, I lead and manage one of the best indigenously built core banking platforms, Nerve at Kuda, one of Africa's biggest digital banks, and its being quite a ride.
+
+Guess what, Nerve as a complete system is made up of many powerful individual microservices working together to create magic. I have seen firsthand the power of complex systems powered and run by fine microservices. 
+
+This has informed my topic selection - Microservices Architecture: Principles and Best Practices. 
+
+Synopsis:
+
+In this session, I will  explore the fundamental concepts of microservices architecture, emphasizing its increased signficance in technical products development today. I would be highlighting the advantages of adopting microservices over monolithic architectures, while discussing key principles that guide effective microservices design. Finally, I will outline best practices for building and implementing a robust microservices architecture including the use of an API gateway. 
+
+By the end of the session, attendees will gain valuable insights into why microservices are important, and how they can transform and enhance agility, scalability, and maintainability in software systems. 
+
+Thank you",Glory Olamigoke,gvolamigoke@gmail.com,Session,Would be awesome. ,27 May 2025 08:27 PM,27 May 2025 08:39 PM,Emerald Hall,19 Jul 2025 03:40 PM,25,,,d189d5d5-587c-416a-98ed-0a45c2fb786e,Glory,Olamigoke,gvolamigoke@gmail.com,"Product Manager, Core Banking Platform, Kuda. (Also Founder, TekNexus Africa and Co-Founder Tech Revolution Africa)","Glory Olamigoke is a technology leader who has spent the last 7+ years building global products for startups while also driving impactful programs and initiatives across the African tech scene. Currently he manages and builds core banking products as Kuda, one of Africa’s biggest digital banks. 
+
+At Cleonify, he helped dozens of startups across Africa, US, UK, Europe and Canada build their brands and technical products, positioning them for successful launches to the market. 
+
+At TekNexus Africa, he is helping young African talents grow their skills and launch their tech careers through quality mentorship. TekNexus Africa has grown into a leading tech mentorship platform with a growing community of over 5000 African talents from 10+ countries. 
+
+He is driving innovation to the African tech ecosystem through Tech Revolution Africa, a top event that brings together the biggest African startups and enterprises to discuss Africa’s tech growth and development potential. 
+
+He has partnered with leading companies such as MTN, CChub, Tech Mahindra, PMI, Sterling Bank to execute some of his programs thereby amplifying his impact and reach. 
+
+As a global speaker, he loves sharing tech insights and has spoken at top tech platforms including No Code Tech Summit, Tech Summit Ogun, Nocode Africa Fest, Art of Technology Lagos, TechUnlock and more. He has also mentored talents, startups and entrepreneurs through top platforms such as MarkHack Startup incubation Hub, Product Lab, Savvy Global Fellowship For Entrpreneurs, TEF Entreprenurship program
+
+His work, programs and initiatives have been widely featured on media platforms such as TVC, Tech Cabal, Guardian, Business African Online, Business Day, Vanguard, Tekedia and others, while also receiving recognitions and awards from Techunock, Internpulse and more.
+
+He is passionate about growing the African tech ecosystem by building products that solve problems, raising quality talents and powering critical innovation conversations. 
+
+He loves to play the piano, read and write books as a published author, see action movies and travel.",https://x.com/sweettechguy,https://www.linkedin.com/in/olamigoke-glory/,https://gloryolamigoke.com,https://sessionize.com/image/05bd-400o400o1-waXdiAZSvaNoBToDjbfqwn.png
+Dart on the Server: Unlocking Full-Stack Potential,"Looking for a modern, efficient language for your next API project? This session spotlights Dart as a powerful yet underutilized server-side language that delivers exceptional performance and developer experience for API development.
+
+Discover how Dart's built-in async/await, strong typing, and robust standard library make it uniquely suited for creating reliable, maintainable APIs. We'll explore practical implementations using server frameworks like Shelf, demonstrate effective patterns for structuring API endpoints, and showcase how Dart's inherent strengths address common API development challenges.
+
+You'll learn how Dart enables rapid development cycles while maintaining type safety, see real-world examples of REST  implementations, and understand deployment strategies for production environments. Whether you're a backend engineer evaluating new technologies or an API architect seeking productivity gains, this talk provides valuable insights into how Dart can enhance your server-side development toolkit.",Jamiu Okanlawon,developerjamiu@gmail.com,Session,Yes,4 Jun 2025 06:55 AM,4 Jun 2025 06:56 AM,Amber Hall,19 Jul 2025 03:40 PM,25,,,6dd24965-b464-41b5-9901-037ff123c449,Jamiu,Okanlawon,developerjamiu@gmail.com,Mobile Engineer at OneRoof | Organizer of the FlutterBytes Conference,"Jamiu Okanlawon is a Mobile Engineer at OneRoof with 6 years of software engineering experience, including 4 years dedicated to building and deploying Flutter applications. He founded the FlutterBytes Community, an African-based group that helps beginners master the Flutter framework. Jamiu is the organizer of the FlutterBytes conference, the largest Flutter conference in Africa.",http://twitter.com/developerjamiu,http://linkedin.com/in/developerjamiu,,https://sessionize.com/image/fe6b-400o400o1-PNWJMi6rDGe9JvdqHJZ6yC.jpg
+API-first DevOps: Automating API deployments for speed and scale,"APIs are at the heart of modern applications, but deploying and managing them can get messy fast. In this session, we’ll talk about how an API-first approach can make DevOps smoother, cutting down on manual work and helping teams ship faster with fewer headaches. We’ll cover practical ways to automate deployments, integrate CI/CD, and scale APIs effortlessly.",Daniel Adeboye,adeboyed93@gmail.com,Session,,27 May 2025 08:27 PM,28 May 2025 08:34 AM,Emerald Hall,19 Jul 2025 04:05 PM,25,,,1ea46088-c4a4-464f-9220-9876901031ac,Daniel,Adeboye,adeboyed93@gmail.com,Developer Relations Engineer & Software Engineer.,"I am a Software Engineer, Technical Writer, and Developer Relations Engineer with over four years of proven experience helping developers and engineering teams build better software. I have contributed to and built products used by tens of thousands of developers worldwide.
+
+I built Gitsecure, an AI-powered security platform that detects, prioritizes, and fixes code and cloud vulnerabilities in real-time. Additionally, I created Wasps.dev, an AI code review tool seamlessly integrated into developers' IDEs, providing instant feedback to improve code quality.",https://twitter.com/AdeboyeDN,https://www.linkedin.com/in/adeboyedn/,https://northflank.com,https://sessionize.com/image/b965-400o400o1-7fGxH9EFFp3QBg4qzMC26g.jpg
+"Securing The Fort: API Gateway Architectures, and why they matter","Abstract:
+When building distributed systems, choosing the right API gateway architecture becomes critical for performance, security, and operational simplicity. In this session, we focus on the several patterns used to achieve this goal, focusing on Edge gateways (Nginx, Envoy, Traefik, etc). We’ll look at what they bring to the table, benchmark request latency, throughput, and resilience under load using a simple load tester with a Prometheus monitoring setup. We would also look into the sidecar architecture and when to use each pattern.]
+
+Key Takeaways:
+ - Performance trade-offs: Measured latency & resource overhead for edge vs. sidecar.
+- Security patterns: Implementing TLS termination, mutual-TLS, 
+and zero-trust in each model.
+- Operational impacts: Simplifying policy changes, versioning, and scaling.
+- Deployment recipes: Step-by-step for Envoy at the edge, Istio sidecars, and CI/CD integration.
+
+The session concludes with integrating this architecture with Kubernetes. Then we have a quick look at use cases: Uber, Netflix, and Amazon’s use of API gateways to serve their customers. 
+",Chukwuemeka Chukwurah,emekaemmanuel045@gmail.com,Session,Yes,27 May 2025 08:27 PM,28 May 2025 10:01 PM,Ruby Hall,19 Jul 2025 04:05 PM,25,,,3d37c86a-d735-435a-9ebc-8644628cf828,Chukwuemeka,Chukwurah,emekaemmanuel045@gmail.com,"Senior Software Engineer, Rocksteady Technologies","Chukwuemeka is a passionate Software Engineer with 7 years of experience building scalable and impactful software solutions. Specializing in distributed systems, Chukwuemeka has worked with leading tech companies like Risevest, delivering products that serve millions of users.
+
+A strong advocate for innovation and continuous learning, Chukwuemeka is also active in the tech community. He is currently one of the organizers of GDG Cloud Lagos and also mentors younger developers by organizing meetups and workshops.",https://x.com/@chukwurah__,https://linkedin.com/in/chukwuemekachukwurah,,https://sessionize.com/image/404a-400o400o1-pTSSquNwXhsZry5mRAtBUs.jpg
+Don’t Ask Me for Coffee — I’m a Teapot!,"HTTP 404? Classic. 500? We’ve all been there. But 418 — I’m a teapot? What started as a 1998 April Fools’ joke became a cult classic among developers, sparking debates, memes, and even a resistance movement when someone tried to delete it.
+
+In this lightning-fast, laugh-filled talk, we’ll uncover the quirky history of HTTP 418, its unexpected rise to fame, and why a “forbidden” teapot still holds a warm spot in the hearts of coders everywhere. You’ll leave with a smile — and maybe a new favorite status code.",Olayinka Atobiloye,hiqmatolayinka@gmail.com,Session,,No,No,Amber Hall,19 Jul 2025 04:05 PM,25,,,b0a0d0ff-0edd-47ea-9cee-f09f41f22cb8,Olayinka,Atobiloye,hiqmatolayinka@gmail.com,Software Engineer & GitHub Campus Expert,"Olayinka Atobiloye is a third-year Computer Engineering student at the University of Lagos, and she is also a GitHub Campus Expert and the Chair of Women in Engineering, Unilag. Her passion for software engineering stems from its ability to create solutions that have a direct positive impact on people's lives. In the past, she has had the opportunity to build impactful solutions through internships at companies like Goldman Sachs and GitHub.
+
+Additionally, Olayinka is passionate about volunteering and growing communities. As a GitHub Campus Expert, she hosts events like the GitHub Octernship Lagos, where students receive tips and insights into the GitHub Octernship program to help them accelerate their careers. As the current Women in Engineering Chair on her campus, she spearheads programs that improve the software engineering skills and employability of female students. These programs include seminars and mentoring sessions where female students can discuss with women in the industry and learn how to overcome challenges they may face in their early careers.
+
+Olayinka is committed to making a significant impact in software engineering and in her immediate community.",https://twitter.com/yinkaatobiloye,https://linkedin.com/in/olayinkaatobiloye,,https://sessionize.com/image/e1f1-400o400o1-83118dda-d1dd-4b7a-8bf3-467902a0dc55.jpg

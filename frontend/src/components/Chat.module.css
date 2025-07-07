@@ -83,21 +83,57 @@
   border-radius: 12px;
   max-width: 70%;
   line-height: 1.5;
+  word-wrap: break-word; /* Ensure long words break */
+  display: flex;
+  flex-direction: column;
+}
+
+.messageContent {
+  margin-bottom: 4px; /* Space between text and timestamp */
+}
+
+.timestamp {
+  font-size: 11px;
+  text-align: right;
+  opacity: 0.7;
 }
 
 .user {
-  background-color: #2F20BF;
+  background-color: rgb(47 32 191); /* User's preferred color */
   color: white;
   align-self: flex-end;
   border-bottom-right-radius: 2px;
 }
 
+.user .timestamp {
+  color: #e0e0e0;
+}
+
 .bot {
-  background-color: #f1f5f9;
+  background-color: #f0f4f8; /* Softer background */
   color: #1e293b;
   align-self: flex-start;
   border-bottom-left-radius: 2px;
+  /* white-space: pre-wrap; This was causing wrapping issues with lists */
+}
+
+.bot .timestamp {
+  color: #5a6e87;
+}
+
+.bot img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.bot pre {
   white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.bot ul, .bot ol {
+  padding-left: 20px;
 }
 
 .typing {
@@ -133,7 +169,7 @@
 .sendButton {
   padding: 10px;
   border: none;
-  background-color: #2F20BF;
+  background-color: rgb(47 32 191); /* User's preferred color */
   color: white;
   border-radius: 8px;
   margin-left: 8px;
@@ -147,5 +183,5 @@
 }
 
 .sendButton:hover {
-  background-color: #251999;
+  background-color: rgb(37, 25, 151); /* Darker shade of preferred color */
 } 

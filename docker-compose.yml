@@ -2,7 +2,8 @@ services:
   backend:
     build:
       context: .
-      dockerfile: docker/backend/Dockerfile
+      dockerfile: docker/Dockerfile
+      target: backend
     container_name: apiconf-agent-backend
     env_file:
       - .env
@@ -30,6 +31,26 @@ services:
     networks:
       - apiconf-network
     restart: unless-stopped
+
+  csv-updater:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: csv-updater
+    container_name: apiconf-csv-updater
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pgrep", "cron"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - apiconf-network
 
 networks:
   apiconf-network:

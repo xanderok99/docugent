@@ -11,6 +11,8 @@ class AgentRequest(BaseModel):
     user_id: Optional[str] = Field("anonymous", description="User identifier")
     session_id: Optional[str] = Field(None, description="Session identifier")
     context: Optional[Dict[str, Any]] = Field(None, description="Additional context")
+    timestamp: Optional[int] = Field(None, description="Unix ms timestamp of the user's message")
+    timezone_offset: Optional[int] = Field(None, description="User's timezone offset in minutes from UTC")
 
 class AgentResponse(BaseModel):
     """Response schema for agent interactions."""
@@ -24,6 +26,4 @@ class AgentResponse(BaseModel):
 class AgentStatus(BaseModel):
     """Agent status information."""
     status: str = Field(..., description="Agent status")
-    model: str = Field(..., description="Model being used")
-    tools_available: int = Field(..., description="Number of available tools")
     uptime: str = Field(..., description="Agent uptime") 

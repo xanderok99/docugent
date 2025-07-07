@@ -10,7 +10,7 @@ import time
 from app.config.logger import Logger
 from app.schemas.base import SuccessResponseSchema, ErrorResponseSchema
 from app.schemas.agents import AgentRequest, AgentResponse, AgentStatus
-from app.agents.apiconf_agent import process_user_message
+from app.agents.agent_api import process_user_message, get_agent_status
 from app.config.settings import settings
 
 router = APIRouter()
@@ -38,7 +38,9 @@ async def chat_with_agent(
         result = await process_user_message(
             user_input=request.message,
             user_id=request.user_id,
-            session_id=request.session_id
+            session_id=request.session_id,
+            timestamp=request.timestamp,
+            timezone_offset=request.timezone_offset
         )
         
         if not result.get("success"):
@@ -81,16 +83,23 @@ async def chat_with_agent(
     summary="Get agent status",
     description="Get the current status of the AI agent"
 )
-async def get_agent_status():
+async def get_agent_status_endpoint():
     """Get the current status of the AI agent."""
     try:
+        # Get status from agent
+        agent_status = get_agent_status()
+        
+        if agent_status.get("status") == "error":
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail="Failed to get agent status"
+            )
+        
         uptime_seconds = time.time() - startup_time
         uptime_hours = uptime_seconds / 3600
         
         status_data = AgentStatus(
-            status="operational",
-            model=settings.google_model_name,
-            tools_available=11,  # Number of tools we have
+            status=agent_status.get("status", "operational"),
             uptime=f"{uptime_hours:.1f} hours"
         )
         
@@ -99,6 +108,8 @@ async def get_agent_status():
             message="Agent status retrieved successfully"
         )
         
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Error getting agent status: {e}")
         raise HTTPException(

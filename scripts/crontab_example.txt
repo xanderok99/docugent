@@ -1,0 +1,20 @@
+# Example crontab configuration for CSV updates
+# Add this to your crontab with: crontab -e
+
+# Update CSV data daily at 6:00 AM
+0 6 * * * /path/to/your/project/scripts/run_csv_update.sh
+
+# Update CSV data every 6 hours (for more frequent updates)
+# 0 */6 * * * /path/to/your/project/scripts/run_csv_update.sh
+
+# Update CSV data on weekdays only at 8:00 AM
+# 0 8 * * 1-5 /path/to/your/project/scripts/run_csv_update.sh
+
+# Alternative: Update CSV data every 2 hours during conference days (July 18-19, 2025)
+# 0 */2 18-19 7 * /path/to/your/project/scripts/run_csv_update.sh
+
+# Notes:
+# - Replace /path/to/your/project with the actual path to your project
+# - Make sure the script has execute permissions: chmod +x scripts/run_csv_update.sh
+# - Check logs in the logs/ directory for any issues
+# - The script will create backups of the existing CSV file before updating 

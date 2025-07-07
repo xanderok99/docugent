@@ -2,7 +2,7 @@
 name = "apiconf-agent"
 version = "0.1.0"
 description = "AI Agent for API Conference Community Support"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Claret greyisheep@gmail.com"]
 readme = "README.md"
 packages = [{include = "app"}]
 

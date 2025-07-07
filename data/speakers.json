@@ -1,494 +1,1099 @@
 {
   "speakers": [
     {
-      "id": "speaker_001",
-      "name": "Mehdi Medjaoui",
-      "title": "Author of continuous API management",
-      "company": "APIDAYS",
-      "bio": "Founder of APIDAYS and author of continuous API management. Leading expert in API strategy and management.",
-      "topics": ["API Management", "API Strategy", "Continuous API Management"],
-      "social_links": {},
-      "sessions": ["session_001"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_002",
-      "name": "Michael Owolabi",
-      "title": "CTO",
-      "company": "Spleet",
-      "bio": "Chief Technology Officer at Spleet, leading technology strategy and development.",
-      "topics": ["Technology Strategy", "CTO Leadership", "Startup Technology"],
-      "social_links": {},
-      "sessions": ["session_002"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_003",
+      "id": "ce9cdf48-cb8a-4f3c-9168-96bfc4d02f95",
       "name": "Chisom Uma",
-      "title": "Technical Writer and Marketing Manager",
-      "company": "Hamari Labs",
-      "bio": "Technical writer and marketing manager at Hamari Labs, specializing in developer documentation and marketing.",
-      "topics": ["Technical Writing", "Developer Marketing", "Documentation"],
-      "social_links": {},
-      "sessions": ["session_003"],
+      "title": "Technical Writer and Marketing Manager at Hamari Labs",
+      "company": "https://hamari.agency/",
+      "bio": "Chisom Uma is a seasoned Technical Writer and Documentation engineer with over 3 years of experience bridging the gap between complex technical systems and the developers or end-users who implement them. \n\nA passionate advocate for documentation as a product, Chisom regularly contributes to open-source documentation projects. He is an open-source docs contributor at NGINX and an open-source maintainer.",
+      "profile_picture": "https://sessionize.com/image/1421-400o400o1-VyGD8PvnDmdHDsvHxh5cyw.jpg",
+      "company_website": "https://hamari.agency/",
+      "topics": [
+        "Documentation",
+        "How",
+        "OpenAPI",
+        "Testing",
+        "Tools"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/chisom-uma-36187a236/"
+      },
+      "sessions": [
+        "session_001"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_004",
-      "name": "Ademola Adelekan",
-      "title": "Head of DevOps Engineering",
-      "company": "Interswitch (INDECO)",
-      "bio": "Head of DevOps Engineering at Interswitch, leading infrastructure and deployment strategies.",
-      "topics": ["DevOps", "Infrastructure", "Engineering Leadership"],
-      "social_links": {},
-      "sessions": ["session_004"],
+      "id": "4cebc013-9784-4889-a1f1-23d6cfb4464c",
+      "name": "Michael Owolabi",
+      "title": "CTO at Spleet",
+      "company": "https://spleet.africa",
+      "bio": "Michael is an experienced Software Engineer who is result-oriented and passionate about developing innovative solutions to business problems. He is well-versed in Agile workflow and has a proven record of developing viable solutions that deliver a great user experience. Having 5+ years of experience, he has been able to help companies cut costs and increase revenue by improving software processes internally and on the customer-facing side. Michael is an excellent communicator with exceptional team skills. He also writes technical articles to make the learning process easier for others. Other than Software-Engineering He is also passionate about charity and human rights (#EducationForAll) and currently volunteers with the United Nations.",
+      "profile_picture": "https://sessionize.com/image/aef2-400o400o1-XwrGwNyHhV8C15Ve9hjp9A.png",
+      "company_website": "https://spleet.africa",
+      "topics": [
+        "Building"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/iMichaelOwolabi",
+        "linkedin": "https://www.linkedin.com/in/imichaelowolabi/"
+      },
+      "sessions": [
+        "session_002"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_005",
-      "name": "Echezona Agubata",
-      "title": "CTO",
-      "company": "Coronation Merchant Bank",
-      "bio": "Chief Technology Officer at Coronation Merchant Bank, driving digital transformation in financial services.",
-      "topics": ["Fintech", "Digital Transformation", "Banking Technology"],
-      "social_links": {},
-      "sessions": ["session_005"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_006",
+      "id": "84d9505e-cd27-4c64-88d3-57b4e5ca87d1",
       "name": "Daniel Benjamin",
       "title": "Software Engineer",
-      "company": "Freelance",
-      "bio": "Experienced software engineer with expertise in modern development practices.",
-      "topics": ["Software Engineering", "Development", "Best Practices"],
-      "social_links": {},
-      "sessions": ["session_006"],
+      "company": "",
+      "bio": "Daniel is a fun guy that occasionally build software.",
+      "profile_picture": "https://sessionize.com/image/bad6-400o400o1-WssGKbHqTRuemL46LfcGo1.jpg",
+      "company_website": "",
+      "topics": [
+        "Attendees",
+        "Cloudflare",
+        "Durable",
+        "Objects",
+        "Whether"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/papidb",
+        "linkedin": "https://www.linkedin.com/in/benjamin-daniel/"
+      },
+      "sessions": [
+        "session_003"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_007",
-      "name": "Daniel Anomfueme",
-      "title": "Founder, DeSci Africa; Community Builder, VitaDAO",
-      "company": "DeSci Africa / VitaDAO",
-      "bio": "Founder of DeSci Africa and community builder at VitaDAO, leading decentralized science initiatives.",
-      "topics": ["DeSci", "Blockchain", "Community Building", "Decentralized Science"],
-      "social_links": {},
-      "sessions": ["session_007"],
+      "id": "354dda74-4915-49a2-8999-dde7c90de1b6",
+      "name": "Sikiru Abidemi Tiamiyu",
+      "title": "Software Engineer",
+      "company": "",
+      "bio": "Tiamiyu Sikiru Abidemi is a seasoned Software Engineer with extensive experience in web and mobile development. He is highly skilled in crafting robust user interfaces, implementing responsive designs, and debugging complex applications.\n\nHis expertise encompasses:\n * Building web apps\n * Mobile Development\n * Technical Leadership\n\nTiamiyu is also a Lead Organizer for Google Developers Group (GDG) Ibadan, actively contributing to the tech community and sharing knowledge on emerging web technologies.\n",
+      "profile_picture": "https://sessionize.com/image/7c4c-400o400o1-1fda4f02-06c6-4a6c-a300-3c5c48262ecd.jpg",
+      "company_website": "",
+      "topics": [],
+      "social_links": {
+        "twitter": "https://x.com/eeskay01",
+        "linkedin": "https://www.linkedin.com/in/tiamiyu-sikiru-abidemi"
+      },
+      "sessions": [
+        "session_004"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_008",
-      "name": "Nelson Isioma",
-      "title": "Technical Writer",
-      "company": "PHPArch",
-      "bio": "Technical writer at PHPArch and organizer of PHPxLagos, passionate about PHP and developer communities.",
-      "topics": ["PHP", "Technical Writing", "Community Building", "Developer Relations"],
-      "social_links": {},
-      "sessions": ["session_008"],
+      "id": "a738497b-82c7-4a8c-a791-b9b70fff6bd0",
+      "name": "Echezona Agubata",
+      "title": "Fanatic Zero",
+      "company": "",
+      "bio": "Echezona Agubata is the Chief Technology Officer (CTO) at the Coronation Merchant Bank of Nigeria. He develops and drives the execution of IT Strategy, leads the Technology teams in aligning the IT ecosystem with the business strategy. He is also a board advisory for Technology leverage for strategic business growth. He is known in the Nigeria Tech and Banking industry as Eche.\nPreviously, Eche served as Head of IT Governance and Strategy at Union Bank of Nigeria as well as the Chief Technology Officer of Guaranty Trust Pension and Fund Managers and also at different times as Head of IT Infrastructure, Head of IT Relationship Management and Head of IT Digital Channels at Guaranty Trust Bank.\nHe is a strong advocate and strategist for Zero Downtime, Simplified innovation and Fanatic support processes in the places he has worked. He has also played critical roles in several innovations and implementations within the industry. He is very passionate about strategy execution and IT performance. Through his career, he has amassed experience and provides consult in IT Strategy, IT service management, IT Service Delivery and IT Governance",
+      "profile_picture": "https://sessionize.com/image/fea9-400o400o1-VrYfj95QGvT8vAhjpM84wa.jpg",
+      "company_website": "",
+      "topics": [
+        "Short"
+      ],
+      "social_links": {
+        "linkedin": "https://ng.linkedin.com/in/echezona-agubata"
+      },
+      "sessions": [
+        "session_005"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_009",
-      "name": "Kimberly Samugana",
-      "title": "API Partnership Manager",
-      "company": "MyCover.ai",
-      "bio": "API Partnership Manager at MyCover.ai, specializing in API partnerships and integrations.",
-      "topics": ["API Partnerships", "Business Development", "Insurance Technology"],
-      "social_links": {},
-      "sessions": ["session_009"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_010",
-      "name": "Paul Adams",
-      "title": "Senior Integrations Engineer",
-      "company": "involve.me",
-      "bio": "Senior Integrations Engineer at involve.me, expert in API integrations and platform development.",
-      "topics": ["API Integrations", "Platform Development", "Engineering"],
-      "social_links": {},
-      "sessions": ["session_010"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_011",
-      "name": "Daniel Adeboye",
-      "title": "Developer Relations Engineer & Software Engineer",
-      "company": "Freelance",
-      "bio": "Developer Relations Engineer and Software Engineer, bridging the gap between developers and platforms.",
-      "topics": ["Developer Relations", "Software Engineering", "Community Building"],
-      "social_links": {},
-      "sessions": ["session_011"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_012",
+      "id": "31b2e7e8-5e69-4c0f-8a16-ab542469c249",
       "name": "Olakunle Dosunmu",
-      "title": "Senior Backend Engineer",
+      "title": "Senior Backend Engineer at ETranzact Global ",
       "company": "ETranzact Global",
-      "bio": "Senior Backend Engineer at ETranzact Global, specializing in payment systems and backend architecture.",
-      "topics": ["Backend Engineering", "Payment Systems", "Architecture"],
-      "social_links": {},
-      "sessions": ["session_012"],
+      "bio": "Olakunle Dosunmu is an experienced software engineer with 8+ years of expertise in building scalable APIs and microservices. He specializes in lean architecture and high-performance backend systems, ensuring efficiency and reliability.\n\nCurrently, he works at Etranzact Global, where he leads the development of fintech products that power digital payments across Africa. His work enables seamless financial transactions, driving financial inclusion and innovation in the fintech space.",
+      "profile_picture": "https://sessionize.com/image/33cf-400o400o1-HGGzsyjUH6KBnQzYvYu88D.jpg",
+      "company_website": "",
+      "topics": [
+        "Autonomous",
+        "They"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/OlakunleDosunmu/",
+        "linkedin": "https://www.linkedin.com/in/olakunledosunmu/"
+      },
+      "sessions": [
+        "session_006"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_013",
-      "name": "Betty Alagwu",
-      "title": "Full stack Software Engineer",
-      "company": "Mono",
-      "bio": "Full stack Software Engineer at Mono, building comprehensive financial technology solutions.",
-      "topics": ["Full Stack Development", "Fintech", "Software Engineering"],
-      "social_links": {},
-      "sessions": ["session_013"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_014",
-      "name": "Abimbola Bajomo",
-      "title": "Lead Product Manager",
-      "company": "Remita Payment Services Limited",
-      "bio": "Lead Product Manager at Remita Payment Services Limited, driving product strategy in payment solutions.",
-      "topics": ["Product Management", "Payment Solutions", "Product Strategy"],
-      "social_links": {},
-      "sessions": ["session_014"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_015",
-      "name": "Justice Anaba",
-      "title": "Brand Product Designer",
-      "company": "SeamlessHR",
-      "bio": "Brand Product Designer at SeamlessHR, creating user-centered design solutions for HR technology.",
-      "topics": ["Product Design", "UX/UI", "HR Technology", "Brand Design"],
-      "social_links": {},
-      "sessions": ["session_015"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_016",
-      "name": "Pratham Kumar",
-      "title": "Developer Relations Manager",
-      "company": "APILayer",
-      "bio": "Developer Relations Manager at APILayer, fostering developer communities and API adoption.",
-      "topics": ["Developer Relations", "API Adoption", "Community Building"],
-      "social_links": {},
-      "sessions": ["session_016"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_017",
-      "name": "Joshua Onyeuche",
-      "title": "Software Engineer",
-      "company": "Emergency Response Africa",
-      "bio": "Software Engineer at Emergency Response Africa, building technology solutions for emergency response.",
-      "topics": ["Software Engineering", "Emergency Response", "Social Impact"],
-      "social_links": {},
-      "sessions": ["session_017"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_018",
-      "name": "Nwaamaka Iduwe",
-      "title": "Business Intelligence Analyst",
-      "company": "Freelance",
-      "bio": "Business Intelligence Analyst, transforming data into actionable insights for business decisions.",
-      "topics": ["Business Intelligence", "Data Analytics", "Business Strategy"],
-      "social_links": {},
-      "sessions": ["session_018"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_019",
-      "name": "Mustapha Rufai",
-      "title": "Software Engineer",
-      "company": "Freelance",
-      "bio": "Software Engineer with expertise in modern development practices and technologies.",
-      "topics": ["Software Engineering", "Development", "Technology"],
-      "social_links": {},
-      "sessions": ["session_019"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_020",
-      "name": "Ibiniyi Obikoya",
-      "title": "Tech Lead",
-      "company": "Korapay",
-      "bio": "Tech Lead at Korapay, leading technical teams and driving innovation in payment technology.",
-      "topics": ["Tech Leadership", "Payment Technology", "Team Leadership"],
-      "social_links": {},
-      "sessions": ["session_020"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_021",
-      "name": "Simi Oluwatomi",
-      "title": "Tech Lead | Software Developer | Cloud Developer | Community Builder",
-      "company": "Freelance",
-      "bio": "Multi-faceted tech professional serving as Tech Lead, Software Developer, Cloud Developer, and Community Builder.",
-      "topics": ["Tech Leadership", "Cloud Development", "Community Building", "Software Development"],
-      "social_links": {},
-      "sessions": ["session_021"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_022",
-      "name": "Atuoha Anthony",
-      "title": "Mobile Software Engineer",
-      "company": "Freelance",
-      "bio": "Mobile Software Engineer specializing in mobile application development and user experience.",
-      "topics": ["Mobile Development", "Software Engineering", "User Experience"],
-      "social_links": {},
-      "sessions": ["session_022"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_023",
-      "name": "Alexander Garuba",
-      "title": "CTO",
-      "company": "Money Africa",
-      "bio": "Chief Technology Officer at Money Africa, driving financial technology innovation and strategy.",
-      "topics": ["Fintech", "Technology Strategy", "Financial Innovation"],
-      "social_links": {},
-      "sessions": ["session_023"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_024",
-      "name": "Anthony Alaribe",
-      "title": "Cofounder",
-      "company": "APItoolkit",
-      "bio": "Cofounder of APItoolkit, building tools and solutions for API development and management.",
-      "topics": ["API Development", "API Management", "Startup Leadership"],
-      "social_links": {},
-      "sessions": ["session_024"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_025",
-      "name": "Auwal MS",
-      "title": "Software Engineering & Developer Relations",
-      "company": "Freelance",
-      "bio": "Software Engineer and Developer Relations professional, bridging technology and community building.",
-      "topics": ["Software Engineering", "Developer Relations", "Community Building"],
-      "social_links": {},
-      "sessions": ["session_025"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_026",
-      "name": "Oluwaseun Dabiri",
-      "title": "Product Architect | Product Manager",
-      "company": "MyCover.ai",
-      "bio": "Product Architect and Product Manager at MyCover.ai, designing and managing insurance technology products.",
-      "topics": ["Product Architecture", "Product Management", "Insurance Technology"],
-      "social_links": {},
-      "sessions": ["session_026"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_027",
-      "name": "Favour Oriabure",
-      "title": "Technical Architect",
-      "company": "SeamlessHR",
-      "bio": "Technical Architect at SeamlessHR, designing scalable technology solutions for HR platforms.",
-      "topics": ["Technical Architecture", "HR Technology", "Scalable Solutions"],
-      "social_links": {},
-      "sessions": ["session_027"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_028",
-      "name": "Glory Olamigoke",
-      "title": "Product Manager, Core Banking Platform",
-      "company": "Kuda",
-      "bio": "Product Manager for Core Banking Platform at Kuda, also Founder of TekNexus Africa and Co-Founder of Tech Revolution Africa.",
-      "topics": ["Core Banking", "Product Management", "Fintech", "Community Building"],
-      "social_links": {},
-      "sessions": ["session_028"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_029",
-      "name": "Kenneth Ezukwoke",
-      "title": "Lead Data Scientist-GenAI R&D",
-      "company": "Datategy",
-      "bio": "Lead Data Scientist for GenAI R&D at Datategy, driving innovation in generative AI and data science.",
-      "topics": ["Data Science", "Generative AI", "Machine Learning", "R&D"],
-      "social_links": {},
-      "sessions": ["session_029"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_030",
-      "name": "Mfonobong Umondia",
-      "title": "Community Manager & Technical Writer",
-      "company": "Freelance",
-      "bio": "Community Manager and Technical Writer, fostering developer communities and creating technical content.",
-      "topics": ["Community Management", "Technical Writing", "Developer Communities"],
-      "social_links": {},
-      "sessions": ["session_030"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_031",
-      "name": "Aminat Fowoke Balogun",
-      "title": "Technical Product Manager",
-      "company": "Milsat Technologies",
-      "bio": "Technical Product Manager at Milsat Technologies, driving product strategy in satellite and technology solutions.",
-      "topics": ["Technical Product Management", "Satellite Technology", "Product Strategy"],
-      "social_links": {},
-      "sessions": ["session_031"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_032",
-      "name": "Chukwuemeka Chukwurah",
-      "title": "Senior Software Engineer",
-      "company": "Rocksteady Technologies",
-      "bio": "Senior Software Engineer at Rocksteady Technologies, building robust and scalable software solutions.",
-      "topics": ["Software Engineering", "Scalable Solutions", "Technology Development"],
-      "social_links": {},
-      "sessions": ["session_032"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_033",
-      "name": "Ijeoma Eti",
-      "title": "Backend Engineer",
-      "company": "Freelance",
-      "bio": "Backend Engineer specializing in server-side development and API design.",
-      "topics": ["Backend Engineering", "API Design", "Server Development"],
-      "social_links": {},
-      "sessions": ["session_033"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_034",
+      "id": "c002da21-9e37-480c-ae3e-62dbe7f6161c",
       "name": "Olamide Ilori",
-      "title": "Lead Frontend Engineer",
-      "company": "Prospa YC (W21)",
-      "bio": "Lead Frontend Engineer at Prospa, Y Combinator W21 company, building user-facing applications.",
-      "topics": ["Frontend Engineering", "User Experience", "Startup Technology"],
-      "social_links": {},
-      "sessions": ["session_034"],
+      "title": "Lead Frontend Engineer - Prospa YC (W21)",
+      "company": "https://getprospa.com",
+      "bio": "Olamide Ilori is a Frontend Engineer with experience building high-quality, user-centred applications. Passionate about creating impactful digital experiences, Olamide specializes in writing scalable code, optimizing performance, and delivering solutions that drive business growth.\n\nBeyond coding, Olamide Ilori is an experienced technical mentor and has sat on interview panels, helping to recruit and assess Software Engineering and QA talent. With a knack for fostering collaboration and sharing knowledge, Olamide has spoken at tech conferences and led workshops and training sessions to empower teams and individuals in the tech space.",
+      "profile_picture": "https://sessionize.com/image/0342-400o400o1-h8j9isbEvjeMFVi73rc2th.png",
+      "company_website": "https://getprospa.com",
+      "topics": [
+        "Best",
+        "Considerable",
+        "How",
+        "Key",
+        "More"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/dev_lammy",
+        "linkedin": "https://www.linkedin.com/in/emmanuel-olamide-ilori/"
+      },
+      "sessions": [
+        "session_007"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_035",
-      "name": "Jamiu Okanlawon",
-      "title": "Mobile Engineer",
-      "company": "OneRoof",
-      "bio": "Mobile Engineer at OneRoof and Organizer of the FlutterBytes Conference, specializing in mobile development.",
-      "topics": ["Mobile Development", "Flutter", "Community Building", "Conference Organization"],
-      "social_links": {},
-      "sessions": ["session_035"],
+      "id": "5c7ba387-f767-4a95-833e-af3ac1a8d3da",
+      "name": "Betty Alagwu",
+      "title": "Full stack Software Engineer at Mono",
+      "company": "https://mono.co/",
+      "bio": "Full stack software engineer at Mono, the fintech Plaid for African businesses. 3 years of professional software engineering experience, open source enthusiast, and previously a product manager for an open source startup.\n\n",
+      "profile_picture": "https://sessionize.com/image/e3fb-400o400o1-JcvDcEKDz7RUuFfHGRwSj8.jpg",
+      "company_website": "https://mono.co/",
+      "topics": [
+        "Financial",
+        "How",
+        "Kubernetes",
+        "Mono",
+        "Real"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/bettyalagwu",
+        "linkedin": "https://linkedin.com/in/bettyalagwu"
+      },
+      "sessions": [
+        "session_008"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_036",
-      "name": "Kenechukwu Ozordi",
-      "title": "Software Engineer",
-      "company": "GTBank",
-      "bio": "Software Engineer at GTBank, building technology solutions for banking and financial services.",
-      "topics": ["Software Engineering", "Banking Technology", "Financial Services"],
-      "social_links": {},
-      "sessions": ["session_036"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_037",
+      "id": "36433464-33e6-4341-88af-b6cf56cf1357",
       "name": "Favour Onuoha",
-      "title": "Senior Developer Relations Engineer",
-      "company": "Swing Finance",
-      "bio": "Senior Developer Relations Engineer at Swing Finance, fostering developer communities and API adoption.",
-      "topics": ["Developer Relations", "API Adoption", "Community Building"],
-      "social_links": {},
-      "sessions": ["session_037"],
+      "title": "Senior Developer Relations Engineer at Swing Finance",
+      "company": "http://swing.xyz/",
+      "bio": "I am a Senior Developer Relations Engineer at Swing Finance with over 6 years of professional experience in the tech ecosystem. I'm also a Content Creator at X, Technical Writer at FreeCodeCamp, and a Fullstack Blockchain Developer",
+      "profile_picture": "https://sessionize.com/image/a051-400o400o1-XbkZrXFQt34fN7tToqmD14.png",
+      "company_website": "http://swing.xyz/",
+      "topics": [
+        "Architecture",
+        "Audience",
+        "Augmented",
+        "Backend",
+        "Building"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/heyOnuoha",
+        "linkedin": "http://linkedin.com/feed/"
+      },
+      "sessions": [
+        "session_009"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_038",
+      "id": "de6665dd-1fd4-4037-8084-e625bbba490c",
       "name": "Oluwatimilehin Samuel Alapakristi",
-      "title": "Senior Software Engineer",
+      "title": "Senior Software Engineer @ OnePipe.io",
       "company": "OnePipe.io",
-      "bio": "Senior Software Engineer at OnePipe.io, building financial technology infrastructure and solutions.",
-      "topics": ["Software Engineering", "Fintech Infrastructure", "Technology Solutions"],
-      "social_links": {},
-      "sessions": ["session_038"],
+      "bio": "With many years of extensive experience in software design and development spanning diverse sectors including Fintech, EdTech, Health Tech, eCommerce, and Logistics, I have consistently demonstrated expertise in leading engineering teams. My proven track record includes spearheading projects from conception to implementation, resulting in the delivery of cutting-edge solutions that enhance business efficiency.\n\nAs a result-driven and product-focused engineer, I excel in solving complex challenges and driving tangible outcomes. With strong interpersonal skills, I effectively collaborate with cross-functional teams to achieve project objectives. \n\nI am deeply committed to continuous learning and believe in the power of deliberate practice to refine and expand my skills. I am also dedicated to delivering excellence in every aspect of my work, and I thrive in dynamic environments where innovation is encouraged and valued.",
+      "profile_picture": "https://sessionize.com/image/ddda-400o400o1-H9njas5S5sVpQm2d55gdvW.jpg",
+      "company_website": "",
+      "topics": [
+        "Answers",
+        "Audience",
+        "Banking",
+        "Benefits",
+        "Best"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/samalapsy",
+        "linkedin": "https://www.linkedin.com/in/samalapsy/"
+      },
+      "sessions": [
+        "session_010"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_039",
+      "id": "c8f78748-06b6-4210-ae7a-634fcc90fb2d",
       "name": "Funke Olasupo",
-      "title": "Technical Writer",
-      "company": "Rocket.Chat",
-      "bio": "Technical Writer at Rocket.Chat, creating documentation and content for collaboration platforms.",
-      "topics": ["Technical Writing", "Documentation", "Collaboration Platforms"],
-      "social_links": {},
-      "sessions": ["session_039"],
+      "title": "Technical Writer, Rocket.Chat",
+      "company": "https://www.rocket.chat/",
+      "bio": "Funke is a seasoned technical writer with a proven track record of producing clear user and developer   focused technical documentation. \n\nHer background in secure communication & collaboration, developer products and fintech has equipped her with the skills necessary to thrive in documenting various sectors. \n\nFrom developing comprehensive user guides and API documentation to crafting engaging tutorials and online help systems, she is adept at translating complex technical concepts into easily understandable content for diverse audiences.\n\nShe currently works at Rocket.Chat as a Technical Writer. In the past , she has worked with OpenFoodFacts and Macrometa.. She is also consistently contributing to the knowledge base of companies like Twillio, Honeybadger and ButterCMS through back-end engineering articles and tutorials.\n\nWhen she’s not producing documentation, she’s co-organising developer and women-in-tech conferences across her region through the Google Developer Groups and Women Techmakers Ambassador program .",
+      "profile_picture": "https://sessionize.com/image/40bf-400o400o1-SF1tsYnBuGx46FjM2Pbwc.jpg",
+      "company_website": "https://www.rocket.chat/",
+      "topics": [
+        "Attendees",
+        "Avoid",
+        "Balance",
+        "But",
+        "Enforce"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/OlasupoFunke",
+        "linkedin": "https://www.linkedin.com/in/olasupofunke/"
+      },
+      "sessions": [
+        "session_011"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_040",
+      "id": "194302b8-82f8-424e-8036-572a3382f349",
+      "name": "Daniel Anomfueme",
+      "title": "Founder DeSci Africa, Community Builder VitaDAO",
+      "company": "https://dan-el.xyz/",
+      "bio": "For almost four years, Daniel Anomfueme has been an active builder of several Tech and Non-Tech Communities.\n\nHe is currently exploring the possibilities of Decentralized Science as a contributor at VitaDAO and he recently started DeSci Africa to create awareness of DeSci in Africa.",
+      "profile_picture": "https://sessionize.com/image/48ed-400o400o1-QGALcgcauFMKBj237vNr1d.jpg",
+      "company_website": "https://dan-el.xyz/",
+      "topics": [
+        "DeFi",
+        "Whether",
+        "You"
+      ],
+      "social_links": {
+        "twitter": "Http://twitter.com/Lifeofdanel",
+        "linkedin": "https://www.linkedin.com/in/lifeofdan-el/"
+      },
+      "sessions": [
+        "session_012"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "91debd1d-e912-47d3-a19e-fa911c90b176",
+      "name": "Abimbola Bajomo",
+      "title": "Lead Product Manager Remita Payment Services limited",
+      "company": "",
+      "bio": "Abimbola is a seasoned product manager with over 7 years of experience in crafting and delivering top-tier products. Her expertise spans business analysis, prioritization, API development, infrastructure management, and solution delivery. Throughout her career, she has worked closely with engineering, data, and cross-functional teams to create profitable products across diverse sectors, including legal, logistics, media, finance, and education.\n\nIn her current role as Lead Product Manager at Remita, a leading payments infrastructure company, Abimbola heads the Collections Product Suite. She drives the product strategy, development, and delivery for API-driven solutions, accounts and card switching, and various collection touchpoints such as platform as a service, payment gateways, agency banking, and POS systems. Her leadership, combined with her keen analytical skills and ability to prioritize effectively, has resulted in these products generating over $2 million in revenue, underscoring her ability to develop impactful and profitable solutions that address real-world needs.\n\nOutside of Remita, Abimbola is the founder of Product Talkative, a platform designed to help technology professionals advance their careers and unlock new opportunities. Through Product Talkative, she shares her expertise and passion for product management, empowering individuals to enhance their skills and achieve their career goals",
+      "profile_picture": "https://sessionize.com/image/2696-400o400o1-J6cQ1tdFe5jPwYwvfEmAbv.jpg",
+      "company_website": "",
+      "topics": [
+        "Discover"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/abimbolabajomo/"
+      },
+      "sessions": [
+        "session_013"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "7cc2a99d-0355-477e-bc86-f4a58daf305d",
+      "name": "Justice Anaba",
+      "title": "Brand Product Designer, SeamlessHR",
+      "company": "SeamlessHR",
+      "bio": "A multifaceted creative leader with a unique blend of engineering, design, and digital marketing expertise, Justice has built a career around creating impactful brand solutions in highly competitive markets. With over 11 years of experience, Justice combines technical acumen with a deep understanding of creative processes to drive innovation in design and branding. \n",
+      "profile_picture": "https://sessionize.com/image/7878-400o400o1-fQsG4SKtJumMo1ZnWboBEm.jpg",
+      "company_website": "",
+      "topics": [],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/justice-anaba/"
+      },
+      "sessions": [
+        "session_014"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "f4cdf876-e863-4dee-9b6a-0f047d4cab54",
       "name": "Michael Mekuleyi",
-      "title": "Senior DevOps Engineer",
-      "company": "Yassir",
-      "bio": "Senior DevOps Engineer at Yassir, managing infrastructure and deployment for ride-sharing platforms.",
-      "topics": ["DevOps", "Infrastructure", "Ride-sharing Technology"],
-      "social_links": {},
-      "sessions": ["session_040"],
+      "title": "Senior DevOps Engineer, Yassir",
+      "company": "https://github.com/monarene",
+      "bio": "Hi, My name is Michael Mekuleyi. I work as a DevOps Engineer and volunteer as a Google Developer Expert and an AWS Community Builder. My interests are DevOps/SRE, Google Cloud, and Flutter. When I am not writing code or working in product meetings, I am playing music and trying out new recipes.",
+      "profile_picture": "https://sessionize.com/image/33da-400o400o1-PC73Vaadgkjuqf67k1oBzr.jpeg",
+      "company_website": "https://github.com/monarene",
+      "topics": [
+        "Alertmanager",
+        "Attendees",
+        "Grafana",
+        "Kube",
+        "Kubernetes"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/monnarene",
+        "linkedin": "https://www.linkedin.com/in/monarene/"
+      },
+      "sessions": [
+        "session_015"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_041",
+      "id": "f60af971-bfc5-4735-8f27-68b71de0e2f8",
       "name": "Samuel Abada",
       "title": "Google Developer Expert, Flutter & Dart",
-      "company": "Shuttlers Mobility",
-      "bio": "Google Developer Expert for Flutter & Dart at Shuttlers Mobility, leading mobile development initiatives.",
-      "topics": ["Flutter", "Dart", "Mobile Development", "Google Developer Expert"],
-      "social_links": {},
-      "sessions": ["session_041"],
+      "company": "Flutter & Dart",
+      "bio": "Samuel is a Google Developer Expert for Flutter and Dart and leads the mobile engineering efforts at Shuttlers Mobility. With 8 years of experience in the software industry, Samuel has spent the last 6 years focusing on mobile development, particularly with Flutter. They are a co-organizer of the Flutter Lagos and Flutter Akure communities, as well as the Google Developers Group Akure.\n\nPassionate about open-source technologies and building developer tooling, Samuel enjoys sharing knowledge through technical articles and speaking at events and conferences. Outside of coding, Samuel is an avid gamer, lover of anime.",
+      "profile_picture": "https://sessionize.com/image/2e65-400o400o1-aUVsgQJAGE1aarDyjt5fk8.png",
+      "company_website": "",
+      "topics": [
+        "Attendees",
+        "Dart",
+        "Gain",
+        "Generally",
+        "Join"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/mastersam_",
+        "linkedin": "https://www.linkedin.com/in/abada-samuel"
+      },
+      "sessions": [
+        "session_016"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_042",
+      "id": "4c51cdc6-6365-46ca-bb7f-98ab8d1cd99b",
+      "name": "Pratham Kumar",
+      "title": "Developer Relations Manager at APILayer",
+      "company": "https://apilayer.com",
+      "bio": "Pratham has been a DevRel ever since he figured out there's a lot potential on social and community-driven spaces for developers. He built a community of over 450K developers across socials.",
+      "profile_picture": "",
+      "company_website": "https://apilayer.com",
+      "topics": [
+        "Application",
+        "Engine",
+        "However",
+        "Hypermedia",
+        "State"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/prathkum",
+        "linkedin": "https://linkedin.com/in/prathkum"
+      },
+      "sessions": [
+        "session_017"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "2001a8b2-77e3-4a47-b38a-8401a2f9ff6a",
+      "name": "Nwaamaka Iduwe",
+      "title": "Business Intelligence Analyst | Power BI Enthusiast | Data Storyteller",
+      "company": "",
+      "bio": "Nwaamaka Iduwe is a Business Intelligence Analyst with a background in finance and data science. She has designed over a dozen interactive Power BI dashboards for some of the largest retail and public sector players in Africa, helping stakeholders identify trends, inefficiencies, and growth opportunities with clarity and confidence.\n\nShe’s passionate about making technical insights digestible, and she’s especially interested in the intersection of APIs, performance monitoring, and visual storytelling. Nwaamaka has also mentored aspiring data professionals, co-authored two published machine learning research papers, including work on LLMs in crisis response, and worked across industries to help teams become more data-informed, not just data-driven.",
+      "profile_picture": "https://sessionize.com/image/cecc-400o400o1-N1z7UVmC79BSz8W46bMhFD.jpg",
+      "company_website": "",
+      "topics": [
+        "DevOps",
+        "Power",
+        "Using",
+        "Whether"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/amakaa__i?s=21",
+        "linkedin": "http://linkedin.com/in/nwaamaka-iduwe-msc-b76152158"
+      },
+      "sessions": [
+        "session_018"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "a14cb0ee-6680-4732-aac4-14e7e97a4b92",
       "name": "Fehintoluwa Dahunsi",
-      "title": "Senior Software Engineer, Professional Cloud Architect",
-      "company": "Andela",
-      "bio": "Senior Software Engineer and Professional Cloud Architect at Andela, specializing in cloud solutions and software development.",
-      "topics": ["Cloud Architecture", "Software Engineering", "Cloud Solutions"],
-      "social_links": {},
-      "sessions": ["session_042"],
+      "title": "Senior Software Engineer, Andela, Professional Cloud Architect, GCP",
+      "company": "https://www.siemens-energy.com/global/en/home.html",
+      "bio": "Fehintoluwa Dahunsi is a distinguished Senior Software Developer in Test, renowned for his expertise in test automation, DevOps, and continuous integration/continuous deployment (CI/CD) methodologies. With a robust background in both software development and testing, Fehintoluwa has consistently demonstrated his ability to enhance product quality and streamline development processes across diverse and complex environments.  As a speaker, Fehintoluwa brings a wealth of real-world experience and practical knowledge to his sessions. His presentations are known for being engaging, insightful, and packed with actionable takeaways. Whether discussing the future of DevOps or diving deep into the specifics of test automation and CI/CD, Fehintoluwa’s sessions are a must-attend for anyone looking to enhance their understanding and capabilities in the fast-evolving world of DevOps.",
+      "profile_picture": "https://sessionize.com/image/64dc-400o400o1-hKEA62cv9jA7KxZDdb1btZ.jpg",
+      "company_website": "https://www.siemens-energy.com/global/en/home.html",
+      "topics": [
+        "Engineers",
+        "Seemingly",
+        "Thank"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/fehintoluwa-dahunsi"
+      },
+      "sessions": [
+        "session_019"
+      ],
       "status": "announced"
     },
     {
-      "id": "speaker_043",
-      "name": "Emmanuel Odianosen",
-      "title": "Developer Relations",
-      "company": "Somnia Blockchain",
-      "bio": "Developer Relations professional at Somnia Blockchain, fostering blockchain developer communities.",
-      "topics": ["Developer Relations", "Blockchain", "Community Building"],
-      "social_links": {},
-      "sessions": ["session_043"],
-      "status": "announced"
-    },
-    {
-      "id": "speaker_044",
+      "id": "d17cd891-4144-431d-8775-1bf2f5484c12",
       "name": "Solomon Olalemi",
-      "title": "Product Manager",
+      "title": "Product Manager, Polaris Bank",
       "company": "Polaris Bank",
-      "bio": "Product Manager at Polaris Bank, driving product strategy in banking and financial services.",
-      "topics": ["Product Management", "Banking", "Financial Services"],
-      "social_links": {},
-      "sessions": ["session_044"],
+      "bio": "Solomon Olalemi is a seasoned product manager with a rich background spanning over 6+ years in the industry. His journey in product management has been marked by a diverse portfolio of projects, each contributing to his expertise and insight into the field.\n\nSolomon's career began with groundbreaking work at Payercoins Inc., where he spearheaded the development of a cryptocurrency infrastructure, laying the foundation for innovative financial solutions. His passion for driving impactful change led him to the forefront of the remittance industry in Africa, where he played a pivotal role in building a remittance platform that revolutionized payment systems across the continent.\n\nTransitioning to the banking sector, Solomon joined the ranks of a prominent Nigerian bank, where he currently leads the charge in developing a cutting-edge digital banking platform. Under his guidance, the bank, Polaris Bank, has garnered prestigious accolades, including the coveted title of Digital Bank of the Year in Nigeria for three consecutive years, affirming Solomon's prowess in the realm of digital innovation.\n\nBeyond his professional endeavours, Solomon is known for his unwavering dedication to personal growth and knowledge acquisition. A voracious reader, he embarked on a remarkable journey in 2017, devouring an impressive 104 books in a single year—an achievement that speaks volumes about his thirst for learning and self-improvement.\n\nWhen he's not at the helm of the product team, Solomon can often be found immersed in the intricacies of revamping lending products, leveraging his expertise to drive innovation and excellence in financial services.\n\nWith a relentless drive for excellence and a passion for pushing boundaries, Solomon Olalemi continues to make indelible contributions to the world of product management, shaping the future of fintech and digital innovation one breakthrough at a time.\n\nWhen I am not working, you will find me reading or talking to friends.",
+      "profile_picture": "https://sessionize.com/image/fe8f-400o400o1-BW55yQhDwpjPCPquyHFcmk.jpg",
+      "company_website": "",
+      "topics": [
+        "Attendees",
+        "Creating",
+        "Designing",
+        "Drawing",
+        "How"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/IamSolomonOla",
+        "linkedin": "https://ng.linkedin.com/in/solomonolalemi"
+      },
+      "sessions": [
+        "session_020"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "9b8ce9ae-2c3e-4d2e-9dd0-cb2d288a8c13",
+      "name": "Joshua Onyeuche",
+      "title": "Software Engineer, Emergency Response Africa",
+      "company": "Emergency Response Africa",
+      "bio": "Joshua Onyeuche is a Software Engineer with over 5 years of experience building intuitive, performant, and scalable web interfaces. He has led software development initiatives across fintech, healthtech, and marketing tech companies, including Terragon, Emergency Response Africa, and CreditRegistry.\n\nHe’s the creator of Frontend Bistro, a blog series where he shares deep dives into frontend engineering, performance, DevOps, real-time systems, and the future of UI development. Passionate about clean UX and great developer experience (DX), Joshua advocates for better collaboration between frontend and backend teams—especially around API design and usability.\n\nWhen he’s not pushing pixels or squashing bugs, you’ll find him mentoring developers, exploring new technologies, or designing sleek visuals for his local community.",
+      "profile_picture": "https://sessionize.com/image/957d-400o400o1-9nV38VcaX6UwPYXyKaGRfB.png",
+      "company_website": "",
+      "topics": [
+        "Drawing",
+        "Whether"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/jonyeuche/"
+      },
+      "sessions": [
+        "session_021"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "2f3e3756-391e-4eab-94db-4284487c398f",
+      "name": "Mustapha Rufai",
+      "title": "Software Engineer",
+      "company": "",
+      "bio": "Mustapha is a software engineer who loves teaching. He led developer engagement at Paga and creates technical content for Linkedin Learning, Pluralsight (via DeveloperIntelligence ). \n\nYou will find him at the intersection of developer education, software development, and community management.\n",
+      "profile_picture": "https://sessionize.com/image/3586-400o400o1-7FwyWgdVtgzRukfdLpRRvQ.jpg",
+      "company_website": "",
+      "topics": [
+        "Akeke",
+        "How",
+        "January",
+        "Providus"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/iafur",
+        "linkedin": "https://www.linkedin.com/in/mustapha-rufai/"
+      },
+      "sessions": [
+        "session_022"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "f2a22ec1-8eea-4122-bed1-64992e698324",
+      "name": "Mehdi Medjaoui",
+      "title": "",
+      "company": "https://www.apidays.global/",
+      "bio": "- Founder of Olympe.Legal, the AI-powered law firm\n- Founder of the APIdays.io conferences series \n- Co-founder of OAuth.io, the API for Login APIs (acquired)\n- Author of Continuous API Management (O'Reilly 2019, 2021)\n- European Commission Expert on APIs for Governments\n- Lecturer in HEC MBA, EMLyon Exec MBA, and International MBA",
+      "profile_picture": "https://sessionize.com/image/9f23-400o400o1-NuCyDbTHGM4oub1RaZ1Bke.jpg",
+      "company_website": "https://www.apidays.global/",
+      "topics": [
+        "How",
+        "Mindset",
+        "Real",
+        "Why"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/medjawii",
+        "linkedin": "https://www.linkedin.com/in/mehdimedjaoui/"
+      },
+      "sessions": [
+        "session_023"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "f17e3a8c-07cc-471d-8cc4-3b45739d42f8",
+      "name": "Ademola Adelekan",
+      "title": "Head of DevOps Engineering at Interswitch(INDECO) | Platform Strategy & API Governance",
+      "company": "Interswitch(INDECO) | Platform Strategy & API Governance",
+      "bio": "Ademola Adelekan is an experienced DevOps and Software Quality Assurance Engineer with a proven track record in building secure, scalable, and high-performing systems. With a background in Management Information Systems from the Federal University of Technology, he brings deep expertise across DevOps automation and platform engineering. Ademola has worked extensively across tech stacks including .net, Java, and SQL, and is passionate about driving developer productivity, improving system reliability, and building platforms that empower engineering teams to scale efficiently.",
+      "profile_picture": "https://sessionize.com/image/7818-400o400o1-GfBbFWH9C6gKowtVDyb5WC.jpg",
+      "company_website": "",
+      "topics": [
+        "DevOps",
+        "Drawing",
+        "Whether"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/adelekan-ademola-62092b14b/"
+      },
+      "sessions": [
+        "session_024"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "e7c8681b-96d1-431d-bbd0-b9873adbf825",
+      "name": "Nelson Isioma",
+      "title": "Technical Writer at PHPArch, Organizer of PHPxLagos",
+      "company": "https://www.nelsonisioma.com/",
+      "bio": "Technical Writer at PHPArch, Organizer of PHPxLagos",
+      "profile_picture": "https://sessionize.com/image/39af-400o400o1-Q7NeUGogC3hnYrph6End3C.jpg",
+      "company_website": "https://www.nelsonisioma.com/",
+      "topics": [
+        "Best",
+        "Choosing",
+        "Memcached",
+        "Optimal",
+        "Redis"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/nelson_isioma",
+        "linkedin": "https://www.linkedin.com/in/nelson-isioma/"
+      },
+      "sessions": [
+        "session_025"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "c9ee0781-12f0-46e7-ab61-829d4cb71518",
+      "name": "Kimberly Samugana",
+      "title": "MyCover.ai - API partnership Manager",
+      "company": "https://www.mycover.ai",
+      "bio": "Kimberly leads partnerships at MyCover.ai where she spearheads API as a service to businesses in various sectors.  She has led integrations to over 40 tech businesses across Africa and believes we can alleviate poverty through insurance, one partnership at a time.  She is a graduate of the University of Benin and a Mckinsey Future Forward program alumni. She is a Tech Sales and Partnership Community, Premia Business Network, and Black Founders Community member. When Kimberly isn't working, she spends her time traveling. ",
+      "profile_picture": "https://sessionize.com/image/112f-400o400o1-pnQcWkpTkTjkr7Acp58e28.jpg",
+      "company_website": "https://www.mycover.ai",
+      "topics": [
+        "During"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/kimberlyjsamugana/"
+      },
+      "sessions": [
+        "session_026"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "526387c1-8681-478c-8ea5-03ba74ca8e1f",
+      "name": "Omonigho Jimmy",
+      "title": "Senior Software Engineer and Head of Developer Relations",
+      "company": "https://kenjimmy.xyz",
+      "bio": "Senior software engineer, 3x founding engineer, mentor, and husband.",
+      "profile_picture": "https://sessionize.com/image/90a3-400o400o1-NnxvCjcRXEsYVyN8BKfqAv.jpg",
+      "company_website": "https://kenjimmy.xyz",
+      "topics": [
+        "MyCover"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/glitzyken17",
+        "linkedin": "https://www.linkedin.com/in/omonigho-jimmy"
+      },
+      "sessions": [
+        "session_027"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "3c9be750-4386-4dd6-a0cb-ec5cc9fbd496",
+      "name": "Ibiniyi Obikoya",
+      "title": "Tech Lead @ Korapay",
+      "company": "https://hybeecodes.github.io/",
+      "bio": "Ibiniyi Obikoya is a Senior Backend Engineer and Technical Lead for the Merchant Platform and Tools (MPT) team at Kora Payments, where he builds scalable API infrastructure for financial services. With five years of experience in the tech industry, Ibiniyi has developed extensive expertise in Node.js, microservices architecture, and database technologies including MySQL, MongoDB, and Redis.\nPreviously, Ibiniyi contributed to engineering teams at Paystack and Global Accelerex Ltd, where he designed and implemented mission-critical systems handling significant transaction volumes. His technical work focuses on creating resilient, high-performance APIs that power financial services across Africa.\nBeyond his engineering work, Ibiniyi is passionate about knowledge sharing and community building. He serves as a mentor at Grazac Academy in Nigeria, where he helps develop the next generation of software engineers. As the convener of the Christian Tech Community, he creates spaces for technologists to integrate their faith and professional practice.\nIbiniyi holds a BSc in Computer Science from the University of Ibadan and regularly shares insights on software development, career growth, and technical leadership through speaking engagements and his YouTube channel \"Beyond Code with Ibiniyi.\"",
+      "profile_picture": "https://sessionize.com/image/f891-400o400o1-Qc8tA3B2PfU1Fh19Ndptu9.jpg",
+      "company_website": "https://hybeecodes.github.io/",
+      "topics": [
+        "Attendees",
+        "Drawing",
+        "Node"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/Hybeecodes",
+        "linkedin": "https://www.linkedin.com/in/hybeecodes"
+      },
+      "sessions": [
+        "session_028"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "fdc854fb-557e-4516-9b08-9f599827edbc",
+      "name": "Kenechukwu Ozordi",
+      "title": "Software Engineer, GTBank.",
+      "company": "https://ozordi.betathing.com/",
+      "bio": "Ozordi Kenechukwu is a Software Engineer specializing in backend development, API design, and automation. He builds scalable RESTful APIs, optimizes system integrations, and improves developer experience with clear documentation.",
+      "profile_picture": "https://sessionize.com/image/e5af-400o400o1-pYBBzneR1NbcwDbn32kYx4.jpg",
+      "company_website": "https://ozordi.betathing.com/",
+      "topics": [
+        "Redis"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/ozordi_ken",
+        "linkedin": "https://www.linkedin.com/in/ken-ozordi/"
+      },
+      "sessions": [
+        "session_029"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "85dcb8b2-73e1-4093-b5c3-a5907d11a195",
+      "name": "Simi Oluwatomi",
+      "title": "Tech Lead | Software Developer | Cloud Developer | Community Builder",
+      "company": "https://simioluwatomi.com/",
+      "bio": "Simi Oluwatomi is a back-end developer with experience in the fintech and healthcare industry with a proven track record of designing and implementing scalable and secure software solutions that enable organizations to improve their operations and enhance their customers' experience.",
+      "profile_picture": "https://sessionize.com/image/0332-400o400o1-pxWjThhGgQpJGt4uM7cXW8.jpg",
+      "company_website": "https://simioluwatomi.com/",
+      "topics": [
+        "Answer",
+        "Architecture",
+        "Attendees",
+        "Building",
+        "Complication"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/simioluwatomi",
+        "linkedin": "https://www.linkedin.com/in/similoluwatomi"
+      },
+      "sessions": [
+        "session_030"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "cb17af7d-78b2-44b9-b43f-cee228945054",
+      "name": "Atuoha Anthony",
+      "title": "Mobile Software Engineer",
+      "company": "https://sujimotonig.com",
+      "bio": "Mobile Software Engineer specializing in Flutter/Dart, Kotlin (Jetpack Compose), Swift & SwiftUI, with a comprehensive background in web technologies. Skilled in designing, developing, and deploying software for Android, iOS, Web, and other platforms. Adept at collaborating effectively with cross-functional teams to create high-quality, scalable products.",
+      "profile_picture": "https://sessionize.com/image/5b61-400o400o1-UHMkrxpXctWhx5ybyTWDNJ.png",
+      "company_website": "https://sujimotonig.com",
+      "topics": [
+        "Attackers",
+        "Attendees"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/atuohaa",
+        "linkedin": "https://linkedin.com/in/atuoha-anthony"
+      },
+      "sessions": [
+        "session_031"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "d6c8a7c0-e3a4-4c3b-b15a-317238b16c2a",
+      "name": "Alexander Garuba",
+      "title": "Money Africa CTO",
+      "company": "",
+      "bio": "Alexander Garuba is a highly motivated and versatile full-stack developer with a proven track record of delivering robust, scalable, and maintainable software solutions. He has expertise in multiple programming languages and frameworks, including PHP, TypeScript, and JavaScript, and experience with various databases. Alexander is proficient in microservices architecture, employing SOLID principles, and writing testable code. Experienced in distributed systems (RabbitMQ, Redis) and cloud platforms (AWS, Kubernetes) with a focus on clean coding, problem-solving, and CI/CD.\n\nAlexander is currently the Chief Technology Officer at Money Africa in Lagos, Nigeria. He has also worked as a Senior Backend Engineer at commercetools in Berlin, Germany, and as an Application Engineer (Freelance) at AREA 17 in New York. He has also held Software Engineer positions at GENEO Software in Warwickshire, England, Reliance HMO in Lagos, Nigeria, and HotelsNG, also in Lagos. Alexander also has experience as a Software Engineer/Mentor (Freelance) at Decagon in Lagos, Nigeria",
+      "profile_picture": "https://sessionize.com/image/050a-400o400o1-3eX3BsEgEZVjeYjgdSE4Dy.jpg",
+      "company_website": "",
+      "topics": [],
+      "social_links": {
+        "twitter": "https://x.com/iamahless",
+        "linkedin": "https://linkedin.com/in/ahless"
+      },
+      "sessions": [
+        "session_032"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "7dcc706d-900b-40c4-b42f-b30121752d8d",
+      "name": "Anthony Alaribe",
+      "title": "Anthony Alaribe, Cofounder at APItoolkit",
+      "company": "https://apitoolkit.io/",
+      "bio": "Anthony has spent over a decade building software at companies like Opera,\nParity (Polkadot), and DeliveryHero. He has faced his fair share of dealing\nwith Software incidences, downtime and breaking changes, including losing over $2m in\norders to such issues at DeliveryHero, which prompted him to build\nAPItoolkit.io, to help companies navigate their backend and API landscape.",
+      "profile_picture": "https://sessionize.com/image/9770-400o400o1-WfTyAJfTM7wuszUkyDrNdU.jpg",
+      "company_website": "https://apitoolkit.io/",
+      "topics": [
+        "Alaribe",
+        "Anthony",
+        "Delivery",
+        "Determined",
+        "Expect"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/tonialaribe/",
+        "linkedin": "https://www.linkedin.com/in/anthony-alaribe-293a41bb/"
+      },
+      "sessions": [
+        "session_033"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "e96b5855-1d51-4874-96a0-e43fe17f205b",
+      "name": "Emmanuel Odianosen",
+      "title": "Developer Relations, Somnia Blockchain.",
+      "company": "https://somnia.network",
+      "bio": "Software Developer living in Lagos, Nigeria. Emmanuel works as a Developer Relations Engineer at Fuse Blockchain. A Developer Community organizer and Technical Writer, Emmanuel is keen on sharing practical technical knowledge to help other developers ramp up their web3 skills.",
+      "profile_picture": "https://sessionize.com/image/7182-400o400o1-EPn5dRMaQUGB2KTZZTm4q.jpg",
+      "company_website": "https://somnia.network",
+      "topics": [
+        "Agenda",
+        "Attend",
+        "Basics",
+        "Best",
+        "Blockchain"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/emma_odia",
+        "linkedin": "https://www.linkedin.com/in/emmaodia/"
+      },
+      "sessions": [
+        "session_034"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "3496254e-96f0-4595-af71-bd7c70b88af3",
+      "name": "Adejoke Haastrup",
+      "title": "Developer Relations Lead, ALATPay ",
+      "company": "ALATPay",
+      "bio": "",
+      "profile_picture": "https://sessionize.com/image/8488-400o400o1-GJEoxg3csB3jMhcFMDnrgk.jpg",
+      "company_website": "",
+      "topics": [],
+      "social_links": {
+        "twitter": "https://x.com/jastrup7",
+        "linkedin": "https://www.linkedin.com/in/haastrup-adejoke/"
+      },
+      "sessions": [
+        "session_035"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "59a7c9d1-0743-41a3-8c8f-142b72fce3ee",
+      "name": "Buchi Michelle Okonicha",
+      "title": "Software Engineer",
+      "company": "https://www.landmarkafrica.com/",
+      "bio": "Buchi Michelle Okonicha is a software engineer, Google developer expert (GDE),  a Women Techmakers ambassador, and co-founder of Aricah. Her more than 34 articles can be found on dev.to, hashnode, medium, and tealfeed, and she also gives back through mentorship at various organizations like TCN women in tech program, sheCodeAfrica, and one-on-one with Buchi\n",
+      "profile_picture": "https://sessionize.com/image/d00b-400o400o1-n76v1Djn3KguQYU1hUsa9H.jpg",
+      "company_website": "https://www.landmarkafrica.com/",
+      "topics": [
+        "Build",
+        "How",
+        "Machines",
+        "Product",
+        "Search"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/mchelleOkonicha/",
+        "linkedin": "https://ng.linkedin.com/in/buchi-michelle-okonicha-0a3b2b194"
+      },
+      "sessions": [
+        "session_036"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "fa429da3-63eb-4513-b41b-2863aa5e9d6f",
+      "name": "Paul Adams",
+      "title": "Senior Integrations Engineer @ involve.me, Ex-CTO @ Selar.com",
+      "company": "Selar.com",
+      "bio": "Paul Adams Ohiani is a Senior Software Developer with a passion for building scalable and impactful software.\nHe works at involve.me, where he helps build the best interactive lead funnel platform. Previously, he served as CTO at Selar.co, leading the largest online e-commerce store builder in Africa.",
+      "profile_picture": "https://sessionize.com/image/04bf-400o400o1-RP1vR6oHWKEKGvEQN6u4x4.jpg",
+      "company_website": "",
+      "topics": [],
+      "social_links": {
+        "twitter": "https://twitter.com/iamadamspaul",
+        "linkedin": "https://www.linkedin.com/in/paul-adams-ohiani/"
+      },
+      "sessions": [
+        "session_037"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "c81edb61-7959-4bf2-975a-380e1d0ea411",
+      "name": "Auwal MS",
+      "title": "Software Engineering & Developer Relations",
+      "company": "https://monnify.com",
+      "bio": "A software engineer with broad experience in software development covering multiple platforms. ",
+      "profile_picture": "https://sessionize.com/image/0e7e-400o400o1-61-7959-4bf2-975a-380e1d0ea411.b022f2c0-ddf9-4eaf-b594-04697046f112.JPG",
+      "company_website": "https://monnify.com",
+      "topics": [
+        "Based",
+        "Learn",
+        "Let",
+        "Monnify",
+        "Tired"
+      ],
+      "social_links": {
+        "twitter": "https://www.twitter.com/auwalms",
+        "linkedin": "https://www.linkedin.com/in/auwalms"
+      },
+      "sessions": [
+        "session_038"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "dec7b594-bd29-4e72-b1a1-97fe4f73d051",
+      "name": "Oluwaseun Dabiri",
+      "title": "Product Architect | Product Manager, MyCover.ai",
+      "company": "https://mycover.ai",
+      "bio": "Oluwaseun is a multi-talented professional with expertise in both tech and the arts. With a background in computer science, software development, musicology, and music technology, he is passionate about building scalable and profitable products and has a strong commitment to community building and management.\n\nAs a seasoned Product and Project Manager specializing in software project management, technical product management and product delivery, Oluwaseun excels in transforming innovative ideas into successful, market-ready products. His expertise spans the entire product lifecycle, from initial concept to final launch, ensuring alignment with user needs and business objectives.\n\nCurrently, Oluwaseun works at MyCover.ai, an insurtech company dedicated to revolutionizing how Africans utilize and experience insurance. He plays a pivotal role in enabling innovators to seamlessly embed insurance into their existing offerings or launch new insurance verticals, driving product development and delivery in alignment with the company's vision of transforming the insurance landscape in Africa.\n\nIn addition, Oluwaseun works with the Federal Ministry of Information, Communication, and Digital Economy, leading a federal initiative to train 3 million tech talents in Nigeria. Oluwaseun currently oversees this federal government initiative as the community manager for Ogun State.",
+      "profile_picture": "https://sessionize.com/image/581a-400o400o1-3SmhRuFoG1ALc4zoc4cCU7.jpg",
+      "company_website": "https://mycover.ai",
+      "topics": [
+        "Africa",
+        "Application",
+        "How",
+        "Interfaces",
+        "Key"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/dabsclement",
+        "linkedin": "https://www.linkedin.com/in/oluwaseun-dabiri/"
+      },
+      "sessions": [
+        "session_039"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "553171d5-c8b7-4512-8d5b-1c275d79f588",
+      "name": "Favour Oriabure",
+      "title": "Technical Architect - SeamlessHR",
+      "company": "",
+      "bio": "Favour Oriabure is a seasoned professional with over 5 years of experience in the payroll space. He has played a key role in designing and scaling reliable payroll systems, and has successfully led cross-functional teams focused on payroll, payments, and credit solutions. Favour combines technical expertise with strategic leadership to deliver systems that are both robust and scalable.",
+      "profile_picture": "https://sessionize.com/image/083b-400o400o1-Ey92rTxsg5YWAW4YWn65m2.jpg",
+      "company_website": "",
+      "topics": [
+        "Accuracy",
+        "Africa",
+        "Always",
+        "Among",
+        "Are"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/home",
+        "linkedin": "https://www.linkedin.com/in/favour-oriabure/"
+      },
+      "sessions": [
+        "session_040"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "600e4993-8228-47cf-a195-450293dbb54f",
+      "name": "Mfonobong Umondia",
+      "title": "Community Manager & Technical Writer ",
+      "company": "",
+      "bio": "Mfonobong is a Community Manager with 6+ years of experience building, engaging, and scaling online communities, particularly in design and developer spaces. With a background in Product Design, she transitioned into community management, where she thrives in fostering connections, creating educational content, and driving engagement strategies.\n\nShe has a strong track record of increasing engagement, launching brand-boosting initiatives, and writing insightful articles. As a skilled technical writer and programmer with Golang expertise, Mfonobong blends her technical knowledge with strategic community-building.",
+      "profile_picture": "https://sessionize.com/image/0b51-400o400o1-a7jLJrwoSTi8qfU9PZNPgV.png",
+      "company_website": "",
+      "topics": [
+        "Attend",
+        "Customer",
+        "Engineers",
+        "Great",
+        "Product"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/the_ladybella",
+        "linkedin": "https://www.linkedin.com/in/bellamfonobong/"
+      },
+      "sessions": [
+        "session_041"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "da62c675-f62e-45a9-963d-9c12180670cc",
+      "name": "Aminat Fowoke Balogun",
+      "title": "Technical Product Manager, Milsat Technologies",
+      "company": "https://www.milsat.africa/",
+      "bio": "Aminat is a Technical Product Manager with over three years of experience in the geospatial industry, focused on redefining location intelligence in Africa. At Milsat, she has led the development of over five spatial solutions, supporting significant national projects such as the INEC 2023 elections, the upcoming 2030 census by the National Population Commission, and the Edo State economic profiling project with the World Bank.\n\nIn collaboration with government agencies, she has helped leverage geospatial technology to solve real-world problems through innovative, impactful solutions. \nHer background in software engineering and a degree in Computer Science from the University of Ilorin provide a solid foundation for effectively managing complex product development.\n\nShe is also passionate about fostering inclusivity in the tech industry. She believes in the power of diverse teams and actively support initiatives to bring more people from different backgrounds into technology.",
+      "profile_picture": "https://sessionize.com/image/3893-400o400o1-Q5gS8UN9gTHWLgPMs36PCv.jpg",
+      "company_website": "https://www.milsat.africa/",
+      "topics": [
+        "Communicate",
+        "Ensure",
+        "Key",
+        "Learn",
+        "Managers"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/bhalow_meenat?mx=2",
+        "linkedin": "https://www.linkedin.com/in/aminatfowokebalogun/"
+      },
+      "sessions": [
+        "session_042"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "cddbe480-9df3-47b1-8f7c-b8194aa48a67",
+      "name": "Kenneth Ezukwoke",
+      "title": "Datategy, Lead Data Scientist-GenAI R&D",
+      "company": "https://www.datategy.net",
+      "bio": " Kenneth is a Lead Data Scientist (GenAI | LLM | Agent) at Datategy (🇫🇷), where I contribute to the development of the papAI-GenAI product. In this role, I am also actively engaged in computer vision projects, including Optical Character Recognition (OCR) and 2D-3D Pose Estimation.\nThis comes after recently obtaining a Ph.D in Applied Mathematics-GenAI and Industrial Engineering from École Nationale Supérieure des Mines de Saint-Étienne (Department of Mathematics and Industrial Engineering, Institute Henri Fayol), working on Artificial Intelligence for Failure Analysis in Semiconductor Industry 4.0. An industrial collaboration with STMicroelectronics, Bosch, and Infineon AG under the FA4.0 EURIPIDES2-PENTA project.\nHis Ph.D research focused on improving Generative Artificial intelligence via Probabilistic Graphical Modeling with Causal Large Language Models (LLMs), for decision-making during Failure Root Cause Analysis (FRCA). Advised by Professor Mireille Batton-Hubert, Professor Xavier Boucher (both from EMSE) and Pascal Gounet and Jerome Adrian (both Physical Failure Analyst Engineers, STMicroelectronics).\n\nMore: https://kennedyczar.github.io",
+      "profile_picture": "https://sessionize.com/image/d459-400o400o1-nAN3gaWXA6C14MFiNvsJB5.jpg",
+      "company_website": "https://www.datategy.net",
+      "topics": [
+        "Artificial",
+        "Augmented",
+        "AutoEncoder",
+        "Big",
+        "Controllable"
+      ],
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/kenneth-ezukwoke-phd-4497b1155/"
+      },
+      "sessions": [
+        "session_043"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "dc5f8d48-00af-4d42-b62f-aed06a3ae23f",
+      "name": "Ijeoma Eti",
+      "title": "Building Secure APIs",
+      "company": "https://layer5.io",
+      "bio": "Ijeoma is a backend engineer, where she focuses on building APIs and tackling complex technical challenges. She enjoys contributing to the open-source community, particularly with Layer5 Meshery. Outside of work, she likes to listen to podcasts and is currently learning German, always eager to expand her knowledge and skills.",
+      "profile_picture": "https://sessionize.com/image/977d-400o400o1-WE7pdDNDHqGxr9VSA75Weq.jpg",
+      "company_website": "https://layer5.io",
+      "topics": [
+        "Architecture",
+        "Cover",
+        "Domain",
+        "Driven",
+        "Identifying"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/EtiIjeoma",
+        "linkedin": "https://www.linkedin.com/in/ijeoma-eti"
+      },
+      "sessions": [
+        "session_044"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "d189d5d5-587c-416a-98ed-0a45c2fb786e",
+      "name": "Glory Olamigoke",
+      "title": "Product Manager, Core Banking Platform, Kuda. (Also Founder, TekNexus Africa and Co-Founder Tech Revolution Africa)",
+      "company": "https://gloryolamigoke.com",
+      "bio": "Glory Olamigoke is a technology leader who has spent the last 7+ years building global products for startups while also driving impactful programs and initiatives across the African tech scene. Currently he manages and builds core banking products as Kuda, one of Africa’s biggest digital banks. \n\nAt Cleonify, he helped dozens of startups across Africa, US, UK, Europe and Canada build their brands and technical products, positioning them for successful launches to the market. \n\nAt TekNexus Africa, he is helping young African talents grow their skills and launch their tech careers through quality mentorship. TekNexus Africa has grown into a leading tech mentorship platform with a growing community of over 5000 African talents from 10+ countries. \n\nHe is driving innovation to the African tech ecosystem through Tech Revolution Africa, a top event that brings together the biggest African startups and enterprises to discuss Africa’s tech growth and development potential. \n\nHe has partnered with leading companies such as MTN, CChub, Tech Mahindra, PMI, Sterling Bank to execute some of his programs thereby amplifying his impact and reach. \n\nAs a global speaker, he loves sharing tech insights and has spoken at top tech platforms including No Code Tech Summit, Tech Summit Ogun, Nocode Africa Fest, Art of Technology Lagos, TechUnlock and more. He has also mentored talents, startups and entrepreneurs through top platforms such as MarkHack Startup incubation Hub, Product Lab, Savvy Global Fellowship For Entrpreneurs, TEF Entreprenurship program\n\nHis work, programs and initiatives have been widely featured on media platforms such as TVC, Tech Cabal, Guardian, Business African Online, Business Day, Vanguard, Tekedia and others, while also receiving recognitions and awards from Techunock, Internpulse and more.\n\nHe is passionate about growing the African tech ecosystem by building products that solve problems, raising quality talents and powering critical innovation conversations. \n\nHe loves to play the piano, read and write books as a published author, see action movies and travel.",
+      "profile_picture": "https://sessionize.com/image/05bd-400o400o1-waXdiAZSvaNoBToDjbfqwn.png",
+      "company_website": "https://gloryolamigoke.com",
+      "topics": [
+        "Africa",
+        "Architecture",
+        "Best",
+        "Context",
+        "Currently"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/sweettechguy",
+        "linkedin": "https://www.linkedin.com/in/olamigoke-glory/"
+      },
+      "sessions": [
+        "session_045"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "6dd24965-b464-41b5-9901-037ff123c449",
+      "name": "Jamiu Okanlawon",
+      "title": "Mobile Engineer at OneRoof | Organizer of the FlutterBytes Conference",
+      "company": "OneRoof | Organizer of the FlutterBytes Conference",
+      "bio": "Jamiu Okanlawon is a Mobile Engineer at OneRoof with 6 years of software engineering experience, including 4 years dedicated to building and deploying Flutter applications. He founded the FlutterBytes Community, an African-based group that helps beginners master the Flutter framework. Jamiu is the organizer of the FlutterBytes conference, the largest Flutter conference in Africa.",
+      "profile_picture": "https://sessionize.com/image/fe6b-400o400o1-PNWJMi6rDGe9JvdqHJZ6yC.jpg",
+      "company_website": "",
+      "topics": [
+        "Dart",
+        "Discover",
+        "Looking",
+        "Shelf",
+        "Whether"
+      ],
+      "social_links": {
+        "twitter": "http://twitter.com/developerjamiu",
+        "linkedin": "http://linkedin.com/in/developerjamiu"
+      },
+      "sessions": [
+        "session_046"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "1ea46088-c4a4-464f-9220-9876901031ac",
+      "name": "Daniel Adeboye",
+      "title": "Developer Relations Engineer & Software Engineer.",
+      "company": "https://northflank.com",
+      "bio": "I am a Software Engineer, Technical Writer, and Developer Relations Engineer with over four years of proven experience helping developers and engineering teams build better software. I have contributed to and built products used by tens of thousands of developers worldwide.\n\nI built Gitsecure, an AI-powered security platform that detects, prioritizes, and fixes code and cloud vulnerabilities in real-time. Additionally, I created Wasps.dev, an AI code review tool seamlessly integrated into developers' IDEs, providing instant feedback to improve code quality.",
+      "profile_picture": "https://sessionize.com/image/b965-400o400o1-7fGxH9EFFp3QBg4qzMC26g.jpg",
+      "company_website": "https://northflank.com",
+      "topics": [
+        "DevOps"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/AdeboyeDN",
+        "linkedin": "https://www.linkedin.com/in/adeboyedn/"
+      },
+      "sessions": [
+        "session_047"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "3d37c86a-d735-435a-9ebc-8644628cf828",
+      "name": "Chukwuemeka Chukwurah",
+      "title": "Senior Software Engineer, Rocksteady Technologies",
+      "company": "Rocksteady Technologies",
+      "bio": "Chukwuemeka is a passionate Software Engineer with 7 years of experience building scalable and impactful software solutions. Specializing in distributed systems, Chukwuemeka has worked with leading tech companies like Risevest, delivering products that serve millions of users.\n\nA strong advocate for innovation and continuous learning, Chukwuemeka is also active in the tech community. He is currently one of the organizers of GDG Cloud Lagos and also mentors younger developers by organizing meetups and workshops.",
+      "profile_picture": "https://sessionize.com/image/404a-400o400o1-pTSSquNwXhsZry5mRAtBUs.jpg",
+      "company_website": "",
+      "topics": [
+        "Abstract",
+        "Amazon",
+        "Deployment",
+        "Edge",
+        "Envoy"
+      ],
+      "social_links": {
+        "twitter": "https://x.com/@chukwurah__",
+        "linkedin": "https://linkedin.com/in/chukwuemekachukwurah"
+      },
+      "sessions": [
+        "session_048"
+      ],
+      "status": "announced"
+    },
+    {
+      "id": "b0a0d0ff-0edd-47ea-9cee-f09f41f22cb8",
+      "name": "Olayinka Atobiloye",
+      "title": "Software Engineer & GitHub Campus Expert",
+      "company": "",
+      "bio": "Olayinka Atobiloye is a third-year Computer Engineering student at the University of Lagos, and she is also a GitHub Campus Expert and the Chair of Women in Engineering, Unilag. Her passion for software engineering stems from its ability to create solutions that have a direct positive impact on people's lives. In the past, she has had the opportunity to build impactful solutions through internships at companies like Goldman Sachs and GitHub.\n\nAdditionally, Olayinka is passionate about volunteering and growing communities. As a GitHub Campus Expert, she hosts events like the GitHub Octernship Lagos, where students receive tips and insights into the GitHub Octernship program to help them accelerate their careers. As the current Women in Engineering Chair on her campus, she spearheads programs that improve the software engineering skills and employability of female students. These programs include seminars and mentoring sessions where female students can discuss with women in the industry and learn how to overcome challenges they may face in their early careers.\n\nOlayinka is committed to making a significant impact in software engineering and in her immediate community.",
+      "profile_picture": "https://sessionize.com/image/e1f1-400o400o1-83118dda-d1dd-4b7a-8bf3-467902a0dc55.jpg",
+      "company_website": "",
+      "topics": [
+        "April",
+        "But",
+        "Classic",
+        "Fools",
+        "What"
+      ],
+      "social_links": {
+        "twitter": "https://twitter.com/yinkaatobiloye",
+        "linkedin": "https://linkedin.com/in/olayinkaatobiloye"
+      },
+      "sessions": [
+        "session_049"
+      ],
       "status": "announced"
     }
   ],
   "meta": {
-    "total_speakers": 44,
+    "total_speakers": 49,
     "announcement_status": "completed",
-    "last_updated": "2025-01-27",
-    "note": "All speakers have been announced for API Conference Lagos 2025! The lineup includes 44 speakers from various technology domains including API management, fintech, developer relations, and more."
+    "last_updated": "2025-07-07",
+    "note": "This data was updated from the provided CSV file."
   }
 } 
