@@ -12,6 +12,8 @@ from app.agents.tools.navigation_tools import get_navigation_tools
 from app.agents.tools.csv_schedule_tools import get_csv_schedule_tools
 from app.agents.tools.web_scraping_tools import get_web_scraping_tools
 from app.agents.tools.speaker_tools import get_speaker_tools
+from app.agents.tools.organizer_tools import get_organizer_tools
+from app.agents.tools.calendar_tools import get_calendar_tools
 
 logger = logging.getLogger(__name__)
 
@@ -43,6 +45,12 @@ class ToolManager:
         
         # Add speaker tools
         tools.extend(get_speaker_tools())
+        
+        # Add organizer tools
+        tools.extend(get_organizer_tools())
+        
+        # Add calendar tools
+        tools.extend(get_calendar_tools())
         
         logger.info(f"Initialized {len(tools)} tools")
         return tools

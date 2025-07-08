@@ -184,4 +184,45 @@
 
 .sendButton:hover {
   background-color: rgb(37, 25, 151); /* Darker shade of preferred color */
+}
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+@media (max-width: 768px) {
+  .chat {
+    padding: 0;
+    height: 100vh;
+    min-width: 0;
+  }
+  .chatHeader {
+    padding: 16px 12px;
+    font-size: 16px;
+  }
+  .content {
+    padding: 12px 4px;
+  }
+  .inputArea {
+    padding: 12px 4px;
+  }
+  .welcome h1 {
+    font-size: 22px;
+  }
+  .welcome p {
+    font-size: 14px;
+    max-width: 90vw;
+  }
+  .messages {
+    padding-right: 0;
+  }
+  .menuButton {
+    display: block;
+  }
 } 

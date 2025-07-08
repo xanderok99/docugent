@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import styles from './Chat.module.css';
 import TypingIndicator from './TypingIndicator';
-import { FiSend } from 'react-icons/fi';
+import { FiSend, FiMenu } from 'react-icons/fi';
 
 interface Message {
   text: string;
@@ -11,7 +11,11 @@ interface Message {
   timestamp: string;
 }
 
-const Chat: React.FC = () => {
+interface ChatProps {
+  onMenuClick: () => void;
+}
+
+const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -82,7 +86,12 @@ const Chat: React.FC = () => {
 
   return (
     <div className={styles.chat}>
-      <div className={styles.chatHeader}>Chat with Ndu</div>
+      <div className={styles.chatHeader}>
+        <button className={styles.menuButton} onClick={onMenuClick}>
+          <FiMenu />
+        </button>
+        Chat with Ndu
+      </div>
       <div className={styles.content}>
         <div className={styles.messages}>
           {messages.length === 0 ? (

@@ -26,4 +26,10 @@ class AgentResponse(BaseModel):
 class AgentStatus(BaseModel):
     """Agent status information."""
     status: str = Field(..., description="Agent status")
-    uptime: str = Field(..., description="Agent uptime") 
+    uptime: str = Field(..., description="Agent uptime")
+
+class ToolOutput(BaseModel):
+    """Output schema for tool execution."""
+    tool_name: str = Field(..., description="Name of the tool that was executed")
+    raw_output: str = Field(..., description="Raw output from the tool")
+    content: str = Field(..., description="Formatted content for user display") 
