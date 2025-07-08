@@ -30,9 +30,7 @@ class WebScrapingService:
         # Conference URLs
         self.urls = {
             "main": "https://apiconf.net",
-            "speakers": "https://apiconf.net/speakers",
-            "schedule": "https://apiconf.net/schedule",
-            "faq": "https://apiconf.net/faq",
+            "spaces": "https://apiconf.net/#spaces",
             "about": "https://apiconf.net/about"
         }
     
@@ -126,12 +124,8 @@ class WebScrapingService:
     
     async def _extract_data(self, url: str, soup: BeautifulSoup) -> Dict[str, Any]:
         """Extract relevant data from BeautifulSoup object."""
-        if "speakers" in url:
-            return await self._extract_speakers_data(soup)
-        elif "schedule" in url:
-            return await self._extract_schedule_data(soup)
-        elif "faq" in url:
-            return await self._extract_faq_data(soup)
+        if "spaces" in url:
+            return await self._extract_spaces_data(soup)
         else:
             return await self._extract_general_data(soup)
     
@@ -243,6 +237,59 @@ class WebScrapingService:
             "status": "available"
         }
     
+    async def _extract_spaces_data(self, soup: BeautifulSoup) -> Dict[str, Any]:
+        """Extract Twitter Spaces data from the page."""
+        spaces = []
+        
+        # Look for spaces section
+        spaces_section = soup.find('section', id='spaces') or soup.find('div', id='spaces')
+        
+        if spaces_section:
+            # Look for individual space items
+            space_items = spaces_section.find_all(['div', 'article'], class_=lambda x: x and any(word in x.lower() for word in ['space', 'card', 'item']))
+            
+            for item in space_items:
+                try:
+                    # Extract space information
+                    title_elem = item.find(['h1', 'h2', 'h3', 'h4'])
+                    title = title_elem.get_text(strip=True) if title_elem else ""
+                    
+                    # Look for date/time
+                    date_elem = item.find(['span', 'div'], class_=lambda x: x and any(word in x.lower() for word in ['date', 'time']))
+                    date = date_elem.get_text(strip=True) if date_elem else ""
+                    
+                    # Look for description
+                    desc_elem = item.find(['p', 'div'], class_=lambda x: x and any(word in x.lower() for word in ['description', 'content']))
+                    description = desc_elem.get_text(strip=True) if desc_elem else ""
+                    
+                    if title:
+                        spaces.append({
+                            "title": title,
+                            "date": date,
+                            "description": description,
+                            "source": "web_scraped"
+                        })
+                except Exception as e:
+                    logger.warning(f"Error extracting space data: {e}")
+                    continue
+        
+        # If no structured spaces found, look for any mention of Twitter Spaces
+        if not spaces:
+            spaces_text = soup.find_all(text=lambda text: text and 'twitter' in text.lower() and 'space' in text.lower())
+            if spaces_text:
+                spaces.append({
+                    "title": "Twitter Spaces",
+                    "description": "Twitter Spaces information found on website",
+                    "content": " ".join([text.strip() for text in spaces_text[:3]]),
+                    "source": "web_scraped"
+                })
+        
+        return {
+            "spaces": spaces,
+            "total_spaces": len(spaces),
+            "status": "available" if spaces else "no_spaces_found"
+        }
+    
     async def _extract_general_data(self, soup: BeautifulSoup) -> Dict[str, Any]:
         """Extract general page data."""
         title = soup.find('title')
@@ -252,11 +299,16 @@ class WebScrapingService:
         main_content = soup.find(['main', 'article', 'div'], class_=lambda x: x and any(word in x.lower() for word in ['content', 'main', 'body']))
         content_text = main_content.get_text(strip=True) if main_content else ""
         
-        return {
+        # Add registration link
+        registration_info = {
             "title": title_text,
             "content": content_text[:1000] + "..." if len(content_text) > 1000 else content_text,
+            "registration_link": "https://lu.ma/ltp8u2bb",
+            "registration_platform": "Luma",
             "status": "available"
         }
+        
+        return registration_info
     
     async def get_speakers_data(self, force_refresh: bool = False) -> Dict[str, Any]:
         """Get speakers data from the website."""
@@ -270,6 +322,10 @@ class WebScrapingService:
         """Get FAQ data from the website."""
         return await self._fetch_url(self.urls["faq"], use_cache=not force_refresh)
     
+    async def get_spaces_data(self, force_refresh: bool = False) -> Dict[str, Any]:
+        """Get Twitter Spaces data from the website."""
+        return await self._fetch_url(self.urls["spaces"], use_cache=not force_refresh)
+    
     async def get_main_page_data(self, force_refresh: bool = False) -> Dict[str, Any]:
         """Get main page data from the website."""
         return await self._fetch_url(self.urls["main"], use_cache=not force_refresh)
@@ -277,19 +333,15 @@ class WebScrapingService:
     async def get_all_data(self, force_refresh: bool = False) -> Dict[str, Any]:
         """Get all available data from the website."""
         tasks = [
-            self.get_speakers_data(force_refresh),
-            self.get_schedule_data(force_refresh),
-            self.get_faq_data(force_refresh),
+            self.get_spaces_data(force_refresh),
             self.get_main_page_data(force_refresh)
         ]
         
         results = await asyncio.gather(*tasks, return_exceptions=True)
         
         return {
-            "speakers": results[0] if not isinstance(results[0], Exception) else {"status": "error", "error": str(results[0])},
-            "schedule": results[1] if not isinstance(results[1], Exception) else {"status": "error", "error": str(results[1])},
-            "faq": results[2] if not isinstance(results[2], Exception) else {"status": "error", "error": str(results[2])},
-            "main": results[3] if not isinstance(results[3], Exception) else {"status": "error", "error": str(results[3])}
+            "spaces": results[0] if not isinstance(results[0], Exception) else {"status": "error", "error": str(results[0])},
+            "main": results[1] if not isinstance(results[1], Exception) else {"status": "error", "error": str(results[1])}
         }
     
     async def clear_cache(self) -> Dict[str, Any]:

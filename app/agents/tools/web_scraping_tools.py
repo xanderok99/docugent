@@ -14,8 +14,7 @@ import logging
 
 from app.config.settings import settings
 from app.config.logger import Logger
-from app.services import web_scraping_service
-from app.services.web_scraping_service import WebScrapingService, WebScrapingServiceError
+from app.services.web_scraping_service import web_scraping_service, WebScrapingServiceError
 
 logger = logging.getLogger(__name__)
 
@@ -34,27 +33,22 @@ async def scrape_apiconf_website(url: Optional[str] = None, **kwargs) -> Optiona
         
         if url:
             # Return specific section if URL provided
-            if '/speakers' in url:
+            if '/spaces' in url or '#spaces' in url:
                 return {
                     "success": True,
-                    "type": "speakers",
-                    "data": scraped_data.get("speakers", {}).get("data", {}),
+                    "type": "spaces",
+                    "data": scraped_data.get("spaces", {}).get("data", {}),
                     "scraped_at": datetime.now().isoformat(),
                     "support_contact": settings.support_phone
                 }
-            elif '/schedule' in url:
-                return {
-                    "success": True,
-                    "type": "schedule",
-                    "data": scraped_data.get("schedule", {}).get("data", {}),
-                    "scraped_at": datetime.now().isoformat(),
-                    "support_contact": settings.support_phone
-                }
-            elif '/register' in url:
+            elif '/register' in url or 'register' in url.lower():
+                main_data = scraped_data.get("main", {}).get("data", {})
                 return {
                     "success": True,
                     "type": "registration",
-                    "data": scraped_data.get("main", {}).get("data", {}),
+                    "data": main_data,
+                    "registration_link": main_data.get("registration_link", "https://lu.ma/ltp8u2bb"),
+                    "registration_platform": main_data.get("registration_platform", "Luma"),
                     "scraped_at": datetime.now().isoformat(),
                     "support_contact": settings.support_phone
                 }
@@ -93,11 +87,13 @@ async def get_conference_info(**kwargs) -> Optional[Dict[str, Any]]:
     try:
         scraped_data = await web_scraping_service.get_all_data()
         
+        main_data = scraped_data.get("main", {}).get("data", {})
         return {
             "success": True,
-            "conference_info": scraped_data.get("main", {}).get("data", {}),
-            "sponsorship": scraped_data.get("main", {}).get("data", {}),
-            "faqs": scraped_data.get("faq", {}).get("data", {}).get("faqs", []),
+            "conference_info": main_data,
+            "spaces": scraped_data.get("spaces", {}).get("data", {}),
+            "registration_link": main_data.get("registration_link", "https://lu.ma/ltp8u2bb"),
+            "registration_platform": main_data.get("registration_platform", "Luma"),
             "scraped_at": datetime.now().isoformat(),
             "support_contact": settings.support_phone
         }
@@ -136,10 +132,8 @@ async def update_conference_data(**kwargs) -> Optional[Dict[str, Any]]:
             "message": "Conference data updated successfully",
             "updated_at": datetime.now().isoformat(),
             "data_summary": {
-                "speakers_count": len(scraped_data.get("speakers", {}).get("data", {}).get("speakers", [])),
-                "schedule_days": len(scraped_data.get("schedule", {}).get("data", {}).get("schedule", [])),
-                "faqs_count": len(scraped_data.get("faq", {}).get("data", {}).get("faqs", [])),
-                "sponsorship_plans": 0  # Not available in current structure
+                "spaces_count": len(scraped_data.get("spaces", {}).get("data", {}).get("spaces", [])),
+                "main_page_available": scraped_data.get("main", {}).get("status") == "success"
             },
             "support_contact": settings.support_phone
         }
