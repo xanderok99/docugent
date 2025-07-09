@@ -30,3 +30,68 @@ main {
     padding: 0;
   }
 }
+
+/* Add styles for the History View */
+.historyView {
+  padding: 2rem;
+  color: #333;
+  background-color: #fff;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.historyView h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.historyList {
+  list-style: none;
+  padding: 0;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.historyItem:hover {
+  background-color: #f9fafb;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.historyItemContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.historyItemTitle {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px; /* Adjust as needed */
+}
+
+.historyItemSnippet {
+  font-size: 0.875rem;
+  color: #6b7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px; /* Adjust as needed */
+}
+
+.historyItemTimestamp {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-left: 1rem;
+}

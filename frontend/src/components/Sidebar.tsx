@@ -1,27 +1,30 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Sidebar.module.css';
-import { FiMessageSquare, FiClock, FiSettings, FiPlus, FiX } from 'react-icons/fi';
+import { FiPlus, FiX } from 'react-icons/fi';
+
+interface HistoryItem {
+  sessionId: string;
+  timestamp: string;
+  preview: string;
+}
 
 interface SidebarProps {
   isOpen: boolean;
   onClose: () => void;
   onNewChat: () => void;
-  onShowHistory: () => void;
-  onShowSettings: () => void;
-  activeView: 'chat' | 'history' | 'settings';
+  onRestoreSession: (sessionId: string) => void;
+  activeSessionId: string | null;
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, onNewChat, onShowHistory, onShowSettings, activeView }) => {
+const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, onNewChat, onRestoreSession, activeSessionId }) => {
+  const [history, setHistory] = useState<HistoryItem[]>([]);
+
   useEffect(() => {
-    if (isOpen && window.innerWidth <= 768) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
+    // Refresh the history list whenever the sidebar is opened or the active session changes.
+    if (isOpen) {
+      setHistory(JSON.parse(localStorage.getItem('apiconf_chat_history') || '[]'));
     }
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, [isOpen]);
+  }, [isOpen, activeSessionId]);
 
   return (
     <>
@@ -44,26 +47,18 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, onNewChat, onShowHis
           New Chat
         </button>
 
-        <nav className={styles.nav}>
-          <a href="#" className={activeView === 'chat' ? styles.active : ''} onClick={e => { e.preventDefault(); onNewChat(); }}>
-            <FiMessageSquare />
-            Chats
-          </a>
-          <a href="#" className={activeView === 'history' ? styles.active : ''} onClick={e => { e.preventDefault(); onShowHistory(); }}>
-            <FiClock />
-            History
-          </a>
-          <a href="#" className={activeView === 'settings' ? styles.active : ''} onClick={e => { e.preventDefault(); onShowSettings(); }}>
-            <FiSettings />
-            Settings
-          </a>
-        </nav>
-
-        <div className={styles.recentChats}>
+        <div className={styles.recentChatsContainer}>
           <h3>Recent Chats</h3>
-          <div className={styles.chatItem}>What is the schedule?</div>
-          <div className={styles.chatItem}>Who is speaking about APIs?</div>
-          <div className={styles.chatItem}>Directions to the venue</div>
+          {history.map((item) => (
+            <div
+              key={item.sessionId}
+              className={`${styles.recentChatItem} ${item.sessionId === activeSessionId ? styles.active : ''}`}
+              onClick={() => onRestoreSession(item.sessionId)}
+            >
+              <div className={styles.recentChatItemTitle}>{item.preview}</div>
+              <div className={styles.recentChatItemTimestamp}>{new Date(item.timestamp).toLocaleDateString()}</div>
+            </div>
+          ))}
         </div>
       </aside>
     </>

@@ -39,6 +39,12 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick, resetSignal }) => {
   const handleSend = useCallback(async (messageToSend: string) => {
     if (!messageToSend.trim()) return;
 
+    // Save the first user message as the preview for the history
+    const isFirstUserMessage = messages.filter(m => m.sender === 'user').length === 0;
+    if (isFirstUserMessage) {
+      localStorage.setItem(`session_preview_${sessionId}`, messageToSend);
+    }
+
     if (processedMessages.has(messageToSend)) {
       console.log('Message already processed:', messageToSend);
       return;
@@ -102,7 +108,7 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick, resetSignal }) => {
     } finally {
       setIsTyping(false);
     }
-  }, [processedMessages, userId, sessionId]);
+  }, [processedMessages, userId, sessionId, messages]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -153,10 +159,9 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick, resetSignal }) => {
   }, [handleSend, hasProcessedUrlMessage]);
 
   useEffect(() => {
-    if (resetSignal !== undefined) {
-      // Generate new session_id and clear messages
-      const newSessionId = Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
-      localStorage.setItem('apiconf_session_id', newSessionId);
+    // A reset signal tells the chat to clear its messages.
+    // This is used for starting a new chat or restoring an old one.
+    if (resetSignal !== undefined && resetSignal > 0) {
       setMessages([]);
       setProcessedMessages(new Set());
     }
