@@ -27,7 +27,8 @@
 .welcome {
   text-align: center;
   margin: auto 0;
-  padding-bottom: 100px; /* Push it up a bit */
+  padding-bottom: 100px;
+  /* Push it up a bit */
 }
 
 .welcome h1 {
@@ -71,7 +72,8 @@
 .messages {
   flex: 1;
   overflow-y: auto;
-  padding-right: 12px; /* For scrollbar */
+  padding-right: 12px;
+  /* For scrollbar */
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -83,13 +85,15 @@
   border-radius: 12px;
   max-width: 70%;
   line-height: 1.5;
-  word-wrap: break-word; /* Ensure long words break */
+  word-wrap: break-word;
+  /* Ensure long words break */
   display: flex;
   flex-direction: column;
 }
 
 .messageContent {
-  margin-bottom: 4px; /* Space between text and timestamp */
+  margin-bottom: 4px;
+  /* Space between text and timestamp */
 }
 
 .timestamp {
@@ -99,7 +103,8 @@
 }
 
 .user {
-  background-color: rgb(47 32 191); /* User's preferred color */
+  background-color: rgb(47 32 191);
+  /* User's preferred color */
   color: white;
   align-self: flex-end;
   border-bottom-right-radius: 2px;
@@ -110,7 +115,8 @@
 }
 
 .bot {
-  background-color: #f0f4f8; /* Softer background */
+  background-color: #f0f4f8;
+  /* Softer background */
   color: #1e293b;
   align-self: flex-start;
   border-bottom-left-radius: 2px;
@@ -132,7 +138,8 @@
   word-wrap: break-word;
 }
 
-.bot ul, .bot ol {
+.bot ul,
+.bot ol {
   padding-left: 20px;
 }
 
@@ -169,7 +176,8 @@
 .sendButton {
   padding: 10px;
   border: none;
-  background-color: rgb(47 32 191); /* User's preferred color */
+  background-color: rgb(47 32 191);
+  /* User's preferred color */
   color: white;
   border-radius: 8px;
   margin-left: 8px;
@@ -183,7 +191,8 @@
 }
 
 .sendButton:hover {
-  background-color: rgb(37, 25, 151); /* Darker shade of preferred color */
+  background-color: rgb(37, 25, 151);
+  /* Darker shade of preferred color */
 }
 
 .menuButton {
@@ -202,27 +211,36 @@
     height: 100vh;
     min-width: 0;
   }
+
   .chatHeader {
     padding: 16px 12px;
     font-size: 16px;
   }
+
   .content {
     padding: 12px 4px;
   }
+
   .inputArea {
     padding: 12px 4px;
   }
+
   .welcome h1 {
     font-size: 22px;
   }
+
   .welcome p {
     font-size: 14px;
     max-width: 90vw;
   }
+
   .messages {
     padding-right: 0;
   }
+
   .menuButton {
     display: block;
   }
-} 
+  
+}
+

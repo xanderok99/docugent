@@ -1,9 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { FiMenu, FiSend } from 'react-icons/fi';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+
 import ReactMarkdown from 'react-markdown';
+import TypingIndicator from './TypingIndicator';
 import remarkGfm from 'remark-gfm';
 import styles from './Chat.module.css';
-import TypingIndicator from './TypingIndicator';
-import { FiSend, FiMenu } from 'react-icons/fi';
+import { useSearchParams } from 'react-router-dom';
 
 interface Message {
   text: string;
@@ -16,18 +18,29 @@ interface ChatProps {
 }
 
 const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
+  const [processedMessages, setProcessedMessages] = useState<Set<string>>(new Set());
+  const [hasProcessedUrlMessage, setHasProcessedUrlMessage] = useState(false);
 
-  const handleSend = async (messageToSend: string) => {
+  const handleSend = useCallback(async (messageToSend: string) => {
     if (!messageToSend.trim()) return;
+
+    if (processedMessages.has(messageToSend)) {
+      console.log('Message already processed:', messageToSend);
+      return;
+    }
+
+    console.log('Sending message to /api/v1/agents/chat:', messageToSend);
 
     const userMessage: Message = {
       text: messageToSend,
       sender: 'user',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     };
+    
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     setIsTyping(true);
 
@@ -39,22 +52,32 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
         },
         body: JSON.stringify({
           message: messageToSend,
-          user_id: '12345', // Example user_id
-          session_id: 'abcde', // Example session_id
+          user_id: '12345',
+          session_id: 'abcde',
         }),
       });
 
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error(`Network response was not ok: ${response.status}`);
       }
 
       const result = await response.json();
+      console.log('API response:', result);
+
       const botMessage: Message = {
         text: result.data.response,
         sender: 'bot',
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
+
       setMessages((prevMessages) => [...prevMessages, botMessage]);
+      setProcessedMessages((prev) => new Set(prev).add(messageToSend));
+
+      // Clear URL parameters after processing
+      if (window.location.search) {
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+
     } catch (error) {
       console.error('Error fetching chat response:', error);
       const errorMessage: Message = {
@@ -66,7 +89,7 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
     } finally {
       setIsTyping(false);
     }
-  };
+  }, [processedMessages]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -83,6 +106,38 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
   useEffect(() => {
     scrollToBottom();
   }, [messages, isTyping]);
+
+  // Handle URL parameter from external page
+  useEffect(() => {
+    if (hasProcessedUrlMessage) return;
+
+    console.log('=== URL DEBUGGING ===');
+    console.log('Current URL:', window.location.href);
+    console.log('Search params:', window.location.search);
+    console.log('Pathname:', window.location.pathname);
+
+    // Use native URLSearchParams to ensure we get the URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const messageFromUrl = urlParams.get('message');
+
+    console.log('All URL params:', Object.fromEntries(urlParams));
+    console.log('Message from URL:', messageFromUrl);
+
+    if (messageFromUrl) {
+      const decodedMessage = decodeURIComponent(messageFromUrl);
+      console.log('Decoded message:', decodedMessage);
+      console.log('About to send message to API...');
+      
+      setHasProcessedUrlMessage(true);
+      
+      // Add a small delay to ensure the component is fully mounted
+      setTimeout(() => {
+        handleSend(decodedMessage);
+      }, 100);
+    } else {
+      console.log('No message parameter found in URL');
+    }
+  }, [handleSend, hasProcessedUrlMessage]);
 
   return (
     <div className={styles.chat}>
@@ -158,4 +213,4 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
   );
 };
 
-export default Chat; 
+export default Chat;
