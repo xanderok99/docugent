@@ -5,9 +5,13 @@ import { FiMessageSquare, FiClock, FiSettings, FiPlus, FiX } from 'react-icons/f
 interface SidebarProps {
   isOpen: boolean;
   onClose: () => void;
+  onNewChat: () => void;
+  onShowHistory: () => void;
+  onShowSettings: () => void;
+  activeView: 'chat' | 'history' | 'settings';
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
+const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, onNewChat, onShowHistory, onShowSettings, activeView }) => {
   useEffect(() => {
     if (isOpen && window.innerWidth <= 768) {
       document.body.style.overflow = 'hidden';
@@ -35,21 +39,21 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
           </button>
         </div>
 
-        <button className={styles.newChatButton}>
+        <button className={styles.newChatButton} onClick={onNewChat}>
           <FiPlus />
           New Chat
         </button>
 
         <nav className={styles.nav}>
-          <a href="#" className={styles.active}>
+          <a href="#" className={activeView === 'chat' ? styles.active : ''} onClick={e => { e.preventDefault(); onNewChat(); }}>
             <FiMessageSquare />
             Chats
           </a>
-          <a href="#">
+          <a href="#" className={activeView === 'history' ? styles.active : ''} onClick={e => { e.preventDefault(); onShowHistory(); }}>
             <FiClock />
             History
           </a>
-          <a href="#">
+          <a href="#" className={activeView === 'settings' ? styles.active : ''} onClick={e => { e.preventDefault(); onShowSettings(); }}>
             <FiSettings />
             Settings
           </a>

@@ -5,7 +5,6 @@ import ReactMarkdown from 'react-markdown';
 import TypingIndicator from './TypingIndicator';
 import remarkGfm from 'remark-gfm';
 import styles from './Chat.module.css';
-import { useSearchParams } from 'react-router-dom';
 
 interface Message {
   text: string;
@@ -15,15 +14,27 @@ interface Message {
 
 interface ChatProps {
   onMenuClick: () => void;
+  resetSignal?: number;
 }
 
-const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
-  const [searchParams, setSearchParams] = useSearchParams();
+const Chat: React.FC<ChatProps> = ({ onMenuClick, resetSignal }) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [processedMessages, setProcessedMessages] = useState<Set<string>>(new Set());
   const [hasProcessedUrlMessage, setHasProcessedUrlMessage] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const getOrCreateId = (key: string) => {
+    let id = localStorage.getItem(key);
+    if (!id) {
+      id = Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
+      localStorage.setItem(key, id);
+    }
+    return id;
+  };
+  const userId = getOrCreateId('apiconf_user_id');
+  const sessionId = getOrCreateId('apiconf_session_id');
 
   const handleSend = useCallback(async (messageToSend: string) => {
     if (!messageToSend.trim()) return;
@@ -43,6 +54,7 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
     
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     setIsTyping(true);
+    setError(null);
 
     try {
       const response = await fetch('/api/v1/agents/chat', {
@@ -52,8 +64,8 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
         },
         body: JSON.stringify({
           message: messageToSend,
-          user_id: '12345',
-          session_id: 'abcde',
+          user_id: userId,
+          session_id: sessionId,
         }),
       });
 
@@ -80,6 +92,7 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
 
     } catch (error) {
       console.error('Error fetching chat response:', error);
+      setError('Sorry, I seem to be having trouble connecting. Please try again later.');
       const errorMessage: Message = {
         text: 'Sorry, I seem to be having trouble connecting. Please try again later.',
         sender: 'bot',
@@ -89,7 +102,7 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
     } finally {
       setIsTyping(false);
     }
-  }, [processedMessages]);
+  }, [processedMessages, userId, sessionId]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -138,6 +151,16 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
       console.log('No message parameter found in URL');
     }
   }, [handleSend, hasProcessedUrlMessage]);
+
+  useEffect(() => {
+    if (resetSignal !== undefined) {
+      // Generate new session_id and clear messages
+      const newSessionId = Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
+      localStorage.setItem('apiconf_session_id', newSessionId);
+      setMessages([]);
+      setProcessedMessages(new Set());
+    }
+  }, [resetSignal]);
 
   return (
     <div className={styles.chat}>
@@ -192,6 +215,7 @@ const Chat: React.FC<ChatProps> = ({ onMenuClick }) => {
               <span>Ndu is typing...</span>
             </div>
           )}
+          {error && <div className={styles.error}>{error}</div>}
           <div ref={messagesEndRef} />
         </div>
       </div>
