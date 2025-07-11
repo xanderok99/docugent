@@ -217,11 +217,63 @@ def get_full_schedule_csv(**kwargs) -> Optional[Dict[str, Any]]:
             "support_contact": settings.support_phone
         }
 
+def get_keynote_speakers_csv(**kwargs) -> Optional[Dict[str, Any]]:
+    """
+    Get all keynote speakers from the CSV data.
+    
+    Returns:
+        Dictionary with keynote speakers
+    """
+    try:
+        sessions = _load_csv_data()
+        keynote_speakers = []
+        
+        for session in sessions:
+            if session.get('session_format', '').lower() == 'keynote':
+                # Format the speaker data for response
+                formatted_speaker = {
+                    'name': f"{session.get('first_name', '')} {session.get('last_name', '')}".strip(),
+                    'title': session.get('tagline'),
+                    'company': session.get('company_website'),
+                    'bio': session.get('bio'),
+                    'profile_picture': session.get('profile_picture'),
+                    'social_links': {
+                        'twitter': session.get('twitter'),
+                        'linkedin': session.get('linkedin'),
+                        'company_website': session.get('company_website')
+                    },
+                    'sessions': [{
+                        'title': session.get('title'),
+                        'description': session.get('description'),
+                        'session_format': session.get('session_format'),
+                        'room': session.get('room'),
+                        'scheduled_at': session.get('scheduled_at'),
+                        'scheduled_duration': session.get('scheduled_duration')
+                    }]
+                }
+                keynote_speakers.append(formatted_speaker)
+        
+        return {
+            "success": True,
+            "speakers": keynote_speakers,
+            "count": len(keynote_speakers),
+            "support_contact": settings.support_phone
+        }
+        
+    except Exception as e:
+        logger.error(f"Error getting keynote speakers from CSV: {e}")
+        return {
+            "error": True,
+            "message": "Unable to get keynote speakers from CSV",
+            "support_contact": settings.support_phone
+        }
+
 def get_csv_schedule_tools() -> List[FunctionTool]:
     """Get all CSV-based schedule tools."""
     
     return [
         FunctionTool(search_sessions_csv),
         FunctionTool(search_speakers_csv),
-        FunctionTool(get_full_schedule_csv)
+        FunctionTool(get_full_schedule_csv),
+        FunctionTool(get_keynote_speakers_csv)
     ] 
