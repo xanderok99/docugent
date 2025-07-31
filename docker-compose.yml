@@ -12,7 +12,7 @@ services:
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/agents/health"]
-      interval: 30s
+      interval: 20s
       timeout: 10s
       retries: 3
     volumes:
